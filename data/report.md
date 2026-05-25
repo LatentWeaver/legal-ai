@@ -3,39 +3,39 @@
 ## Summary
 
 - Nodes (cases): **7496**
-- Edges (citations): **29**
-- Density: **0.000001**
-- Isolated nodes (no citations either way): **7459** (99.5% of nodes)
-- Weakly connected components: **7467**
-- Largest component: **13** nodes (0.2% of nodes)
+- Edges (citations): **215**
+- Density: **0.000004**
+- Isolated nodes (no citations either way): **7273** (97.0% of nodes)
+- Weakly connected components: **7312**
+- Largest component: **100** nodes (1.3% of nodes)
 
 ### Top 10 most-cited cases (in-degree)
 
 | # | degree | case | id |
 |---|---|---|---|
-| 1 | 8 | A K Gopalan vs The State Of Madras Union Of India  on 19 ... (1950) | 1857950 |
-| 2 | 6 | Chiranjit Lal Chowdhuri vs The Union Of India And Others ... (1950) | 4354 |
-| 3 | 4 | Province Of Bombay vs Kusaldas S Advani And Others on 15 ... (1950) | 1954356 |
-| 4 | 3 | Dhiyan Singh And Another vs Jugal Kishore And Another on ... (1950) | 378583 |
-| 5 | 2 | Commissioner Of Income Tax Bombay vs Ahmedbhai Umarbhai C... (1950) | 1467661 |
-| 6 | 2 | Kapildeo Singh vs The King on 24 January 1950 (1950) | 1878796 |
-| 7 | 2 | Mangan Lal Deoshi vs Mohammad Moinul Haoque Others on 1 D... (1950) | 136109 |
-| 8 | 1 | Executors Of The Estate Of J K Dubash vs Commissioner Of ... (1950) | 281502 |
-| 9 | 1 | Ram Gopal vs Nand Lal And Others on 14 November 1950 (1950) | 1141020 |
-| 10 | 0 | Co Operative Society Of Debts vs Nandlal on 12 October 1950 (1950) | 10438037 |
+| 1 | 14 | A K Gopalan vs The State Of Madras Union Of India  on 19 ... (1950) | 1857950 |
+| 2 | 14 | The State Of Bihar vs Maharajadhiraja Sir Kameshwar Singh... (1952) | 41868 |
+| 3 | 10 | Ram Singh And Ors vs The State Of Delhi And Anr on 6 Apri... (1951) | 40472258 |
+| 4 | 10 | Visweshwar Rao vs The State Of Madhya Pradesh And Other o... (1952) | 45759 |
+| 5 | 9 | Ram Singh vs The State Of Delhi And Anotherbalraj on 6 Ap... (1951) | 959860 |
+| 6 | 8 | Chiranjit Lal Chowdhuri vs The Union Of India And Others ... (1950) | 4354 |
+| 7 | 8 | The State Of Bombay And Another vs F N Balsara on 25 May ... (1951) | 334293 |
+| 8 | 7 | State Of Bombay vs Narothamdas Jethabai And Anr on 20 Dec... (1950) | 117343175 |
+| 9 | 7 | State Of Madras vs V G Row Union Of India State on 31 Mar... (1952) | 554839 |
+| 10 | 6 | Kathi Raning Rawat vs The State Of Saurashtra on 27 Febru... (1952) | 1949862 |
 
 ### Top 10 most-citing cases (out-degree)
 
 | # | degree | case | id |
 |---|---|---|---|
-| 1 | 2 | Additional District Magistrate vs S S Shukla Etc Etc on 2... (1976) | 1735815 |
-| 2 | 1 | Sha Mulchand Co Ltd In Liquidation vs Jawahar Mills Ltd o... (1952) | 462743 |
-| 3 | 1 | The State Of West Bengal vs Anwar Ali Sarkar on 11 Januar... (1952) | 184660633 |
-| 4 | 1 | The State Of West Bengal vs Anwar All Sarkarhabib Mohamed... (1952) | 1270239 |
-| 5 | 1 | E D Sassoon And Company Ltd vs The Commissioner Of Income... (1954) | 251775 |
-| 6 | 1 | Sahu Madho Das And Others vs Pandit Mukand Ram And Anothe... (1955) | 946004 |
-| 7 | 1 | Meenakshi Mills Madurai vs The Commissioner Of Income Tax... (1956) | 698518 |
-| 8 | 1 | The Aggarwal Chamber Of vs M S Ganpat Rai Hira Lal on 11 ... (1957) | 596612 |
-| 9 | 1 | Express Newspapers Private Ltd And vs The Union Of India ... (1958) | 1157189 |
-| 10 | 1 | Gullapalli Nageswara Rao And Others vs Andhra Pradesh Sta... (1958) | 948743 |
+| 1 | 7 | Kesavananda Bharati Sripadagalvaru vs State Of Kerala And... (1973) | 257876 |
+| 2 | 5 | I C Golak Nath And Ors vs State Of Punjab And Anr on 27 F... (1967) | 21266288 |
+| 3 | 5 | I C Golaknath Ors vs State Of Punjab Anrs With Connected ... (1967) | 120358 |
+| 4 | 4 | Additional District Magistrate vs S S Shukla Etc Etc on 2... (1976) | 1735815 |
+| 5 | 3 | The State Of West Bengal vs Anwar Ali Sarkar on 11 Januar... (1952) | 184660633 |
+| 6 | 3 | Thakur Amar Singhji vs State Of Rajasthan And Other on 15... (1955) | 1750663 |
+| 7 | 3 | H H Maharajadhiraja Madhav Rao Jiwaji vs Union Of India o... (1970) | 660275 |
+| 8 | 3 | Additional District Magistrate vs Shivakant Shukla on 28 ... (1976) | 165099707 |
+| 9 | 3 | Maneka Gandhi vs Union Of India on 25 January 1978 (1978) | 1766147 |
+| 10 | 3 | Mrs Maneka Gandhi vs Union Of India Uoi And Anr on 25 Jan... (1978) | 43475503 |
 

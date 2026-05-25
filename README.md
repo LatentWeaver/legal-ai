@@ -7,24 +7,46 @@ This project builds and analyzes a **directed citation graph** from 7,496 Indian
 ## Findings Summary
 
 ### Dataset
-- **7,496 unique cases** across 75 years, sourced from Indian Kanoon
-- Cases are distributed fairly evenly across decades, peaking in the 2010s (1,254 cases)
+- **7,496 unique cases** across 75 years (1950-2024), sourced from Indian Kanoon
+- Cases distributed fairly evenly across decades, peaking in the 2010s (1,254 cases)
 - Every case has a unique Indian Kanoon doc ID and a corresponding judgment URL
 
-### Citation Graph (sample run: 20 cases)
-- **29 intra-corpus citation edges** extracted from a 20-case pilot
-- **293 total raw out-citations** (including references to cases outside the corpus)
-- Graph density is extremely low (~0.000001), consistent with legal citation networks where landmark cases accumulate citations while most cases cite only a few predecessors
-- **Largest connected component: 13 nodes** even from just 20 seed cases, indicating that the property-law citation network is well-connected when scaled
+### Citation Graph (100-case run)
+- **215 intra-corpus citation edges** extracted from 100 seed cases
+- **2,298 total raw out-citations** (including references to cases outside the corpus)
+- **Largest connected component: 100 nodes** (1.3% of graph) — already a cohesive subnetwork from just 1.3% of the corpus
+- Graph density ~0.000004, consistent with legal citation networks where landmark cases accumulate citations while most cases cite only a few predecessors
+
+### Most-Cited Cases (in-degree)
+| Rank | Case | Year | In-degree |
+|---|---|---|---|
+| 1 | A.K. Gopalan v. State of Madras | 1950 | 14 |
+| 2 | State of Bihar v. Maharajadhiraja Sir Kameshwar Singh | 1952 | 14 |
+| 3 | Ram Singh v. State of Delhi | 1951 | 10 |
+| 4 | Visweshwar Rao v. State of Madhya Pradesh | 1952 | 10 |
+| 5 | State of Bombay v. F.N. Balsara | 1951 | 8 |
+
+### Most-Citing Cases (out-degree)
+| Rank | Case | Year | Out-degree |
+|---|---|---|---|
+| 1 | Kesavananda Bharati v. State of Kerala | 1973 | 7 |
+| 2 | I.C. Golak Nath v. State of Punjab | 1967 | 5 |
+| 3 | ADM Jabalpur v. S.S. Shukla | 1976 | 4 |
+| 4 | Maneka Gandhi v. Union of India | 1978 | 3 |
 
 ### Key Observations
-1. **Power-law in-degree distribution**: A small number of foundational 1950s-era cases dominate as citation targets. *A.K. Gopalan v. State of Madras (1950)* tops the list with in-degree 8 from just 20 sampled cases, reflecting its status as a landmark constitutional property rights judgment.
-2. **Temporal citation flow**: Later cases cite earlier ones but not vice versa (as expected for legal precedent). The out-degree is spread across decades, while in-degree concentrates on early cases.
-3. **Sparse but structured**: 99.5% of nodes are isolated at the 20-case sample, but this is a sampling artifact. The intra-corpus hit rate (~29 edges from 20 cases) projects to thousands of edges at full corpus scale.
-4. **HTML scraping challenge**: Indian Kanoon judgment pages embed `/doc/` links to statutes and constitutional articles, not to other case judgments. The scraper was redesigned to use IK's search-result pages (`/search/?formInput=citedby:<id>`) which correctly separate case-to-case citations from statute references.
+1. **Power-law degree distribution**: Both in-degree and out-degree follow heavy-tailed distributions on a log scale. A handful of landmark cases attract the vast majority of citations, while most cases have degree 0-1.
+2. **Foundational 1950s cases dominate in-degree**: The top citation targets are all from 1950-1952, the earliest years of the Supreme Court. These cases established constitutional precedent on property rights (Art. 19, 31) and due process (Art. 21, 22) that later cases built upon.
+3. **Landmark "synthesizer" cases dominate out-degree**: The top citing cases are well-known constitutional law landmarks (*Kesavananda Bharati*, *Golak Nath*, *ADM Jabalpur*, *Maneka Gandhi*) that surveyed and consolidated decades of prior precedent.
+4. **Temporal citation asymmetry**: Citations flow strictly forward in time (later cases cite earlier ones), producing a DAG structure consistent with legal stare decisis.
+5. **HTML scraping challenge solved**: Indian Kanoon judgment pages embed `/doc/` links to statutes and constitutional articles, not to other case judgments. The scraper was redesigned to use IK's search-result pages (`/search/?formInput=citedby:<id>`) which correctly separate case-to-case citations from statute references.
+
+### Degree Distribution
+
+![Degree Distribution](data/degree_dist.png)
 
 ### Scaling Estimate
-At the observed rate (~1.45 intra-corpus edges per case), a full 7,496-case run would yield an estimated **10,000+ intra-corpus edges**, producing a rich citation network suitable for community detection, PageRank-based importance scoring, and temporal analysis of how property law doctrine evolves.
+At the observed rate (~2.15 intra-corpus edges per case), a full 7,496-case run would yield an estimated **16,000+ intra-corpus edges**, producing a dense citation network suitable for community detection, PageRank-based importance scoring, and temporal analysis of how property law doctrine evolves.
 
 ## Project Structure
 
