@@ -37,10 +37,18 @@ import logging
 import os
 import re
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Iterable, Optional
 
 import requests
+
+# Global rate limiter: ensures all workers together don't exceed a target request rate.
+# Workers must call _global_rate_limit() before every HTTP request.
+_rate_lock = threading.Lock()
+_last_request_time = 0.0
+_min_global_interval = 1.0  # seconds between ANY two requests across all workers
 
 try:
     from bs4 import BeautifulSoup
@@ -94,17 +102,29 @@ def load_corpus(csv_path: str) -> tuple[list[dict], set[int]]:
 # --------------------------------------------------------------------------- #
 # Shared HTTP helper
 # --------------------------------------------------------------------------- #
+def _global_rate_limit():
+    """Block until enough time has passed since the last request across ALL workers."""
+    global _last_request_time
+    with _rate_lock:
+        now = time.time()
+        wait = _min_global_interval - (now - _last_request_time)
+        if wait > 0:
+            time.sleep(wait)
+        _last_request_time = time.time()
+
+
 def _request_with_retry(
     session: requests.Session,
     method: str,
     url: str,
     *,
     headers: dict,
-    max_retries: int = 4,
+    max_retries: int = 5,
     timeout: int = 30,
 ) -> Optional[requests.Response]:
-    backoff = 2.0
+    backoff = 4.0
     for attempt in range(1, max_retries + 1):
+        _global_rate_limit()  # respect global rate limit before every request
         try:
             resp = session.request(
                 method, url, headers=headers,
@@ -117,10 +137,11 @@ def _request_with_retry(
             continue
         if resp.status_code == 200:
             return resp
-        if resp.status_code in (429, 500, 502, 503, 504):
-            LOG.warning("  HTTP %s (%s/%s) backing off %.0fs", resp.status_code, attempt, max_retries, backoff)
+        if resp.status_code in (403, 429, 500, 502, 503, 504):
+            LOG.warning("  HTTP %s (%s/%s) backing off %.0fs — %s",
+                        resp.status_code, attempt, max_retries, backoff, url)
             time.sleep(backoff)
-            backoff *= 2
+            backoff = min(backoff * 2, 120)  # cap at 2 minutes
             continue
         LOG.error("  HTTP %s for %s (giving up)", resp.status_code, url)
         return None
@@ -213,7 +234,6 @@ def fetch_search_page(
         url += f"&pagenum={page}"
     headers = {"User-Agent": USER_AGENT, "Accept": "text/html"}
     resp = _request_with_retry(session, "GET", url, headers=headers)
-    time.sleep(max(rate, 0.0))
     if resp is None:
         return None
     with open(path, "w", encoding="utf-8") as fh:
@@ -289,7 +309,54 @@ def fetch_html_citations(
 
 
 # --------------------------------------------------------------------------- #
-# Main pipeline
+# Per-case worker (thread-safe)
+# --------------------------------------------------------------------------- #
+def _process_one_case(
+    doc_id: int,
+    corpus_ids: set[int],
+    cachedir: str,
+    rate: float,
+    max_pages: int,
+    force: bool,
+    use_api: bool,
+    token: str,
+    maxcites: int,
+    maxcitedby: int,
+) -> tuple[int, list[tuple[int, int]], list[tuple[int, int]]]:
+    """
+    Fetch and return citation data for one case.
+    Returns (doc_id, intra_edges_list, raw_out_list).
+    Each worker creates its own requests.Session for thread safety.
+    """
+    session = requests.Session()
+    if use_api:
+        raw = fetch_api(session, doc_id, token, cachedir, maxcites, maxcitedby, force)
+        if raw is None:
+            return doc_id, [], []
+        cites, citedby = extract_from_api(raw)
+    else:
+        cites, citedby = fetch_html_citations(
+            session, doc_id, cachedir, rate, max_pages, force,
+        )
+    session.close()
+
+    intra: list[tuple[int, int]] = []
+    raw: list[tuple[int, int]] = []
+
+    for x in cites:
+        raw.append((doc_id, x))
+        if x in corpus_ids:
+            intra.append((doc_id, x))
+    for y in citedby:
+        raw.append((y, doc_id))
+        if y in corpus_ids:
+            intra.append((y, doc_id))
+
+    return doc_id, intra, raw
+
+
+# --------------------------------------------------------------------------- #
+# Main pipeline (parallel)
 # --------------------------------------------------------------------------- #
 def run(args: argparse.Namespace) -> int:
     os.makedirs(args.cachedir, exist_ok=True)
@@ -303,40 +370,63 @@ def run(args: argparse.Namespace) -> int:
     LOG.info("Backend: %s", "Indian Kanoon API" if use_api else "HTML search-page scrape")
 
     targets = corpus if args.limit in (0, None) else corpus[: args.limit]
-    LOG.info("Fetching citations for %d cases (limit=%s)", len(targets), args.limit)
+    LOG.info("Fetching citations for %d cases (limit=%s, workers=%d, global_rate=%.1fs)",
+             len(targets), args.limit, args.workers, args.rate)
 
-    session = requests.Session()
+    # Set the global rate limiter interval
+    global _min_global_interval
+    _min_global_interval = args.rate
+
+    # Count how many are cached vs uncached for ETA estimate
+    cached_count = 0
+    for row in targets:
+        p0 = _search_cache_path(args.cachedir, row["id"], "citedby", 0)
+        if os.path.exists(p0):
+            cached_count += 1
+    uncached_count = len(targets) - cached_count
+    LOG.info("  %d already cached, %d need fetching", cached_count, uncached_count)
 
     intra_edges: set[tuple[int, int]] = set()
     raw_out: set[tuple[int, int]] = set()
     assembled = 0
+    lock = threading.Lock()
+    done_count = 0
+    start_time = time.time()
 
-    for i, row in enumerate(targets, 1):
-        doc_id = row["id"]
+    def on_result(doc_id: int, intra: list, raw_list: list):
+        nonlocal assembled, done_count
+        with lock:
+            assembled += 1
+            done_count += 1
+            for e in intra:
+                intra_edges.add(e)
+            for e in raw_list:
+                raw_out.add(e)
+            if done_count % 50 == 0 or done_count == len(targets):
+                elapsed = time.time() - start_time
+                rate_per_s = done_count / elapsed if elapsed > 0 else 0
+                eta_s = (len(targets) - done_count) / rate_per_s if rate_per_s > 0 else 0
+                LOG.info("  processed %d/%d  (intra-edges: %d | %.1f cases/s | ETA: %.0fm%.0fs)",
+                         done_count, len(targets), len(intra_edges),
+                         rate_per_s, eta_s // 60, eta_s % 60)
 
-        if use_api:
-            raw = fetch_api(session, doc_id, token, args.cachedir, args.maxcites, args.maxcitedby, args.force)
-            if raw is None:
-                continue
-            cites, citedby = extract_from_api(raw)
-        else:
-            cites, citedby = fetch_html_citations(
-                session, doc_id, args.cachedir, args.rate, args.max_pages, args.force,
+    with ThreadPoolExecutor(max_workers=args.workers) as pool:
+        futures = {}
+        for row in targets:
+            f = pool.submit(
+                _process_one_case,
+                row["id"], corpus_ids, args.cachedir, args.rate,
+                args.max_pages, args.force, use_api, token,
+                args.maxcites, args.maxcitedby,
             )
+            futures[f] = row["id"]
 
-        assembled += 1
-
-        for x in cites:
-            raw_out.add((doc_id, x))
-            if x in corpus_ids:
-                intra_edges.add((doc_id, x))
-        for y in citedby:
-            raw_out.add((y, doc_id))
-            if y in corpus_ids:
-                intra_edges.add((y, doc_id))
-
-        if i % 25 == 0 or i == len(targets):
-            LOG.info("  processed %d/%d  (intra-edges so far: %d)", i, len(targets), len(intra_edges))
+        for f in as_completed(futures):
+            try:
+                doc_id, intra, raw_list = f.result()
+                on_result(doc_id, intra, raw_list)
+            except Exception as exc:
+                LOG.error("  worker error for doc %s: %s", futures[f], exc)
 
     LOG.info("Assembled citations from %d cases", assembled)
     LOG.info("Intra-corpus edges: %d | raw out-citations: %d", len(intra_edges), len(raw_out))
@@ -377,7 +467,9 @@ def build_arg_parser() -> argparse.ArgumentParser:
                    help="max search-result pages per direction per case (HTML; 10 results/page)")
     p.add_argument("--outdir", default="data", help="output directory")
     p.add_argument("--cachedir", default="cache", help="raw-response cache directory")
-    p.add_argument("--rate", type=float, default=1.0, help="seconds to sleep between HTML requests")
+    p.add_argument("--rate", type=float, default=1.5, help="minimum seconds between ANY two HTTP requests globally (across all workers)")
+    p.add_argument("--workers", type=int, default=4,
+                   help="number of parallel fetch workers (default 4; be polite to IK servers)")
     p.add_argument("--force", action="store_true", help="ignore cache and refetch")
     return p
 
