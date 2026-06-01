@@ -65,7 +65,7 @@ for target_unigram in unigrams:
 
         # subtract the last_included_cumsum value from new_frequency column of ngram_copy_df where ngram is target_unigram
         ngram_df.loc[ngram_copy_df['phrase'] == target_unigram, 'discount_frequency'] = ngram_df.loc[ngram_df['phrase'] == target_unigram, 'count'] - last_included_cumsum
-        ngram_df.loc[ngram_copy_df['phrase'] == target_unigram, 'discount_frequency'] = included_bigram_count
+        #ngram_df.loc[ngram_copy_df['phrase'] == target_unigram, 'discount_frequency'] = included_bigram_count
     except:
         print(f'error for {target_unigram}')
         break
