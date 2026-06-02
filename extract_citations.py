@@ -369,9 +369,15 @@ def run(args: argparse.Namespace) -> int:
     use_api = bool(token)
     LOG.info("Backend: %s", "Indian Kanoon API" if use_api else "HTML search-page scrape")
 
-    targets = corpus if args.limit in (0, None) else corpus[: args.limit]
-    LOG.info("Fetching citations for %d cases (limit=%s, workers=%d, global_rate=%.1fs)",
-             len(targets), args.limit, args.workers, args.rate)
+    # Window selection: [start, end) by corpus index.
+    # --start is the 0-based offset; --limit caps how many cases after start (0 = to end).
+    start = max(args.start, 0)
+    if args.limit in (0, None):
+        targets = corpus[start:]
+    else:
+        targets = corpus[start: start + args.limit]
+    LOG.info("Fetching citations for %d cases (window=[%d:%d], limit=%s, workers=%d, global_rate=%.1fs)",
+             len(targets), start, start + len(targets), args.limit, args.workers, args.rate)
 
     # Set the global rate limiter interval
     global _min_global_interval
@@ -460,7 +466,8 @@ def run(args: argparse.Namespace) -> int:
 def build_arg_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Extract an intra-corpus citation edge list from Indian Kanoon.")
     p.add_argument("--csv", default="land_property_dispute_cases.csv", help="input CSV path")
-    p.add_argument("--limit", type=int, default=100, help="number of cases to fetch (0 = all)")
+    p.add_argument("--start", type=int, default=0, help="0-based corpus index to start from (for windowed/team-split runs)")
+    p.add_argument("--limit", type=int, default=100, help="number of cases to fetch after --start (0 = to end)")
     p.add_argument("--maxcites", type=int, default=50, help="max out-cites per case (API only)")
     p.add_argument("--maxcitedby", type=int, default=50, help="max cited-by per case (API only)")
     p.add_argument("--max-pages", type=int, default=3, dest="max_pages",
