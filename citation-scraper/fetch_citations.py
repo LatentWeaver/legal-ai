@@ -30,8 +30,8 @@ TOKEN = os.getenv("token")
 BASE_URL = "https://api.indiankanoon.org"
 HEADERS = {"Authorization": f"Token {TOKEN}", "Accept": "application/json"}
 
-ROW_START = 6750        # 0-indexed (= row 6751 in the sheet)
-ROW_END   = 7500        # exclusive
+ROW_START = 3750        # 0-indexed (= row 6751 in the sheet)
+ROW_END   = 4500        # exclusive
 DELAY     = 1.0         # seconds between requests
 MAX_RETRY = 3           # retries on transient errors
 RETRY_BACKOFF = 5       # seconds to wait on first retry (doubles each time)
