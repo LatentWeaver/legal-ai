@@ -1,0 +1,35 @@
+# Dependencies inferred from the reference notebooks and scripts.
+# (No upstream manifest existed; pins kept loose for Python 3.9.)
+
+# Core data / numerics
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+joblib
+kneed
+swifter
+unidecode
+
+# NLP
+nltk
+spacy
+textacy
+yake
+rake-nltk
+pyahocorasick          # imported as `ahocorasick`
+
+# PDF text extraction
+pypdf
+pdfminer.six
+
+# Graphs / community detection
+networkx
+python-louvain         # imported as `community` / `community_louvain`
+
+# Scraping (scraper-reference notebook)
+selenium
+
+# Jupyter (to open the .ipynb reference notebooks)
+jupyterlab
