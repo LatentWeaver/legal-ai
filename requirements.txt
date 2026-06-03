@@ -1,0 +1,14 @@
+# Step 0+1 — metadata extraction
+pdfplumber>=0.10.0
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# Step 2 — land dispute filtering (no extra deps, uses pandas + stdlib)
+
+# Step 3 — citation scraping
+selenium>=4.0.0
+requests>=2.28.0
+
+# Step 4 — citation graph + community detection
+networkx>=3.1
+python-louvain>=0.16
