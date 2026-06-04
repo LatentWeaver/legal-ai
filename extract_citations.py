@@ -37,6 +37,7 @@ import logging
 import os
 import re
 import sys
+import random
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -44,11 +45,30 @@ from typing import Iterable, Optional
 
 import requests
 
+try:
+    from playwright.sync_api import sync_playwright, Browser, BrowserContext, Page as PwPage
+    _PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    _PLAYWRIGHT_AVAILABLE = False
+
+try:
+    from playwright_stealth import stealth_sync as _stealth_sync
+    _STEALTH_AVAILABLE = True
+except ImportError:
+    _STEALTH_AVAILABLE = False
+
 # Global rate limiter: ensures all workers together don't exceed a target request rate.
 # Workers must call _global_rate_limit() before every HTTP request.
 _rate_lock = threading.Lock()
 _last_request_time = 0.0
 _min_global_interval = 1.0  # seconds between ANY two requests across all workers
+
+# Playwright globals (set in run() when --browser flag is used)
+_pw_instance = None   # sync_playwright() context manager result
+_pw_browser: Optional[object] = None
+_pw_context: Optional[object] = None
+_pw_page_lock = threading.Lock()
+_pw_pages: list = []   # pool of pages, one per worker
 
 try:
     from bs4 import BeautifulSoup
@@ -62,9 +82,11 @@ HTML_BASE = "https://indiankanoon.org"
 DOC_ID_RE = re.compile(r"/doc/(\d+)")
 DOCFRAG_RE = re.compile(r"/docfragment/(\d+)")
 USER_AGENT = (
-    "Mozilla/5.0 (compatible; legal-ai-research/0.1; citation-graph; "
-    "contact: research team)"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
 )
+_extra_cookie: str = ""
+_extra_ua: str = ""
 
 
 # --------------------------------------------------------------------------- #
@@ -110,6 +132,7 @@ def _global_rate_limit():
         wait = _min_global_interval - (now - _last_request_time)
         if wait > 0:
             time.sleep(wait)
+        time.sleep(random.uniform(0.3, 1.2))  # jitter to avoid bot fingerprint
         _last_request_time = time.time()
 
 
@@ -119,10 +142,10 @@ def _request_with_retry(
     url: str,
     *,
     headers: dict,
-    max_retries: int = 5,
-    timeout: int = 30,
+    max_retries: int = 3,
+    timeout: int = 15,
 ) -> Optional[requests.Response]:
-    backoff = 4.0
+    backoff = 2.0
     for attempt in range(1, max_retries + 1):
         _global_rate_limit()  # respect global rate limit before every request
         try:
@@ -232,7 +255,10 @@ def fetch_search_page(
     url = f"{HTML_BASE}/search/?formInput={direction}:{doc_id}"
     if page > 0:
         url += f"&pagenum={page}"
-    headers = {"User-Agent": USER_AGENT, "Accept": "text/html"}
+    ua = _extra_ua if _extra_ua else USER_AGENT
+    headers = {"User-Agent": ua, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9"}
+    if _extra_cookie:
+        headers["Cookie"] = _extra_cookie
     resp = _request_with_retry(session, "GET", url, headers=headers)
     if resp is None:
         return None
@@ -275,6 +301,75 @@ def has_next_page(raw_html: str) -> bool:
     return bool(soup.find_all("a", href=re.compile(r"pagenum")))
 
 
+def _get_pw_page() -> "PwPage":
+    """Return a Playwright page for the calling thread (creates one if needed)."""
+    tid = threading.get_ident()
+    with _pw_page_lock:
+        for entry in _pw_pages:
+            if entry[0] == tid:
+                return entry[1]
+        page = _pw_context.new_page()
+        page.set_default_timeout(30000)
+        if _STEALTH_AVAILABLE:
+            _stealth_sync(page)
+        _pw_pages.append((tid, page))
+        return page
+
+
+def _resolve_cloudflare(pw_page: "PwPage", url: str) -> bool:
+    """If a Cloudflare challenge page is showing, wait up to 120s for the user to solve it."""
+    try:
+        title = pw_page.title()
+    except Exception:
+        return False
+    if "just a moment" not in title.lower() and "moment" not in title.lower():
+        return True
+    LOG.info("  Cloudflare challenge on %s — click 'Verify you are human' in the browser window (waiting up to 120s)...", url)
+    try:
+        pw_page.wait_for_function(
+            "() => document.title.toLowerCase().indexOf('just a moment') === -1",
+            timeout=120_000,
+        )
+        pw_page.wait_for_load_state("domcontentloaded", timeout=15_000)
+        LOG.info("  Challenge solved, resuming.")
+        return True
+    except Exception as exc:
+        LOG.warning("  Challenge not solved in time: %s", exc)
+        return False
+
+
+def fetch_search_page_pw(
+    doc_id: int,
+    direction: str,
+    page_num: int,
+    cachedir: str,
+    force: bool,
+) -> Optional[str]:
+    """Fetch one search-results page using a live Playwright browser."""
+    path = _search_cache_path(cachedir, doc_id, direction, page_num)
+    if not force and os.path.exists(path):
+        with open(path, encoding="utf-8") as fh:
+            return fh.read()
+    url = f"{HTML_BASE}/search/?formInput={direction}:{doc_id}"
+    if page_num > 0:
+        url += f"&pagenum={page_num}"
+    _global_rate_limit()
+    try:
+        pw_page = _get_pw_page()
+        pw_page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        if not _resolve_cloudflare(pw_page, url):
+            return None
+        # Small settle pause after challenge/navigation
+        pw_page.wait_for_timeout(800)
+        html = pw_page.content()
+    except Exception as exc:
+        LOG.warning("  playwright error for %s: %s", url, exc)
+        return None
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(html)
+    return html
+
+
 def fetch_html_citations(
     session: requests.Session,
     doc_id: int,
@@ -295,7 +390,10 @@ def fetch_html_citations(
 
     for direction, out_list in [("citedby", citedby), ("cites", cites)]:
         for page in range(max_pages):
-            html = fetch_search_page(session, doc_id, direction, page, cachedir, rate, force)
+            if _pw_browser is not None:
+                html = fetch_search_page_pw(doc_id, direction, page, cachedir, force)
+            else:
+                html = fetch_search_page(session, doc_id, direction, page, cachedir, rate, force)
             if html is None:
                 break
             ids = extract_ids_from_search_page(html)
@@ -328,7 +426,8 @@ def _process_one_case(
     Returns (doc_id, intra_edges_list, raw_out_list).
     Each worker creates its own requests.Session for thread safety.
     """
-    session = requests.Session()
+    LOG.info("  -> fetching doc %s", doc_id)
+    session = None if _pw_browser is not None else requests.Session()
     if use_api:
         raw = fetch_api(session, doc_id, token, cachedir, maxcites, maxcitedby, force)
         if raw is None:
@@ -338,7 +437,8 @@ def _process_one_case(
         cites, citedby = fetch_html_citations(
             session, doc_id, cachedir, rate, max_pages, force,
         )
-    session.close()
+    if session is not None:
+        session.close()
 
     intra: list[tuple[int, int]] = []
     raw: list[tuple[int, int]] = []
@@ -365,9 +465,31 @@ def run(args: argparse.Namespace) -> int:
     corpus, corpus_ids = load_corpus(args.csv)
     LOG.info("Loaded %d unique cases from %s", len(corpus), args.csv)
 
+    global _extra_cookie, _extra_ua, _pw_instance, _pw_browser, _pw_context
+    _extra_cookie = args.cookie.strip()
+    _extra_ua = args.user_agent.strip()
+
     token = os.environ.get("INDIANKANOON_API_TOKEN", "").strip()
     use_api = bool(token)
-    LOG.info("Backend: %s", "Indian Kanoon API" if use_api else "HTML search-page scrape")
+
+    if args.browser and not use_api:
+        if not _PLAYWRIGHT_AVAILABLE:
+            LOG.error("Playwright not installed. Run: pip install playwright && python -m playwright install chromium")
+            return 2
+        LOG.info("Backend: Playwright Chromium browser (%s)", "headless" if args.headless else "visible window")
+        _pw_instance = sync_playwright().start()
+        _pw_browser = _pw_instance.chromium.launch(
+            headless=args.headless,
+            channel="chrome",   # use real installed Chrome, not bundled Chromium
+            args=["--disable-blink-features=AutomationControlled"],
+        )
+        _pw_context = _pw_browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+            viewport={"width": 1280, "height": 800},
+            locale="en-US",
+        )
+    else:
+        LOG.info("Backend: %s", "Indian Kanoon API" if use_api else "HTML search-page scrape")
 
     # Window selection: [start, end) by corpus index.
     # --start is the 0-based offset; --limit caps how many cases after start (0 = to end).
@@ -408,7 +530,7 @@ def run(args: argparse.Namespace) -> int:
                 intra_edges.add(e)
             for e in raw_list:
                 raw_out.add(e)
-            if done_count % 50 == 0 or done_count == len(targets):
+            if done_count % 10 == 0 or done_count == len(targets):
                 elapsed = time.time() - start_time
                 rate_per_s = done_count / elapsed if elapsed > 0 else 0
                 eta_s = (len(targets) - done_count) / rate_per_s if rate_per_s > 0 else 0
@@ -416,23 +538,36 @@ def run(args: argparse.Namespace) -> int:
                          done_count, len(targets), len(intra_edges),
                          rate_per_s, eta_s // 60, eta_s % 60)
 
-    with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = {}
+    if _pw_browser is not None:
+        # Playwright is not thread-safe — run sequentially in the main thread
         for row in targets:
-            f = pool.submit(
-                _process_one_case,
-                row["id"], corpus_ids, args.cachedir, args.rate,
-                args.max_pages, args.force, use_api, token,
-                args.maxcites, args.maxcitedby,
-            )
-            futures[f] = row["id"]
-
-        for f in as_completed(futures):
             try:
-                doc_id, intra, raw_list = f.result()
+                doc_id, intra, raw_list = _process_one_case(
+                    row["id"], corpus_ids, args.cachedir, args.rate,
+                    args.max_pages, args.force, use_api, token,
+                    args.maxcites, args.maxcitedby,
+                )
                 on_result(doc_id, intra, raw_list)
             except Exception as exc:
-                LOG.error("  worker error for doc %s: %s", futures[f], exc)
+                LOG.error("  worker error for doc %s: %s", row["id"], exc)
+    else:
+        with ThreadPoolExecutor(max_workers=args.workers) as pool:
+            futures = {}
+            for row in targets:
+                f = pool.submit(
+                    _process_one_case,
+                    row["id"], corpus_ids, args.cachedir, args.rate,
+                    args.max_pages, args.force, use_api, token,
+                    args.maxcites, args.maxcitedby,
+                )
+                futures[f] = row["id"]
+
+            for f in as_completed(futures):
+                try:
+                    doc_id, intra, raw_list = f.result()
+                    on_result(doc_id, intra, raw_list)
+                except Exception as exc:
+                    LOG.error("  worker error for doc %s: %s", futures[f], exc)
 
     LOG.info("Assembled citations from %d cases", assembled)
     LOG.info("Intra-corpus edges: %d | raw out-citations: %d", len(intra_edges), len(raw_out))
@@ -460,6 +595,13 @@ def run(args: argparse.Namespace) -> int:
             w.writerow([a, b])
 
     LOG.info("Wrote %s, %s, %s", nodes_path, edges_path, raw_path)
+
+    if _pw_browser is not None:
+        for _, pg in _pw_pages:
+            pg.close()
+        _pw_browser.close()
+        _pw_instance.stop()
+
     return 0
 
 
@@ -478,6 +620,10 @@ def build_arg_parser() -> argparse.ArgumentParser:
     p.add_argument("--workers", type=int, default=4,
                    help="number of parallel fetch workers (default 4; be polite to IK servers)")
     p.add_argument("--force", action="store_true", help="ignore cache and refetch")
+    p.add_argument("--cookie", default="", help="browser Cookie header string (e.g. cf_clearance=...) to bypass bot protection")
+    p.add_argument("--user-agent", default="", dest="user_agent", help="exact browser User-Agent string (must match what was used when cf_clearance was issued)")
+    p.add_argument("--browser", action="store_true", help="use a live Playwright Chromium browser instead of raw HTTP (handles Cloudflare automatically)")
+    p.add_argument("--headless", action="store_true", help="run Playwright browser in headless mode (default: visible window)")
     return p
 
 
