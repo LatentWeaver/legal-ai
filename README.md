@@ -33,14 +33,29 @@ These are only for reference implementations. The next step is to refactor them 
 Build a pipeline that can:
 
 1. Collect and normalize Indian Kanoon case metadata and text for land dispute cases.
-2. Construct a case citation graph, where cases are nodes and citations are edges.
-3. Detect legal communities and subcommunities using louvain.
-4. Rank important cases inside each community using centrality algorithms such as PageRank, HITS, in-degree, out-degree, and betweenness.
-5. Generate a legal codebook using noun chunks, named entities, and frequent non-independent n-grams.
-6. Manually annotate terms into useful legal categories such as evidence, issue, rule, procedural metadata, and non-informative phrases.
-7. Build a legal knowledge graph by connecting non independently co-occuring bigrams/ngrams/entities from codebook.
-8. Run ANCOHITS scoring over cases and claims/themes with argument as edges
-9. Test whether a new case can be grouped or sorted with similar precedent and legal themes.
+
+2. Construct a case citation graph, where cases are nodes and citations are directed edges.
+
+3. Detect legal communities and subcommunities using Louvain.
+
+4. Rank important cases within each community using PageRank, HITS, in-degree, out-degree, and betweenness centrality.
+
+5. Generate a legal codebook using noun chunks and named entities, then manually label the top 3,000 terms as informative or non-informative.
+
+6. For a given context window, identify non-independent co-occurring bigrams, n-grams, noun chunks, and named entities using QUIC-Scaling.
+
+7. Build “molecules” or template patterns, by connecting co-occurring informative terms according to their legal roles. A proposed molecule structure includes issue, evidence, rule, actors, and procedural metadata, connected by typed edges.
+
+8. Use molecule patterns to partition subsets of cases into legally meaningful groups.
+
+9. Prepare a co-clustering matrix of molecule patterns to identify which features tend to occur together and may be dependent.
+
+10. Map molecule features onto a bipartite graph connecting cases and legal features. Add signed edges based on plaintiff/defendant win-loss outcomes.
+
+11. Run ANCO-HITS on the signed case-feature graph to identify winning and losing legal patterns, preferably issue by issue.
+
+12. Test whether a new case can be grouped with similar precedent cases and legal themes using citation communities, molecule patterns, and ANCO-HITS rankings.
+
 
 ## Data Source
 
@@ -48,7 +63,8 @@ Target source:
 
 - Indian Kanoon
 - Years: 1950–2025
-- Approximate target size: 26k cases
+- Size: 26k cases
 - Domain focus: land disputes
+- Domain focus size: 7.5k cases
 - Location: https://drive.google.com/drive/folders/1_omgPYIvnrn0WAd9yzkOA-m6iA4EnNX0?usp=drive_link
 ```
