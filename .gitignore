@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data — ignore everything under data/ by default, then allow the deliverables
+data/*
+!data/citations.jsonl
+!data/citations.csv
+!data/graph/
+!data/graph/*
+data/raw_docs/
+*.log
+
+# Secrets — never commit your API token
+.env
+*.token
+secrets.env
+
+# OS
+.DS_Store

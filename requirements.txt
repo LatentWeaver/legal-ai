@@ -1,0 +1,9 @@
+pandas>=2.0
+networkx>=3.0
+python-louvain>=0.16
+selenium>=4.30
+requests>=2.30
+beautifulsoup4>=4.12
+lxml>=5.0
+tqdm>=4.60
+scipy>=1.10
