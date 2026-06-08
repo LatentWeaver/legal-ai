@@ -68,3 +68,19 @@ Target source:
 - Domain focus size: 7.5k cases
 - Location: https://drive.google.com/drive/folders/1_omgPYIvnrn0WAd9yzkOA-m6iA4EnNX0?usp=drive_link
 ```
+
+---
+
+## Contributor branch: Wei-An Wang — Master Citations Dataset & Scraper
+
+> Full detail: [`master-citations-dataset/README.md`](master-citations-dataset/README.md)
+
+Implements **step 1** (collect & normalize case text/metadata) and **step 2** (citation graph) of the pipeline above for the land/property bracket **#6001–6750**, and supplies the per-case **outcome + signed citation sentiment** used by **steps 10–11**.
+
+**Scraper** ([`master-citations-dataset/scraper/`](master-citations-dataset/scraper/)) — a Cloudflare-resilient Indian Kanoon scraper: Playwright over **real Chrome** (CDP, trusted events), retry/backoff + circuit breaker + coordinate-calibrated Turnstile click, two modes (`master` = full content + bidirectional citations; `content` = related-case full content), resume-safe SQLite (WAL). Each case is parsed into metadata, **8 semantic paragraph types**, citation **sentiment** (Pos/Neg/Party/Neutral), and full text/HTML.
+
+**Dataset** — **750 master cases** (judgment years 2015–2021) with the **complete bidirectional citation network**: **99,771 edges** (25,012 _Cites_ + 74,759 _Cited-by_).
+- Citation network JSON (17 MB, 750 records): [`master-citations-dataset/data/master_citations_6001_6750.json`](master-citations-dataset/data/master_citations_6001_6750.json)
+- Full SQLite DB (218 MB → 62 MB gz) on Google Drive: [⬇ download](https://drive.google.com/file/d/10n1jUQ9dj6etGACz4eEcWvlhyeqRMXh_/view?usp=sharing)
+
+**Current progress (2026-06-08):** Phase 1 (750/750 masters — content + both citation directions) complete & verified. Phase 2 (full content of all ~72k cited/citing cases) in progress — **~39.8k/72k (~55%)**; the ~7.8 GB related-case output stays off-repo but is fully reproducible from the JSON + scraper.
