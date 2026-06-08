@@ -7,6 +7,7 @@ Outputs:
   citations_summary.csv   — one row per case with metadata + citation count
 """
 
+import argparse
 import json
 import re
 import pandas as pd
@@ -140,6 +141,15 @@ def print_stats(dataset: list[dict]):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--suffix", default="", help="Suffix for input progress + output files, e.g. _3001-3750")
+    args = parser.parse_args()
+    if args.suffix:
+        PROGRESS_FILE = f"citations_progress{args.suffix}.jsonl"
+        OUT_JSON      = f"citations_dataset{args.suffix}.json"
+        OUT_FLAT_CSV  = f"citations_flat{args.suffix}.csv"
+        OUT_SUMMARY   = f"citations_summary{args.suffix}.csv"
+
     print(f"Loading {PROGRESS_FILE}...")
     records = load_records()
     dataset = build_dataset(records)

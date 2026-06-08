@@ -30,11 +30,14 @@ TOKEN = os.getenv("token")
 BASE_URL = "https://api.indiankanoon.org"
 HEADERS = {"Authorization": f"Token {TOKEN}", "Accept": "application/json"}
 
-ROW_START = 1500        # 0-indexed (= row 1501 in the sheet)
-ROW_END   = 2250        # exclusive
 DELAY     = 1.0         # seconds between requests
 MAX_RETRY = 3           # retries on transient errors
 RETRY_BACKOFF = 5       # seconds to wait on first retry (doubles each time)
+
+# Row range and output filenames are set from CLI args in __main__ (see parse_args).
+# Defaults reproduce the original rows 1501-2250 run.
+ROW_START = 1500        # 0-indexed (= row 1501 in the sheet)
+ROW_END   = 2250        # exclusive
 
 PROGRESS_FILE = "citations_progress.jsonl"
 OUTPUT_FLAT   = "citations_output.csv"
@@ -233,10 +236,24 @@ def run():
     export_csvs()
 
 
-if __name__ == "__main__":
+def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--export", action="store_true", help="Export existing progress to CSV without fetching")
-    args = parser.parse_args()
+    parser.add_argument("--start", type=int, default=1500, help="0-indexed start row (default 1500 = sheet row 1501)")
+    parser.add_argument("--end", type=int, default=2250, help="0-indexed end row, exclusive (default 2250)")
+    parser.add_argument("--suffix", default="", help="Suffix appended to output filenames, e.g. _3001-3750")
+    return parser.parse_args()
+
+
+if __name__ == "__main__":
+    args = parse_args()
+
+    ROW_START = args.start
+    ROW_END = args.end
+    if args.suffix:
+        PROGRESS_FILE = f"citations_progress{args.suffix}.jsonl"
+        OUTPUT_FLAT = f"citations_output{args.suffix}.csv"
+        OUTPUT_SUMMARY = f"citations_summary{args.suffix}.csv"
 
     if args.export:
         export_csvs()
