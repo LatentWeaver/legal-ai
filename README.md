@@ -67,7 +67,6 @@ Target source:
 - Domain focus: land disputes
 - Domain focus size: 7.5k cases
 - Location: https://drive.google.com/drive/folders/1_omgPYIvnrn0WAd9yzkOA-m6iA4EnNX0?usp=drive_link
-```
 
 ---
 
