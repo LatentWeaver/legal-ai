@@ -1,0 +1,30 @@
+=== LOUVAIN v2 — DIRECT CITATION GRAPH ===
+
+Cases: 750
+Directed edges (A cites B): 564
+Undirected edges: 564
+Connected cases: 443   Isolated: 307
+Top-level communities (size>1): 52
+Undirected modularity: 0.8084  (>0.3 = meaningful structure)
+
+--- SELECTION OF 'SIGNIFICANTLY LARGER' COMMUNITIES ---
+Auto-selected communities larger than mean+1std of community sizes.
+  community sizes (size>1): [40, 34, 33, 29, 28, 21, 20, 19, 19, 18, 17, 17, 15, 15, 9, 9, 8, 7, 5, 5, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+  mean=8.5, std=9.9, cutoff>18.4
+  -> 9 communities qualify as 'significantly larger'.
+
+--- SELECTED COMMUNITIES (sub-clustered) ---
+  Community 0: 40 cases -> 7 sub-communities | 55 internal citations | e.g. Krishna Mohan Pvt Ltd vs Munic; Balram Kumawat vs Union Of Ind; State Of Punjab And Anr vs Dev
+  Community 1: 34 cases -> 6 sub-communities | 47 internal citations | e.g. Chander Kanta Bansal vs Rajind; Devasahayam D By Lrs vs P Savi; Swamy Atmananda Ors vs Sri Ram
+  Community 2: 33 cases -> 7 sub-communities | 40 internal citations | e.g. South Eastern Coalfields Ltd v; Sanjay Verma vs Manik Roy And ; Sushanta Tagore Ors vs Uoi Ors
+  Community 3: 29 cases -> 7 sub-communities | 38 internal citations | e.g. Ashok Kumar Ors vs State Of Ha; State Of U P And Anr vs Johri ; K K Bhalla vs State Of M P Ors
+  Community 4: 28 cases -> 5 sub-communities | 31 internal citations | e.g. State Of Karnataka vs Vishwabh; G Bassi Reddy vs International; Secretary Thirumurugan Co Oper
+  Community 5: 21 cases -> 5 sub-communities | 21 internal citations | e.g. Indian National Congress I vs ; Bollepanda P Poonacha Anr vs K; Baldev Singh Ors Etc vs Manoha
+  Community 6: 20 cases -> 4 sub-communities | 26 internal citations | e.g. Dadu Dayalu Mahasabha Jaipur T; Hardesh Ores Pvt Ltd vs M S He; Vasantiben P Nayak Ors vs Somn
+  Community 7: 19 cases -> 5 sub-communities | 22 internal citations | e.g. Ram Chandra Singh vs Savitri D; Nirmala Anand vs Advent Corpor; State Of H P And Ors vs Gujara
+  Community 8: 19 cases -> 3 sub-communities | 20 internal citations | e.g. U P Gram Panchayat Adhikari Sa; E V Chinnaiah vs State Of Andh; Ekta Shakti Foundation vs Govt
+
+--- DIRECTIONAL NOTE ---
+Partition computed on the undirected projection (Louvain requirement).
+Directed structure is reported as internal citation counts per community;
+a fully directed partition (Infomap / directed Leiden) is the agreed next step.
