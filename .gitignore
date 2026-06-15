@@ -4,14 +4,14 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Data — ignore everything under data/ by default, then allow the deliverables
-data/*
-!data/citations.jsonl
-!data/citations.csv
-!data/citations_formatted.json
-!data/graph/
-!data/graph/*
-data/raw_docs/
+# Data — ignore everything under citations-data/ by default, then allow the deliverables
+citations-data/*
+!citations-data/citations.jsonl
+!citations-data/citations.csv
+!citations-data/citations_formatted.json
+!citations-data/graph/
+!citations-data/graph/*
+citations-data/raw_docs/
 *.log
 
 # Secrets — never commit your API token
