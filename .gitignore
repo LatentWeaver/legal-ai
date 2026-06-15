@@ -8,6 +8,7 @@ __pycache__/
 data/*
 !data/citations.jsonl
 !data/citations.csv
+!data/citations_formatted.json
 !data/graph/
 !data/graph/*
 data/raw_docs/
