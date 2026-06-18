@@ -26,6 +26,8 @@ This directory contains reference implementations for constructing a legal corpu
 
 ## Example
 
-A sample codebook from a different project is available below (ASU account required):
+Sample codebook from a different project is available below (ASU account required):
 
-https://arizonastateu-my.sharepoint.com/:x:/g/personal/atrive22_sundevils_asu_edu/IQCy2afbj-MmTLfbqwTdTVk_AV4RaPGWvLBjCVenCbC3JJQ?e=HWNHik
+NP - https://arizonastateu-my.sharepoint.com/:x:/g/personal/atrive22_sundevils_asu_edu/IQCy2afbj-MmTLfbqwTdTVk_AV4RaPGWvLBjCVenCbC3JJQ?e=HWNHik
+
+NE - https://arizonastateu-my.sharepoint.com/:x:/g/personal/atrive22_sundevils_asu_edu/IQCAlsX9q-nERaedSZLkPFQoAVlLwcIQbSO4bzVJNeK8x_c?e=ez0IwE
