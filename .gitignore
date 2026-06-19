@@ -5,3 +5,5 @@ __pycache__/
 legal-ai-main.zip
 repo/
 documents_pdf/
+~$*
+.~lock.*
