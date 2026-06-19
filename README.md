@@ -80,6 +80,8 @@ Implements **step 1** (collect & normalize case text/metadata) and **step 2** (c
 
 **Dataset** — **750 master cases** (judgment years 2015–2021) with the **complete bidirectional citation network**: **99,771 edges** (25,012 _Cites_ + 74,759 _Cited-by_).
 - Citation network JSON (17 MB, 750 records): [`master-citations-dataset/data/master_citations_6001_6750.json`](master-citations-dataset/data/master_citations_6001_6750.json)
-- Full SQLite DB (218 MB → 62 MB gz) on Google Drive: [⬇ download](https://drive.google.com/file/d/10n1jUQ9dj6etGACz4eEcWvlhyeqRMXh_/view?usp=sharing)
+- Team-standard normalized JSON (on `main`): [`citations-data/6001-6750/citations.json`](citations-data/6001-6750/citations.json)
+- Full master SQLite DB (218 MB → 62 MB gz) on Google Drive: [⬇ download](https://drive.google.com/file/d/1d5LTT3KzKzqPJt4-WfsN9XMEV0cCnPhz/view?usp=sharing)
+- **Related-cases content DB** — full text of every cited/citing case (71,998 cases, 14 GB → 3.0 GB gz) on Google Drive: [⬇ download](https://drive.google.com/file/d/1oaYI3mk4AsX1w8GCnIFRQ-80Du5rh1v7/view?usp=share_link)
 
-**Current progress (2026-06-08):** Phase 1 (750/750 masters — content + both citation directions) complete & verified. Phase 2 (full content of all ~72k cited/citing cases) in progress — **~39.8k/72k (~55%)**; the ~7.8 GB related-case output stays off-repo but is fully reproducible from the JSON + scraper.
+**Current progress (2026-06-11):** Phase 1 **complete** (750/750 masters — content + both citation directions, verified). Phase 2 **complete** — full content of **71,998/71,998 (100%)** cited/citing cases scraped into `related_cases_cases.db`, all verified to trace back to master citation lists, with 1.29M inline sentiment-labeled citations as a bonus. The citation graph's full node set (masters + neighbors) now has text.
