@@ -1,0 +1,20 @@
+# model weights and checkpoints
+saves/
+*.safetensors
+*.bin
+checkpoint-*/
+# logs and caches
+logs/
+hf_cache/
+__pycache__/
+# data (download separately, don't commit)
+*.json
+!dataset_info.json
+IndicLegalQA*.json
+legal_sft.json
+
+# but DO track the small result artifacts
+!results/
+!results/*.png
+!results/*.json
+!results/*.txt

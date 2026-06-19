@@ -1,0 +1,48 @@
+### model
+model_name_or_path: mistralai/Mistral-7B-Instruct-v0.3
+trust_remote_code: true
+
+### method (QLoRA: 4-bit base fits the 20GB MIG slice)
+stage: sft
+do_train: true
+finetuning_type: lora
+quantization_bit: 4
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target: all
+
+### dataset
+dataset: legal_sft
+dataset_dir: /scratch/kpate385/legalft/data
+template: mistral
+cutoff_len: 1024
+overwrite_cache: true
+preprocessing_num_workers: 4
+
+### output + checkpointing
+output_dir: /scratch/kpate385/legalft/saves/mistral7b-legal-qlora
+logging_steps: 20
+plot_loss: true
+overwrite_output_dir: true
+save_total_limit: 3
+
+### train
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-4
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+
+### validation: 10% split, keep the best checkpoint by eval loss
+val_size: 0.1
+per_device_eval_batch_size: 2
+eval_strategy: steps
+eval_steps: 100
+save_strategy: steps
+save_steps: 100
+load_best_model_at_end: true
+metric_for_best_model: eval_loss
+greater_is_better: false

@@ -1,0 +1,10 @@
+{
+  "legal_sft": {
+    "file_name": "legal_sft.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}
