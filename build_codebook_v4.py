@@ -83,6 +83,86 @@ def normalise_lemmas(toks, STOP):
     return term if len(term) >= 3 else None
 
 
+def extract_candidates():
+    """Run the multi-method extraction + noun-phrase filter.
+    Returns (terms, total, docf, methods, example, doc_lemmas) so other
+    pipelines (e.g. the faithful reference port) can reuse it without
+    re-running spaCy."""
+    nlp = spacy.load(MODEL, disable=["ner"])
+    nlp.max_length = 3_000_000
+    v1.spacy_stop = nlp.Defaults.stop_words
+    STOP = nlp.Defaults.stop_words
+    light = spacy.load(MODEL, disable=["parser", "ner"])
+    rake = Rake(max_length=MAXLEN)
+    yk = yake.KeywordExtractor(lan="en", n=MAXLEN, top=PER_DOC, dedupLim=0.9)
+    ids = [r["id"] for r in csv.DictReader(open(SAMPLE))
+           if os.path.exists(f"{PDFDIR}/{r['id']}.pdf")]
+    CAND = set(); methods = collections.defaultdict(set); example = {}
+    doc_lemmas = []; rake_raw, yake_raw = set(), set()
+    print(f"Extracting candidates from {len(ids)} docs via spaCy+Textacy+RAKE+YAKE ...")
+    for n, did in enumerate(ids, 1):
+        text = v3.read_pdf(f"{PDFDIR}/{did}.pdf")
+        doc = nlp(text)
+        doc_lemmas.append([t.lemma_.lower() for t in doc if not (t.is_punct or t.is_space)])
+        for ch in doc.noun_chunks:
+            key = strip_bounds(v1.normalise_chunk(ch), STOP)
+            if key:
+                CAND.add(key); methods[key].add("spacy")
+                example.setdefault(key, re.sub(r"\s+", " ", ch.sent.text.strip())[:240])
+        try:
+            for term, _ in tk.textrank(doc, normalize="lemma", topn=PER_DOC):
+                key = normalise_lemmas(term.split(), STOP)
+                if key:
+                    CAND.add(key); methods[key].add("textacy")
+        except Exception:
+            pass
+        try:
+            rake.extract_keywords_from_text(text)
+            rake_raw.update(rake.get_ranked_phrases()[:PER_DOC])
+        except Exception:
+            pass
+        try:
+            yake_raw.update(kw for kw, _ in yk.extract_keywords(text))
+        except Exception:
+            pass
+        if n % 20 == 0:
+            print(f"  {n}/{len(ids)} docs | candidates so far: {len(CAND)}", flush=True)
+    for raw_set, name in [(rake_raw, "rake"), (yake_raw, "yake")]:
+        for d in light.pipe(list(raw_set), batch_size=256):
+            key = normalise_lemmas([t.lemma_.lower() for t in d if not (t.is_punct or t.is_space)], STOP)
+            if key:
+                CAND.add(key); methods[key].add(name)
+    print(f"Total unique candidates (all methods merged): {len(CAND)}")
+
+    total = collections.Counter(); docf = collections.Counter()
+    for lem in doc_lemmas:
+        seen = set(); L = len(lem)
+        for i in range(L):
+            for nlen in range(1, MAXLEN + 1):
+                if i + nlen > L:
+                    break
+                if lem[i] in STOP or lem[i + nlen - 1] in STOP:
+                    continue
+                gram = " ".join(lem[i:i + nlen])
+                if gram in CAND:
+                    total[gram] += 1; seen.add(gram)
+        for g in seen:
+            docf[g] += 1
+    terms = [t for t in CAND if total[t] > 0]
+
+    SUBSTANTIVE = {"STATUTE-PROVISION", "LEGAL-CONCEPT", "PROCEDURE-RELIEF",
+                   "INSTRUMENT-EVIDENCE", "PARTY-ACTOR", "FORUM-AUTHORITY",
+                   "PROPERTY-RES", "JURISDICTION-PLACE", "MONETARY-VALUATION"}
+    noun_headed = set(); tl = list(terms)
+    for term, d in zip(tl, light.pipe(tl, batch_size=512)):
+        toks = [t for t in d if not (t.is_punct or t.is_space)]
+        if toks and toks[-1].pos_ in {"NOUN", "PROPN"}:
+            noun_headed.add(term)
+    terms = [t for t in terms if t in noun_headed or v2.classify(t)[2] in SUBSTANTIVE]
+    print(f"After noun-phrase filter: {len(terms)} candidates")
+    return terms, total, docf, methods, example, doc_lemmas
+
+
 def main() -> int:
     nlp = spacy.load(MODEL, disable=["ner"])      # parser needed for noun_chunks
     nlp.max_length = 3_000_000
