@@ -129,10 +129,18 @@ def extract():
 
 
 def frequency_adjustment(total: collections.Counter):
-    """Step 5: discount each common unigram by the phrases that 'cover' it."""
+    """Step 5 downscale (matches codebook-reference/apply_downscale_algorithm.py).
+
+    Each phrase is assigned to the highest-frequency unigram it contains
+    (head unigram). For each unigram we discount it only by a CAPPED cumulative
+    sum of its covering phrases (sorted desc), where the cap is
+        max(unigram_count/2, unigram_count - max_phrase_count + 1)
+    and the boundary phrase that first crosses the cap is included. This keeps
+    common unigrams from being zeroed out (they retain ~half their frequency),
+    unlike a full uncapped subtraction. Multi-word phrases keep their frequency.
+    """
     unigram_freq = {t: f for t, f in total.items() if len(t.split()) == 1}
-    discount = collections.Counter()
-    assigned_to = {}                       # phrase -> the unigram it was charged against
+    assigned = collections.defaultdict(list)     # head unigram -> [(phrase, freq)]
     for term, f in total.items():
         words = term.split()
         if len(words) < 2:
@@ -140,16 +148,25 @@ def frequency_adjustment(total: collections.Counter):
         cands = [w for w in words if w in unigram_freq]
         if not cands:
             continue
-        u = max(cands, key=lambda w: unigram_freq[w])
-        discount[u] += f
-        assigned_to[term] = u
+        head = max(cands, key=lambda w: unigram_freq[w])
+        assigned[head].append((term, f))
 
-    def adj(term):
-        if len(term.split()) == 1:
-            return max(total[term] - discount.get(term, 0), 0)
-        return total[term]
-
-    return {t: adj(t) for t in total}, discount
+    adj = dict(total)
+    discount = collections.Counter()
+    for u, ufreq in unigram_freq.items():
+        phrases = sorted(assigned.get(u, []), key=lambda x: x[1], reverse=True)
+        if not phrases:
+            continue
+        max_phrase = phrases[0][1]
+        threshold = max(ufreq / 2, ufreq - max_phrase + 1)
+        cum = 0
+        for _, f in phrases:
+            cum += f                              # include this phrase
+            if cum > threshold:                   # boundary phrase included, then stop
+                break
+        discount[u] = cum
+        adj[u] = max(ufreq - cum, 0)
+    return adj, discount
 
 
 def main() -> int:
