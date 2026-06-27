@@ -1,0 +1,47 @@
+=== DIRECTED CITATION GRAPH (directed modularity) ===
+Nodes: 750  Edges: 564
+Communities (size>1): 53   Modularity: 0.8093
+Auto: communities larger than mean+1std.
+  sizes(>1): [39, 39, 33, 27, 24, 21, 21, 19, 18, 17, 17, 17, 15, 12, 9, 9, 8, 7, 6, 5, 5, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+  mean=8.4 std=9.8 cutoff>18.2
+  -> 8 significantly-larger communities sub-clustered.
+Selected (sub-clustered) communities:
+  C0: 39 cases -> 7 subs | e.g. Hindustan Times Ors vs State; Secretary Thirumurugan Co Op; Popular Muthiah vs State Rep
+  C1: 39 cases -> 7 subs | e.g. Delhi Development Authority ; Ashok Lanka Anr vs Rishi Dix; M C Mehta vs Union Of India 
+  C2: 33 cases -> 6 subs | e.g. M S Narayana Menon Mani vs S; Union Of India Uoi vs Pramod; V Venkata Subbarao vs State 
+  C3: 27 cases -> 6 subs | e.g. Pratibha Nema Ors vs State O; State Of Bihar Ors vs Projec; West Bengal State Warehousin
+  C4: 24 cases -> 5 subs | e.g. Icici Bank Ltd vs Sidco Leat; Hari Shankar Singhania Ors v; Ramdev Food Products Pvt Ltd
+  C5: 21 cases -> 4 subs | e.g. Popat And Kotecha Property v; Darshan Singh Ors vs Gujjar ; Des Raj Ors vs Bhagat Ram De
+  C6: 21 cases -> 5 subs | e.g. Mardia Chemicals Ltd Etc Etc; Fairgrowth Investments Ltd v; State Of Andhra Pradesh vs P
+  C7: 19 cases -> 4 subs | e.g. P D Souza vs Shondrilo Naidu; Mrs Sanjana M Wig vs Hindust; G Jayashree Ors vs Bhagwanda
+
+=== UNDIRECTED CITATION GRAPH (standard modularity) ===
+Nodes: 750  Edges: 564
+Communities (size>1): 53   Modularity: 0.8088
+Auto: communities larger than mean+1std.
+  sizes(>1): [34, 34, 30, 30, 28, 22, 21, 20, 19, 19, 17, 17, 15, 13, 9, 9, 8, 7, 6, 5, 5, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+  mean=8.4 std=9.5 cutoff>17.8
+  -> 10 significantly-larger communities sub-clustered.
+Selected (sub-clustered) communities:
+  C0: 34 cases -> 6 subs | e.g. Hindustan Times Ors vs State; Popular Muthiah vs State Rep; Gujarat Ambuja Cements Ltd A
+  C1: 34 cases -> 6 subs | e.g. Union Of India Uoi vs Pramod; M S Narayana Menon Mani vs S; V Venkata Subbarao vs State 
+  C2: 30 cases -> 7 subs | e.g. Pratibha Nema Ors vs State O; West Bengal State Warehousin; State Of Bihar Ors vs Projec
+  C3: 30 cases -> 5 subs | e.g. Delhi Development Authority ; Ashok Lanka Anr vs Rishi Dix; Commnr Of Customs Imports Mu
+  C4: 28 cases -> 5 subs | e.g. Secretary Thirumurugan Co Op; Icici Bank Ltd vs Sidco Leat; Hari Shankar Singhania Ors v
+  C5: 22 cases -> 4 subs | e.g. Teri Oat Estates P Ltd vs U ; Divisional Manager Plantatio; Mahendra L Jain Ors vs Indor
+  C6: 21 cases -> 5 subs | e.g. Mardia Chemicals Ltd Etc Etc; Fairgrowth Investments Ltd v; M S Prestige Lights Ltd vs S
+  C7: 20 cases -> 4 subs | e.g. Popat And Kotecha Property v; Darshan Singh Ors vs Gujjar ; Des Raj Ors vs Bhagat Ram De
+  C8: 19 cases -> 5 subs | e.g. P D Souza vs Shondrilo Naidu; Mrs Sanjana M Wig vs Hindust; G Jayashree Ors vs Bhagwanda
+  C9: 19 cases -> 4 subs | e.g. Mohinder Prasad Jain vs Mano; People S Union For Civil Lib; Nalakath Sainuddin vs Koorik
+
+=== DIRECTED vs UNDIRECTED COMPARISON ===
+Directed   : 53 communities, modularity 0.8093
+Undirected : 53 communities, modularity 0.8088
+
+NetworkX applies the directed modularity gain (Dugue & Perez) on a DiGraph,
+so the two partitions differ. Directed respects citation direction (who cites
+whom); undirected treats a citation as a symmetric link. Review both with the
+team to decide which better fits the precedent-finding goal.
+
+Method follows the lab's NARRA-SCALE two-level pattern (communities then
+sub-communities). Prototype on this bracket; re-run on the merged corpus.
