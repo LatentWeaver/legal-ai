@@ -1,0 +1,340 @@
+[
+  {
+    "absolute_url": "/opinion/5026477/in-re-medical-malpractice-matter-of-breland/",
+    "attorney": "",
+    "caseName": "In re Medical Malpractice Matter of Breland",
+    "caseNameFull": "IN RE: Medical Malpractice Matter of Ray David BRELAND",
+    "citation": [
+      "220 So. 3d 758",
+      "2017 La. LEXIS 1345",
+      "2017 WL 2773818"
+    ],
+    "citeCount": 0,
+    "cluster_id": 5026477,
+    "court": "Supreme Court of Louisiana",
+    "court_citation_string": "La.",
+    "court_id": "la",
+    "court_jurisdiction": null,
+    "dateArgued": null,
+    "dateFiled": "2017-06-16",
+    "dateReargued": null,
+    "dateReargumentDenied": null,
+    "docketNumber": "NO. 2017-C-0685",
+    "docket_id": 60267341,
+    "judge": "",
+    "lexisCite": "",
+    "meta": {
+      "timestamp": "2025-01-17T19:35:52.150686Z",
+      "date_created": "2021-08-23T08:56:18.929839Z",
+      "score": {
+        "bm25": 215.642
+      }
+    },
+    "neutralCite": "",
+    "non_participating_judge_ids": [],
+    "opinions": [
+      {
+        "author_id": null,
+        "cites": [],
+        "download_url": null,
+        "id": 4839993,
+        "joined_by_ids": [],
+        "local_path": null,
+        "meta": {
+          "timestamp": "2025-01-17T19:35:52.148950Z",
+          "date_created": "2021-08-23T08:56:18.938131Z"
+        },
+        "ordering_key": null,
+        "per_curiam": false,
+        "sha1": "",
+        "snippet": "\nApplying For Writ of Certiorari and/or Review, Parish of Caddo, 1st Judicial District Court Div. B, No. 588,995; to the Court of Appeal, Second Circuit, No. 51,-150-CA\n|, Denied.\n",
+        "type": "lead-opinion"
+      }
+    ],
+    "panel_ids": [],
+    "panel_names": [],
+    "posture": "",
+    "procedural_history": "",
+    "scdb_id": "",
+    "sibling_ids": [
+      4839993
+    ],
+    "source": "U",
+    "status": "Published",
+    "suitNature": "",
+    "syllabus": ""
+  },
+  {
+    "absolute_url": "/opinion/4114839/medical-malpractice-v-marques/",
+    "attorney": "",
+    "caseName": "Medical Malpractice v. Marques",
+    "caseNameFull": "Medical Malpractice Joint Underwriting Association of Rhode Island v. A. Michael Marques, in His Capacity as Director of the Department of Business Regulation and Insurance Commissioner of the State of Rhode Island",
+    "citation": [],
+    "citeCount": 0,
+    "cluster_id": 4114839,
+    "court": "Superior Court of Rhode Island",
+    "court_citation_string": "Sup. Ct. R.I.",
+    "court_id": "risuperct",
+    "court_jurisdiction": null,
+    "dateArgued": null,
+    "dateFiled": "2006-11-03",
+    "dateReargued": null,
+    "dateReargumentDenied": null,
+    "docketNumber": "No. PC/05-5253",
+    "docket_id": 3986981,
+    "judge": "SAVAGE, J.",
+    "lexisCite": "",
+    "meta": {
+      "timestamp": "2024-06-21T23:09:02.464348Z",
+      "date_created": "2016-07-06T09:08:12.970239Z",
+      "score": {
+        "bm25": 194.97508
+      }
+    },
+    "neutralCite": "",
+    "non_participating_judge_ids": [],
+    "opinions": [
+      {
+        "author_id": null,
+        "cites": [
+          1293583,
+          1301793,
+          1465433,
+          1502809,
+          1517548,
+          1893264,
+          1907926,
+          1953121,
+          1969951,
+          1973525,
+          2059970,
+          2100571,
+          2312849,
+          2615844
+        ],
+        "download_url": null,
+        "id": 3874849,
+        "joined_by_ids": [],
+        "local_path": "/home/mlissner/columbia/opinions/rhode_island/superior_court_opinions/documents/eb709c8c097f0918.xml",
+        "meta": {
+          "timestamp": "2025-10-25T11:24:38.526988Z",
+          "date_created": "2016-07-06T09:08:12.976447Z"
+        },
+        "ordering_key": null,
+        "per_curiam": false,
+        "sha1": "067b30ae884bb71aa95f278ffb9c359c0e29ab5c",
+        "snippet": "                                DECISION\nThis is an administrative appeal filed by the Medical Malpractice Joint Underwriting Association of Rhode Island (\"MMJUA\") from a decision of the Department of Business Regulation (\"DBR\") with respect to its request for an insurance rate increase in May of 2005. Although the DBR approved that request, it ordered that the MMJUA rate increase be phased in over the course of two and one-half years. The MMJUA argues that t",
+        "type": "lead-opinion"
+      }
+    ],
+    "panel_ids": [],
+    "panel_names": [],
+    "posture": "",
+    "procedural_history": "",
+    "scdb_id": "",
+    "sibling_ids": [
+      3874849
+    ],
+    "source": "Z",
+    "status": "Published",
+    "suitNature": "",
+    "syllabus": ""
+  },
+  {
+    "absolute_url": "/opinion/4987023/in-re-medical-malpractice-claim-of-durham/",
+    "attorney": "",
+    "caseName": "In re Medical Malpractice Claim of Durham",
+    "caseNameFull": "In re Medical Malpractice Claim of Catherine DURHAM (D)",
+    "citation": [
+      "102 So. 3d 45",
+      "2012 La. LEXIS 3254",
+      "2012 WL 5991330"
+    ],
+    "citeCount": 0,
+    "cluster_id": 4987023,
+    "court": "Supreme Court of Louisiana",
+    "court_citation_string": "La.",
+    "court_id": "la",
+    "court_jurisdiction": null,
+    "dateArgued": null,
+    "dateFiled": "2012-11-16",
+    "dateReargued": null,
+    "dateReargumentDenied": null,
+    "docketNumber": "No. 2012-C-2121",
+    "docket_id": 60226662,
+    "judge": "",
+    "lexisCite": "",
+    "meta": {
+      "timestamp": "2025-01-17T19:34:23.191182Z",
+      "date_created": "2021-08-20T20:47:07.596206Z",
+      "score": {
+        "bm25": 194.3513
+      }
+    },
+    "neutralCite": "",
+    "non_participating_judge_ids": [],
+    "opinions": [
+      {
+        "author_id": null,
+        "cites": [],
+        "download_url": null,
+        "id": 4796872,
+        "joined_by_ids": [],
+        "local_path": null,
+        "meta": {
+          "timestamp": "2025-01-17T19:34:23.201341Z",
+          "date_created": "2021-08-20T20:47:07.613956Z"
+        },
+        "ordering_key": null,
+        "per_curiam": false,
+        "sha1": "",
+        "snippet": "\nIn re Louisiana Patient\u2019s Compensation Fund; Louisiana Patient\u2019s Compensation Fund Oversight Board et al.; \u2014 Other(s); Applying For Writ of Certiorari and/or Review, Parish of E. Baton Rouge, 19th Judicial District Court Div. D, No. 576,077; to the Court of Appeal, First Circuit, Nos. 2011 CA 2239, 2011 CW 2032.\nDenied.\n",
+        "type": "lead-opinion"
+      }
+    ],
+    "panel_ids": [],
+    "panel_names": [],
+    "posture": "",
+    "procedural_history": "",
+    "scdb_id": "",
+    "sibling_ids": [
+      4796872
+    ],
+    "source": "U",
+    "status": "Published",
+    "suitNature": "",
+    "syllabus": ""
+  },
+  {
+    "absolute_url": "/opinion/5954769/cohen-v-medical-malpractice-insurance-pool/",
+    "attorney": "",
+    "caseName": "Cohen v. Medical Malpractice Insurance Pool",
+    "caseNameFull": "Sharona Cohen v. Medical Malpractice Insurance Pool of New York State",
+    "citation": [
+      "56 A.D.2d 296",
+      "868 N.Y.S.2d 14"
+    ],
+    "citeCount": 0,
+    "cluster_id": 5954769,
+    "court": "Appellate Division of the Supreme Court of the State of New York",
+    "court_citation_string": "N.Y. App. Div.",
+    "court_id": "nyappdiv",
+    "court_jurisdiction": null,
+    "dateArgued": null,
+    "dateFiled": "2008-11-13",
+    "dateReargued": null,
+    "dateReargumentDenied": null,
+    "docketNumber": "",
+    "docket_id": 62313187,
+    "judge": "",
+    "lexisCite": "",
+    "meta": {
+      "timestamp": "2024-06-22T07:29:36.597178Z",
+      "date_created": "2022-01-12T19:03:09.340126Z",
+      "score": {
+        "bm25": 188.36818
+      }
+    },
+    "neutralCite": "",
+    "non_participating_judge_ids": [],
+    "opinions": [
+      {
+        "author_id": null,
+        "cites": [
+          5964772
+        ],
+        "download_url": null,
+        "id": 5813582,
+        "joined_by_ids": [],
+        "local_path": null,
+        "meta": {
+          "timestamp": "2025-10-23T03:40:12.704131Z",
+          "date_created": "2022-01-12T19:03:09.359716Z"
+        },
+        "ordering_key": null,
+        "per_curiam": false,
+        "sha1": "",
+        "snippet": "\nOrder, Supreme Court, New York County (Sheila AbdusSalaam, J.), entered April 30, 2007, which, in a declaratory judgment action involving defendant-appellant insurer\u2019s obligation to defend and indemnify plaintiff in an underlying action for personal injuries, denied the insurer\u2019s motion for summary judgment, unanimously reversed, on the law, with costs, the motion granted, and it is declared that the insurer is not obligated to defend or indemnify plainti",
+        "type": "lead-opinion"
+      }
+    ],
+    "panel_ids": [],
+    "panel_names": [],
+    "posture": "",
+    "procedural_history": "",
+    "scdb_id": "",
+    "sibling_ids": [
+      5813582
+    ],
+    "source": "U",
+    "status": "Published",
+    "suitNature": "",
+    "syllabus": ""
+  },
+  {
+    "absolute_url": "/opinion/5052289/barcia-v-louisiana-medical-malpractice-insurance-co/",
+    "attorney": "Terrence J. Lestelle, Andrea S. Lestelle, Jeffery B. Struekhoff, Richard M. Mor-gain, Lestelle & Lestelle, APLC, Metairie, LA, Robert L. Salim, Natchitoches, LA, for Plaintiffs/Appellants., Harvey J. Godofsky, Batiza Godofsky Schroeder & Coles, Metairie, LA, for Defendants/Appellees.",
+    "caseName": "Barcia v. Louisiana Medical Malpractice Insurance Co.",
+    "caseNameFull": "Nancy BARCIA and Angelo J. Barcia v. LOUISIANA MEDICAL MALPRACTICE INSURANCE COMPANY and Argimiro Lago, M.D.",
+    "citation": [
+      "67 So. 3d 659",
+      "2010 La.App. 4 Cir. 1424",
+      "2011 La. App. LEXIS 683",
+      "2011 WL 2139894"
+    ],
+    "citeCount": 1,
+    "cluster_id": 5052289,
+    "court": "Louisiana Court of Appeal",
+    "court_citation_string": "La. Ct. App.",
+    "court_id": "lactapp",
+    "court_jurisdiction": null,
+    "dateArgued": null,
+    "dateFiled": "2011-05-25",
+    "dateReargued": null,
+    "dateReargumentDenied": null,
+    "docketNumber": "No. 2010-CA-1424",
+    "docket_id": 60302191,
+    "judge": "Belsome, III, Jones, McKay",
+    "lexisCite": "",
+    "meta": {
+      "timestamp": "2024-06-22T03:31:11.337573Z",
+      "date_created": "2021-08-26T02:21:01.805690Z",
+      "score": {
+        "bm25": 185.05284
+      }
+    },
+    "neutralCite": "",
+    "non_participating_judge_ids": [],
+    "opinions": [
+      {
+        "author_id": null,
+        "cites": [],
+        "download_url": null,
+        "id": 4866727,
+        "joined_by_ids": [],
+        "local_path": null,
+        "meta": {
+          "timestamp": "2025-10-22T21:12:48.324056Z",
+          "date_created": "2021-08-26T02:21:01.827520Z"
+        },
+        "ordering_key": null,
+        "per_curiam": false,
+        "sha1": "",
+        "snippet": "\nCHARLES R. JONES, Judge.\nliThe plaintiffs/appellants, Nancy and Angelo Barcia (the Barcias), seek review of a district court judgment sustaining the peremptory exception of prescription filed by the defendants/appellees, Dr. Argimiro Lago, M.D., and the Louisiana Medical Malpractice Insurance Company (LMMIC). After our review of the record on appeal, we affirm.\nThe underlying facts giving rise to the instan",
+        "type": "lead-opinion"
+      }
+    ],
+    "panel_ids": [],
+    "panel_names": [],
+    "posture": "",
+    "procedural_history": "",
+    "scdb_id": "",
+    "sibling_ids": [
+      4866727
+    ],
+    "source": "U",
+    "status": "Published",
+    "suitNature": "",
+    "syllabus": ""
+  }
+]
