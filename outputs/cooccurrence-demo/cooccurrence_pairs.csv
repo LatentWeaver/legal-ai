@@ -1,0 +1,134 @@
+term_a,term_b,count
+court,evidence,3
+court,possession,3
+court,deed,2
+court,high court,2
+court,land,2
+court,plaintiff,2
+court,sale,2
+court,sale deed,2
+court,title,2
+deed,possession,2
+deed,sale,2
+deed,sale deed,2
+deed,title,2
+evidence,high court,2
+evidence,land,2
+evidence,plaintiff,2
+evidence,possession,2
+high court,land,2
+high court,plaintiff,2
+land,plaintiff,2
+possession,sale,2
+possession,sale deed,2
+possession,title,2
+sale,sale deed,2
+sale,title,2
+sale deed,title,2
+court,defendant,2
+court,property,2
+court,rule,2
+court,section,2
+defendant,possession,2
+defendant,property,2
+defendant,rule,2
+evidence,section,2
+possession,property,2
+possession,rule,2
+property,rule,2
+deed,evidence,1
+deed,high court,1
+deed,land,1
+deed,plaintiff,1
+evidence,sale,1
+evidence,sale deed,1
+evidence,title,1
+high court,possession,1
+high court,sale,1
+high court,sale deed,1
+high court,title,1
+land,possession,1
+land,sale,1
+land,sale deed,1
+land,title,1
+plaintiff,possession,1
+plaintiff,sale,1
+plaintiff,sale deed,1
+plaintiff,title,1
+court,dispute,1
+court,supreme,1
+court,supreme court,1
+court,that:-,1
+defendant,dispute,1
+defendant,evidence,1
+defendant,section,1
+defendant,supreme,1
+defendant,supreme court,1
+defendant,that:-,1
+dispute,evidence,1
+dispute,possession,1
+dispute,property,1
+dispute,rule,1
+dispute,section,1
+dispute,supreme,1
+dispute,supreme court,1
+dispute,that:-,1
+evidence,property,1
+evidence,rule,1
+evidence,supreme,1
+evidence,supreme court,1
+evidence,that:-,1
+possession,section,1
+possession,supreme,1
+possession,supreme court,1
+possession,that:-,1
+property,section,1
+property,supreme,1
+property,supreme court,1
+property,that:-,1
+rule,section,1
+rule,supreme,1
+rule,supreme court,1
+rule,that:-,1
+section,supreme,1
+section,supreme court,1
+section,that:-,1
+supreme,supreme court,1
+supreme,that:-,1
+supreme court,that:-,1
+court,judgment,1
+court,ownership,1
+court,relief,1
+evidence,judgment,1
+evidence,ownership,1
+evidence,relief,1
+high court,judgment,1
+high court,ownership,1
+high court,relief,1
+high court,section,1
+judgment,land,1
+judgment,ownership,1
+judgment,plaintiff,1
+judgment,relief,1
+judgment,section,1
+land,ownership,1
+land,relief,1
+land,section,1
+ownership,plaintiff,1
+ownership,relief,1
+ownership,section,1
+plaintiff,relief,1
+plaintiff,section,1
+relief,section,1
+deed,defendant,1
+deed,property,1
+deed,rule,1
+defendant,sale,1
+defendant,sale deed,1
+defendant,title,1
+property,sale,1
+property,sale deed,1
+property,title,1
+rule,sale,1
+rule,sale deed,1
+rule,title,1

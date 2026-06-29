@@ -1,0 +1,8 @@
+terms=3530
+nonzero_pairs=133
+window=paragraph
+threshold=1
+documents=2
+windows=4
+windows_with_terms=4
+windows_skipped_for_size=0
