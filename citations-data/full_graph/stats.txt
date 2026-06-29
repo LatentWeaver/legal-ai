@@ -1,0 +1,48 @@
+Total nodes : 124083
+Total edges : 224171
+Source cases (have own entry): 6351
+Reference nodes (only cited)  : 117732
+
+Top 20 most-cited (highest in-degree):
+    1. [  991] the Code of Civil Procedure
+    2. [  843] Article 226
+    3. [  723] Art. 14
+    4. [  664] Indian Penal Code
+    5. [  616] Code of Criminal Procedure
+    6. [  534] Art. 136
+    7. [  488] Art. 32
+    8. [  436] , 21
+    9. [  368] Indian Kanoon - Search engine for Indian Law
+   10. [  361] Section 302
+   11. [  356] J_K_Industries_Ltd_And_Anr_vs_Union_Of_India_Uoi_And_Ors_on_19_November_2007
+   12. [  356] Indian Kanoon - Search engine for Indian Law
+   13. [  351] The_State_Of_West_Bengal_vs_Kesoram_Industries_Ltd_And_Ors_on_15_January_2004
+   14. [  351] Indian Kanoon - Search engine for Indian Law
+   15. [  350] State_Of_Punjab_And_Anr_vs_Devans_Modern_Brewaries_Ltd_And_Anr_on_20_November_20
+   16. [  350] The Oriental Insurance Company Limited vs Meena Variyal & Ors
+   17. [  348] Indian Kanoon - Search engine for Indian Law
+   18. [  335] Evidence Act
+   19. [  335] Land Acquisition Act, 1894
+   20. [  335] Ghurey_Lal_vs_State_Of_U_P_on_30_July_2008
+
+Top 20 most-citing (highest out-degree):
+    1. [  563] Kesavananda Bharati Sripadagalvaru ... vs State Of Kerala And Anr on 24 April, 1
+    2. [  528] Delhi Development Authority vs Tejpal on 17 May, 2024
+    3. [  400] Indore_Development_Authority_vs_Manoharlal_And_Ors_Etc_on_6_March_2020
+    4. [  400] Justice_K_S_Puttaswamy_Retd_vs_Union_Of_India_on_26_September_2018
+    5. [  368] Supreme_Court_Advocates_On_Record_vs_Union_Of_India_on_16_October_2015
+    6. [  355] Madras_Bar_Association_vs_Union_Of_India_Anr_on_25_September_2014
+    7. [  340] Manish_Kumar_vs_Union_Of_India_on_19_January_2021
+    8. [  335] Jindal Stainless Ltd.& Anr vs State Of Haryana & Ors
+    9. [  317] Kaushal Kishor vs The State Of Uttar Pradesh Govt. Of U.P. ...
+   10. [  314] Jaishri_Laxmanrao_Patil_vs_The_Chief_Minister_And_Ors_on_5_May_2021
+   11. [  302] Kartar_Singh_vs_State_Of_Punjab_on_11_March_1994
+   12. [  284] Tofan Singh vs The State Of Tamil Nadu
+   13. [  278] Mukesh_Anr_vs_State_For_Nct_Of_Delhi_Ors_on_5_May_2017
+   14. [  268] Anoop_Baranwal_vs_Union_Of_India_Ministry_Of_Law_And_on_2_March_2023
+   15. [  263] Justice_K_S_Puttaswamy_Retd_And_Anr_vs_Union_Of_India_And_Ors_on_24_August_2017
+   16. [  262] Additional District Magistrate, ... vs Shivakant Shukla on 28 April, 1976
+   17. [  259] Aligarh_Muslim_University_Through_Its_vs_Naresh_Agarwal_on_8_November_2024
+   18. [  248] Additional District Magistrate, ... vs S. S. Shukla Etc. Etc on 28 April, 1976
+   19. [  246] Indore Development Authority vs Shailendra (Dead) Through Its Lrs. And ...
+   20. [  232] Yakub_Abdul_Razak_Memon_vs_State_Of_Maharashtra_Th_Cbi_Mumbai_on_21_March_2013
