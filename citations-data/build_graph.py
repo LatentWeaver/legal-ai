@@ -20,6 +20,12 @@ import re
 import networkx as nx
 import pandas as pd
 
+# Strip characters illegal in XML 1.0 (anything except tab/LF/CR in the C0 range)
+_BAD_XML = re.compile(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]')
+
+def _clean(s: str) -> str:
+    return _BAD_XML.sub('', s or '')
+
 # ── config ────────────────────────────────────────────────────────────────────
 
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
@@ -122,6 +128,7 @@ def build_graph() -> nx.DiGraph:
 
     def ensure_node(node_id: str, name: str = "", year: str = "", url: str = "",
                     is_source: bool = False):
+        name = _clean(name)
         if node_id not in node_meta:
             node_meta[node_id] = {"label": name, "year": year, "url": url,
                                    "is_source": is_source}
