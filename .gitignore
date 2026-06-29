@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# CourtListener raw bulk downloads and local indexes are too large for Git.
+us-medmal-pipeline/courtlistener-bulk/
+
+# Local notes/PDFs; keep them out of branch pushes.
+us-medmal-pipeline/docs/
+
+# Generated U.S. citation dataset is large; share via Drive/OneDrive/Git LFS if needed.
+citations-data-us/
+
+# Old backup of the first strict-only export. Keep local unless explicitly needed.
+citations-data-us-legacy-before-rich/

@@ -1,0 +1,3 @@
+id,date_created,date_modified,author_str,per_curiam,joined_by_str,type,sha1,page_count,download_url,local_path,plain_text,html,html_lawbox,html_columbia,html_anon_2020,xml_harvard,xml_scan,html_with_citations,extracted_by_ocr,author_id,cluster_id
+101,2020-01-01,2020-01-01,,f,,010combined,,1,,,This medical malpractice decision cites Doctor v Smith.,,,,,,,<p>medical malpractice</p>,f,,1
+202,2010-01-01,2010-01-01,,f,,010combined,,1,,,Earlier negligence case.,,,,,,,<p>Earlier negligence case.</p>,f,,2

@@ -1,0 +1,3 @@
+id,date_created,date_modified,judges,date_filed,date_filed_is_approximate,slug,case_name_short,case_name,case_name_full,scdb_id,scdb_decision_direction,scdb_votes_majority,scdb_votes_minority,source,procedural_history,attorneys,nature_of_suit,posture,syllabus,headnotes,summary,disposition,history,other_dates,cross_reference,correction,citation_count,precedential_status,date_blocked,blocked,filepath_json_harvard,filepath_pdf_harvard,docket_id,arguments,headmatter
+1,2020-01-01,2020-01-01,,2020-02-03,f,patient-v-hospital,Patient,Patient v. Hospital,Patient v. Hospital,,,,,U,,,medical malpractice,,,,,,,,,,2,Published,,f,,,10,,
+2,2010-01-01,2010-01-01,,2010-05-06,f,doctor-v-smith,Doctor,Doctor v. Smith,Doctor v. Smith,,,,,U,,,,,,,,,,,,,4,Published,,f,,,11,,
