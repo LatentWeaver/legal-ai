@@ -1,0 +1,54 @@
+Total nodes      : 124,083
+Total edges      : 224,171
+Communities      : 172
+Largest community: 10,922 nodes (C0)
+Smallest         : 2 nodes
+
+Top 20 by global PageRank:
+    1. [PR=0.002096] [C2] the Code of Civil Procedure
+    2. [PR=0.001388] [C90] Indian Kanoon - Search engine for Indian Law
+    3. [PR=0.001250] [C141] Indian Kanoon - Search engine for Indian Law
+    4. [PR=0.001198] [C63] M.S. Narayana Menon @ Mani vs State Of Kerala & Anr
+    5. [PR=0.001139] [C125] Indian Kanoon - Search engine for Indian Law
+    6. [PR=0.001096] [C34] Union_Of_India_vs_Pramod_Gupta_D_By_Lrs_Ors_on_7_September_2005
+    7. [PR=0.001083] [C123] T.Lakshmipathi & Ors vs P.Nithyananda Reddy & Ors
+    8. [PR=0.001072] [C90] Indian Kanoon - Search engine for Indian Law
+    9. [PR=0.001068] [C90] New
+India Assurance Compay vs. Satpal Singh and Ors.
+   10. [PR=0.001063] [C92] Indian Kanoon - Search engine for Indian Law
+   11. [PR=0.001026] [C125] Indian Kanoon - Search engine for Indian Law
+   12. [PR=0.001021] [C90] The Oriental Insurance Company Limited vs Meena Variyal & Ors
+   13. [PR=0.001013] [C5] Article 226
+   14. [PR=0.001003] [C118] Indian Kanoon - Search engine for Indian Law
+   15. [PR=0.001002] [C90] M/S. National Insurance Co. Ltd vs Baljit Kaur And Ors
+   16. [PR=0.000993] [C107] Indian Kanoon - Search engine for Indian Law
+   17. [PR=0.000969] [C4] State of Haryana and Ors. v. Ch. Bhajan Lal and Ors., J.T.
+   18. [PR=0.000960] [C142] Indian Kanoon - Search engine for Indian Law
+   19. [PR=0.000947] [C154] Indian Kanoon - Search engine for Indian Law
+   20. [PR=0.000941] [C90] Indian Kanoon - Search engine for Indian Law
+
+Top 20 communities by size:
+  C   0 |  10922 nodes | cases=1063 | top: Maharashtra State Board of Secondary 
+and Higher Second
+  C   2 |   7913 nodes | cases=1097 | top: the Code of Civil Procedure
+  C   4 |   7289 nodes | cases= 988 | top: State of Haryana and Ors. v. Ch. Bhajan Lal and Ors., J
+  C  33 |   4259 nodes | cases=  41 | top: Indian Kanoon - Search engine for Indian Law
+  C   5 |   4132 nodes | cases= 597 | top: Article 226
+  C  90 |   3613 nodes | cases=  77 | top: Indian Kanoon - Search engine for Indian Law
+  C 125 |   2850 nodes | cases=  18 | top: Indian Kanoon - Search engine for Indian Law
+  C  43 |   2815 nodes | cases=  45 | top: Bondar Singh 
+& Ors. vs. Nihal Singh & Ors.
+  C 129 |   2745 nodes | cases=  38 | top: G.M. Tank vs State Of Gujarat & Anr
+  C  11 |   2614 nodes | cases= 194 | top: Sridevi & Ors vs. 
+Jayaraja Shetty & Ors
+  C  94 |   2411 nodes | cases=  30 | top: Jindal Stainless Ltd. & 
+Anr. v. State of Haryana & Ors
+  C  82 |   2359 nodes | cases=  27 | top: Indian Kanoon - Search engine for Indian Law
+  C 136 |   2343 nodes | cases=  25 | top: Indian Kanoon - Search engine for Indian Law
+  C  15 |   2284 nodes | cases= 231 | top: Indian Kanoon - Search engine for Indian Law
+  C  89 |   2259 nodes | cases=  26 | top: Indian Kanoon - Search engine for Indian Law
+  C   8 |   2251 nodes | cases= 321 | top: B.R. Mehta vs Smt. Atma Devi & Ors on 2 September, 1987
+  C 121 |   2117 nodes | cases=  25 | top: Indian Kanoon - Search engine for Indian Law
+  C 148 |   2102 nodes | cases=  29 | top: Indian Kanoon - Search engine for Indian Law
+  C 107 |   2093 nodes | cases=  31 | top: Indian Kanoon - Search engine for Indian Law
+  C  61 |   2045 nodes | cases=  24 | top: Indian Kanoon - Search engine for Indian Law
