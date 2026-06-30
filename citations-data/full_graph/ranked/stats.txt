@@ -1,0 +1,75 @@
+Composite Case Ranking
+======================
+Total ranked cases   : 5,289
+Super-landmarks      : 118 (top 9% on all signals)
+Weights              : PR=0.4 | BW=0.35 | LocalPR=0.25
+
+Top 30 by composite score:
+     1. [score=0.9980] [PR=0.000523] [C0] [LANDMARK] Charan_Lal_Sahu_Etc_Etc_vs_Union_Of_India_And_Ors_on_22_December_
+     2. [score=0.9975] [PR=0.000483] [C11] [LANDMARK] Anil Kak vs Kumari Sharada Raje & Ors
+     3. [score=0.9938] [PR=0.000308] [C4] [LANDMARK] Aloke Nath Dutta & Ors vs State Of West Bengal
+     4. [score=0.9926] [PR=0.000629] [C5] [LANDMARK] Hindustan Petroleum Corpn. Ltd vs Darius Shapur Chenai & Ors
+     5. [score=0.9919] [PR=0.000201] [C0] [LANDMARK] Tata Cellular  v.  Union  of
+India6
+     6. [score=0.9915] [PR=0.000208] [C0] [LANDMARK] Delhi_Transport_Corporation_vs_D_T_C_Mazdoor_Congress_on_4_Septem
+     7. [score=0.9899] [PR=0.000217] [C4] [LANDMARK] Kehar Singh & Ors vs State (Delhi Admn.) on 3 August, 1988
+     8. [score=0.9892] [PR=0.000200] [C0] [LANDMARK] The Ahmedabad St. Xaviers College ... vs State Of Gujarat & Anr o
+     9. [score=0.9892] [PR=0.000170] [C0] [LANDMARK] Unni_Krishnan_J_P_And_Ors_Etc_Etc_vs_State_Of_Andhra_Pradesh_And_
+    10. [score=0.9890] [PR=0.000122] [C0] [LANDMARK] Kesavananda Bharati Sripadagalvaru ... vs State Of Kerala And Anr
+    11. [score=0.9887] [PR=0.000129] [C0] [LANDMARK] State Of Kerala & Anr vs N. M. Thomas & Ors on 19 September, 1975
+    12. [score=0.9879] [PR=0.000273] [C0] [LANDMARK] Sukhdev Singh, Oil & Natural Gas ... vs Bhagat Ram, Association O
+    13. [score=0.9877] [PR=0.000471] [C11] [LANDMARK] Addagada_Raghavamma_And_Anr_vs_Addagada_Chenchamma_And_Anr_on_9_A
+    14. [score=0.9875] [PR=0.000246] [C6] [LANDMARK] Narmada Bachao Andolan Vs.
+
+      Union  of India
+    15. [score=0.9864] [PR=0.000271] [C4] [LANDMARK] Bachan_Singh_Etc_Etc_vs_State_Of_Punjab_Etc_Etc_on_16_August_1982
+    16. [score=0.9859] [PR=0.000105] [C4] [LANDMARK] Kartar_Singh_vs_State_Of_Punjab_on_11_March_1994
+    17. [score=0.9850] [PR=0.000282] [C0] [LANDMARK] Ramana_Dayaram_Shetty_vs_The_International_Airport_Authority_Of_o
+    18. [score=0.9835] [PR=0.000106] [C0] [LANDMARK] Ashoka_Kumar_Thakur_vs_Union_Of_India_Ors_on_10_April_2008
+    19. [score=0.9824] [PR=0.000245] [C4] [LANDMARK] Janata_Dal_vs_H_S_Chowdhary_And_Ors_on_28_August_1992
+    20. [score=0.9822] [PR=0.000103] [C4] [LANDMARK] A_R_Antulay_vs_R_S_Nayak_Anr_on_29_April_1988
+    21. [score=0.9820] [PR=0.000238] [C6] [LANDMARK] A.P. Pollution Control Board vs Prof.M.V.Nayudu (Retd.) & Others 
+    22. [score=0.9816] [PR=0.000177] [C6] [LANDMARK] M.I. Builders Pvt. Ltd vs Radhey Shyam Sahu And Others on 26 July
+    23. [score=0.9812] [PR=0.000099] [C0] [LANDMARK] Indra_Sawhney_Etc_Etc_vs_Union_Of_India_And_Others_Etc_Etc_on_16_
+    24. [score=0.9808] [PR=0.000297] [C0] [LANDMARK] Maneka_Gandhi_vs_Union_Of_India_on_25_January_1978
+    25. [score=0.9808] [PR=0.000107] [C0] [LANDMARK] L_Chandra_Kumar_vs_Union_Of_India_And_Others_on_18_March_1997
+    26. [score=0.9802] [PR=0.000186] [C2] [LANDMARK] Allahabad Bank vs Canara Bank & Another on 10 April, 2000
+    27. [score=0.9797] [PR=0.000220] [C0] [LANDMARK] S_P_Gupta_vs_Union_Of_India_Anr_on_30_December_1981
+    28. [score=0.9780] [PR=0.000143] [C0] [LANDMARK] Mafatlal_Industries_Ltd_And_Ors_vs_Union_Of_India_Uoi_And_Ors_on_
+    29. [score=0.9778] [PR=0.000074] [C0] [LANDMARK] Som_Prakash_Rekhi_vs_Union_Of_India_Anr_on_13_November_1980
+    30. [score=0.9767] [PR=0.000142] [C0] [LANDMARK] Bennett Coleman & Co. & Ors vs Union Of India & Ors on 30 October
+
+Super-landmarks (top 10% on ALL three signals):
+     1. [score=0.9980] [PR=0.000523] [C0] Charan_Lal_Sahu_Etc_Etc_vs_Union_Of_India_And_Ors_on_22_December_
+     2. [score=0.9975] [PR=0.000483] [C11] Anil Kak vs Kumari Sharada Raje & Ors
+     3. [score=0.9938] [PR=0.000308] [C4] Aloke Nath Dutta & Ors vs State Of West Bengal
+     4. [score=0.9926] [PR=0.000629] [C5] Hindustan Petroleum Corpn. Ltd vs Darius Shapur Chenai & Ors
+     5. [score=0.9919] [PR=0.000201] [C0] Tata Cellular  v.  Union  of
+India6
+     6. [score=0.9915] [PR=0.000208] [C0] Delhi_Transport_Corporation_vs_D_T_C_Mazdoor_Congress_on_4_Septem
+     7. [score=0.9899] [PR=0.000217] [C4] Kehar Singh & Ors vs State (Delhi Admn.) on 3 August, 1988
+     8. [score=0.9892] [PR=0.000200] [C0] The Ahmedabad St. Xaviers College ... vs State Of Gujarat & Anr o
+     9. [score=0.9892] [PR=0.000170] [C0] Unni_Krishnan_J_P_And_Ors_Etc_Etc_vs_State_Of_Andhra_Pradesh_And_
+    10. [score=0.9890] [PR=0.000122] [C0] Kesavananda Bharati Sripadagalvaru ... vs State Of Kerala And Anr
+    11. [score=0.9887] [PR=0.000129] [C0] State Of Kerala & Anr vs N. M. Thomas & Ors on 19 September, 1975
+    12. [score=0.9879] [PR=0.000273] [C0] Sukhdev Singh, Oil & Natural Gas ... vs Bhagat Ram, Association O
+    13. [score=0.9877] [PR=0.000471] [C11] Addagada_Raghavamma_And_Anr_vs_Addagada_Chenchamma_And_Anr_on_9_A
+    14. [score=0.9875] [PR=0.000246] [C6] Narmada Bachao Andolan Vs.
+
+      Union  of India
+    15. [score=0.9864] [PR=0.000271] [C4] Bachan_Singh_Etc_Etc_vs_State_Of_Punjab_Etc_Etc_on_16_August_1982
+    16. [score=0.9859] [PR=0.000105] [C4] Kartar_Singh_vs_State_Of_Punjab_on_11_March_1994
+    17. [score=0.9850] [PR=0.000282] [C0] Ramana_Dayaram_Shetty_vs_The_International_Airport_Authority_Of_o
+    18. [score=0.9835] [PR=0.000106] [C0] Ashoka_Kumar_Thakur_vs_Union_Of_India_Ors_on_10_April_2008
+    19. [score=0.9824] [PR=0.000245] [C4] Janata_Dal_vs_H_S_Chowdhary_And_Ors_on_28_August_1992
+    20. [score=0.9822] [PR=0.000103] [C4] A_R_Antulay_vs_R_S_Nayak_Anr_on_29_April_1988
+    21. [score=0.9820] [PR=0.000238] [C6] A.P. Pollution Control Board vs Prof.M.V.Nayudu (Retd.) & Others 
+    22. [score=0.9816] [PR=0.000177] [C6] M.I. Builders Pvt. Ltd vs Radhey Shyam Sahu And Others on 26 July
+    23. [score=0.9812] [PR=0.000099] [C0] Indra_Sawhney_Etc_Etc_vs_Union_Of_India_And_Others_Etc_Etc_on_16_
+    24. [score=0.9808] [PR=0.000297] [C0] Maneka_Gandhi_vs_Union_Of_India_on_25_January_1978
+    25. [score=0.9808] [PR=0.000107] [C0] L_Chandra_Kumar_vs_Union_Of_India_And_Others_on_18_March_1997
+    26. [score=0.9802] [PR=0.000186] [C2] Allahabad Bank vs Canara Bank & Another on 10 April, 2000
+    27. [score=0.9797] [PR=0.000220] [C0] S_P_Gupta_vs_Union_Of_India_Anr_on_30_December_1981
+    28. [score=0.9780] [PR=0.000143] [C0] Mafatlal_Industries_Ltd_And_Ors_vs_Union_Of_India_Uoi_And_Ors_on_
+    29. [score=0.9778] [PR=0.000074] [C0] Som_Prakash_Rekhi_vs_Union_Of_India_Anr_on_13_November_1980
+    30. [score=0.9767] [PR=0.000142] [C0] Bennett Coleman & Co. & Ors vs Union Of India & Ors on 30 October

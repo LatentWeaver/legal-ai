@@ -1,0 +1,224 @@
+Subcommunity Detection Results
+==============================
+Target communities : [0, 2, 4, 5, 8]
+Resolution         : 1.5
+
+C0 -> 38 subcommunities:
+     C0_S9.0 |   100 nodes | top: Ramana_Dayaram_Shetty_vs_The_International_Airport_Authority
+    C0_S11.0 |    84 nodes | top: R_S_Nayak_vs_A_R_Antulay_on_16_February_1984
+    C0_S13.0 |    66 nodes | top: Maneka_Gandhi_vs_Union_Of_India_on_25_January_1978
+     C0_S3.0 |    59 nodes | top: Dr_Ram_Manohar_Lohia_vs_State_Of_Bihar_And_Others_on_7_Septe
+     C0_S4.0 |    57 nodes | top: The Ahmedabad St. Xaviers College ... vs State Of Gujarat & 
+    C0_S25.0 |    55 nodes | top: Mafatlal_Industries_Ltd_And_Ors_vs_Union_Of_India_Uoi_And_Or
+     C0_S1.0 |    46 nodes | top: K.V. Subba Rao & Ors. Etc vs Government Of Andhra Pradesh & 
+     C0_S2.0 |    45 nodes | top: Charan_Lal_Sahu_Etc_Etc_vs_Union_Of_India_And_Ors_on_22_Dece
+    C0_S12.0 |    44 nodes | top: I_C_Golaknath_Ors_vs_State_Of_Punjab_Anrs_With_Connected_on_
+    C0_S20.0 |    43 nodes | top: Supreme_Court_Employees__Welfare_vs_Union_Of_India_Uoi_And_A
+    C0_S22.0 |    35 nodes | top: Lucknow Development Authority vs M.K. Gupta on 5 November, 1
+    C0_S27.0 |    32 nodes | top: Swami_Motor_Transport_P_Ltd_And_vs_Sri_Sankaraswamigal_Mutta
+     C0_S0.0 |    32 nodes | top: Olga_Tellis_Ors_vs_Bombay_Municipal_Corporation_Ors_Etc_on_1
+    C0_S30.0 |    29 nodes | top: Samant N. Balakrishna Etc vs George Fernandez And Ors. Etc o
+    C0_S34.0 |    28 nodes | top: Twentieth Century Finance Corpn.Ltd.& ... vs State Of Mahara
+    C0_S36.0 |    22 nodes | top: Bangalore_Water_Supply_Sewerage_vs_R_Rajappa_Others_on_21_Fe
+     C0_S7.0 |    21 nodes | top: Naresh_Shridhar_Mirajkar_And_Ors_vs_State_Of_Maharashtra_And
+    C0_S35.0 |    19 nodes | top: Har Shankar & Ors. Etc. Etc vs The Dy. Excise & Taxation Com
+    C0_S28.0 |    16 nodes | top: Balabhagas Hulaschand vs State Of Orissa on 9 December, 1975
+    C0_S23.0 |    11 nodes | top: Delhi_Cloth_General_Mills_Co_Ltd_vs_Workmen_And_Ors_Etc_on_2
+    C0_S18.0 |     8 nodes | top: Priya Gupta vs State Of Chhattisgarh & Ors on 8 May, 2012
+     C0_S8.0 |     5 nodes | top: Workmen Of Messrs Firestone Tyre ... vs Management & Others 
+    C0_S16.0 |     4 nodes | top: Gorkha Security Services vs Govt. Of Nct Of Delhi & Ors on 4
+    C0_S17.0 |     4 nodes | top: Kumaon Mandal Vikas Nigam Ltd vs Girja Shankar Pant & Ors on
+    C0_S19.0 |     3 nodes | top: Sur_Enamel_And_Stampingworks_P_Ltd_vs_Their_Workmen_on_7_May
+    C0_S21.0 |     3 nodes | top: Ahmed G.H. Ariff & Ors vs Commissioner Of Wealth Tax, Calcut
+    C0_S24.0 |     2 nodes | top: L.D. Jaisinghani vs Naraindas N. Punjabi on 27 November, 197
+    C0_S26.0 |     2 nodes | top: D.L.F. Housing Construction (P) Ltd. vs Delhi Municipal Corp
+    C0_S15.0 |     2 nodes | top: The_Sindhu_Resettlement_Corporation_vs_The_Industrial_Tribun
+    C0_S29.0 |     2 nodes | top: J_K_Cotton_Spinning_Weavingmills_vs_Badri_Mali_And_Others_on
+    C0_S14.0 |     2 nodes | top: R. Muthukumar vs The Chairman And Managing Director ...
+    C0_S31.0 |     2 nodes | top: Manganese Ore (India) Ltd. A vs The Regional Assistant Commi
+    C0_S32.0 |     2 nodes | top: Mahabir Jute Mills Ltd. Gorakhpur A vs Shibban Lal Saxena An
+    C0_S33.0 |     2 nodes | top: S_Govinda_Menon_vs_The_Union_Of_India_Anr_on_2_February_1967
+    C0_S10.0 |     2 nodes | top: Mirza_Ali_Akbar_Kashani_vs_United_Arab_Republic_And_Anr_on_5
+     C0_S6.0 |     2 nodes | top: Shibapada Mukherjee vs The State Of West Bengal on 25 Januar
+     C0_S5.0 |     2 nodes | top: State Of Karnataka Etc vs Shri Rameshwara Rice Mills ... on 
+    C0_S37.0 |     2 nodes | top: Jaora_Sugar_Mills_P_Ltd_vs_State_Of_Madhya_Pradesh_And_Other
+
+C2 -> 60 subcommunities:
+     C2_S2.0 |    55 nodes | top: Miheer H. Mafatlal vs Mafatlal Industries Ltd on 11 Septembe
+     C2_S4.0 |    52 nodes | top: Ispat Engineering And Foundry Works, ... vs Steel Authority 
+     C2_S3.0 |    45 nodes | top: Vidhyadhar vs Manikrao & Anr. on 17 March, 1999
+     C2_S9.0 |    44 nodes | top: Rajasthan State Mines & Minerals ... vs Eastern Engineering 
+    C2_S27.0 |    44 nodes | top: K_K_Modi_vs_K_N_Modi_Ors_on_4_February_1998
+    C2_S40.0 |    40 nodes | top: Parsinni (Dead) By Lrs. And Ors. vs Sukhi And Ors. on 15 Sep
+    C2_S10.0 |    38 nodes | top: Renusagar Power Co. Ltd vs General Electric Co on 7 October,
+    C2_S58.0 |    36 nodes | top: R.K. Mohammed Ubaidullah & Ors vs Hajee C.Abdul Wahab (D) & 
+    C2_S24.0 |    36 nodes | top: Canara Bank vs Nuclear Power Corporation Of India Ltd. ... o
+    C2_S34.0 |    35 nodes | top: Naresh Chandra Sanyal vs Calcutta Stock Exchange Association
+    C2_S47.0 |    31 nodes | top: Dhurandhar Prasad Singh vs Jai Prakash University And Ors on
+    C2_S52.0 |    31 nodes | top: Santosh Hazari vs Purushottam Tiwari (Dead) By Lrs on 8 Febr
+    C2_S14.0 |    28 nodes | top: Narandas Karsondas vs S.A. Kamtam & Anr on 7 December, 1976
+    C2_S11.0 |    27 nodes | top: Solidaire India Ltd vs Fairgrowth Financial Services Ltd. An
+    C2_S45.0 |    25 nodes | top: K.S. Bhoopathy And Ors vs Kokila And Ors on 8 May, 2000
+    C2_S43.0 |    25 nodes | top: Allahabad Bank vs Canara Bank & Another on 10 April, 2000
+    C2_S48.0 |    22 nodes | top: Tirumala Tirupati Devasthanams vs K.M. Krishnaiah on 2 March
+    C2_S18.0 |    21 nodes | top: Ram_Sarup_Gupta_Dead_By_Lrs_vs_Bishun_Narain_Inter_College_O
+    C2_S28.0 |    21 nodes | top: Ragu Thilak D. John vs S.Rayappan & Others on 23 January, 20
+     C2_S1.0 |    19 nodes | top: Dorab Cawasji Warden vs Coomi Sorab Warden & Ors on 13 Febru
+    C2_S29.0 |    17 nodes | top: Modi_Co_vs_Union_Of_India_on_7_December_1967
+    C2_S30.0 |    11 nodes | top: Jose Da Costa And Anr. vs Bascora Sadasiva Sinai Narcornim A
+    C2_S42.0 |    10 nodes | top: Raptakos Brett And Co. Ltd vs Ganesh Property on 8 September
+    C2_S13.0 |    10 nodes | top: Ramkishore_Lal_vs_Kamal_Narain_on_22_November_1962
+    C2_S12.0 |     8 nodes | top: Mahboob Sahab vs Syed Ismail & Ors on 23 March, 1995
+    C2_S57.0 |     5 nodes | top: Janak Dulari Devi & Anr vs Kapildeo Rai & Anr on 15 April, 2
+    C2_S38.0 |     4 nodes | top: J.Samuel & Ors vs Gattu Mhesh & Ors
+    C2_S17.0 |     4 nodes | top: Manzoor Ahmed Margray vs Gulam Hassan Aram & Ors on 5 Octobe
+    C2_S15.0 |     4 nodes | top: Bhagwan_Swaroop_And_Ors_vs_Mool_Chand_And_Ors_on_3_February_
+    C2_S31.0 |     3 nodes | top: Pentakota_Srirakulu_vs_The_Co_Operative_Marketing_Society_Lt
+     C2_S0.0 |     3 nodes | top: Atcom Technologies Ltd vs Y.A. Chunawala And Co.
+    C2_S19.0 |     3 nodes | top: Sameer Singh & Anr vs Abdul Rab & Ors on 14 October, 2014
+    C2_S16.0 |     3 nodes | top: Om Prakash And Anr vs Jai Prakash on 9 January, 1992
+    C2_S23.0 |     3 nodes | top: Akhil_Bhartiya_Upbhokta_Congress_vs_Staet_Of_M_P_Ors_on_6_Ap
+    C2_S22.0 |     3 nodes | top: Lilavati Kirtilal Mehta Medical Trust vs M/S Unique Shanti D
+     C2_S5.0 |     2 nodes | top: Barasat Eye Hospital Thr. Its Rep. vs Kaustabh Mondal
+     C2_S6.0 |     2 nodes | top: Mrs. Geetaben Anilkumar Patel And Ors. vs Pravinchandra Jina
+    C2_S56.0 |     2 nodes | top: Dr. Kishore Chand Kapoor And Ors. vs Dharam Pal Kapoor And O
+    C2_S55.0 |     2 nodes | top: Kiran Devi vs Bihar State Sunni Wakf Board on 5 April, 2021
+    C2_S54.0 |     2 nodes | top: Centre For Public Interest Litigation vs U.O.I
+    C2_S53.0 |     2 nodes | top: Ramagya Prasad Gupta & Ors vs Murli Prasad & Ors on 11 April
+     C2_S7.0 |     2 nodes | top: Commissioner_Madras_Hindu_Religious_vs_Narayana_Ayyangar_And
+    C2_S51.0 |     2 nodes | top: M/S. Sonell Clocks And Gifts Ltd. vs The New India Assurance
+    C2_S50.0 |     2 nodes | top: N.S.S.Narayana Sarma & Ors vs M/S.Goldstone Exports P. Ltd. 
+    C2_S49.0 |     2 nodes | top: Vannarakkal Kallalathil Sreedharan vs Chandramaath Balakrish
+     C2_S8.0 |     2 nodes | top: Loonkaran_Sethiya_vs_State_Bank_Of_Jaipur_Ors_on_25_April_19
+    C2_S26.0 |     2 nodes | top: Ghantesher Ghosh vs Madan Mohan Ghosh & Ors on 18 September,
+    C2_S46.0 |     2 nodes | top: Ugamsingh & Mishrimal vs Kesrimal & Ors on 26 November, 1970
+    C2_S32.0 |     2 nodes | top: Municipal_Council_Khurai_And_Another_vs_Kamal_Kumar_Another_
+    C2_S44.0 |     2 nodes | top: New_Satgram_Engineering_Works_Anr_vs_Union_Of_India_Ors_And_
+    C2_S20.0 |     2 nodes | top: Dlf Universal Ltd. & Anr vs Director, T.&C. Planning Haryana
+    C2_S21.0 |     2 nodes | top: B. Gangadhar vs B.G. Rajalingam on 12 May, 1995
+    C2_S41.0 |     2 nodes | top: Sugandhi (Dead) vs P. Rajkumar Rep. By Power Agent Imamoli
+    C2_S39.0 |     2 nodes | top: Shaukat Hussain Alias Ali Akram & Ors vs Smt. Bhuneshwari De
+    C2_S37.0 |     2 nodes | top: Ramachandra_Shenoy_And_Another_vs_Mrs_Hilda_Brite_And_Others
+    C2_S36.0 |     2 nodes | top: Commissioner_Of_Income_Tax_Madhya_vs_Seth_Govindram_Sugar_Mi
+    C2_S35.0 |     2 nodes | top: Ajudh Raj And Ors vs Moti, S/O Mussadi on 3 May, 1991
+    C2_S25.0 |     2 nodes | top: Dewan Singh vs Champat Singh & Ors on 17 October, 1969
+    C2_S33.0 |     2 nodes | top: Sundaram_Finance_Ltd_vs_State_Of_Kerala_And_Another_on_30_No
+    C2_S59.0 |     2 nodes | top: Budhwanti And Anr vs Gulab Chand Prasad on 4 March, 1987
+
+C4 -> 47 subcommunities:
+    C4_S15.0 |    71 nodes | top: Aloke Nath Dutta & Ors vs State Of West Bengal
+    C4_S23.0 |    49 nodes | top: A_R_Antulay_vs_R_S_Nayak_Anr_on_29_April_1988
+    C4_S18.0 |    49 nodes | top: State_Of_Bihar_And_Anr_vs_J_A_C_Saldanha_And_Ors_on_13_Novem
+     C4_S2.0 |    42 nodes | top: Kehar Singh & Ors vs State (Delhi Admn.) on 3 August, 1988
+     C4_S0.0 |    39 nodes | top: Munshi_Ram_And_Others_vs_Delhi_Administration_on_27_November
+    C4_S13.0 |    37 nodes | top: Central Bureau Of Investigation, ... vs Duncans Agro Industr
+     C4_S5.0 |    36 nodes | top: The_State_Of_Gujarat_vs_Jaswantlal_Nathalal_on_23_November_1
+    C4_S36.0 |    36 nodes | top: Lalita Kumari vs Govt.Of U.P.& Ors
+    C4_S33.0 |    33 nodes | top: P. C. Purushothama Reddiar vs S. Perumal on 2 December, 1971
+    C4_S14.0 |    30 nodes | top: R. Pandian And Anothera. Deivendran Son ... vs State Of Tami
+    C4_S29.0 |    28 nodes | top: Satvir Singh And Ors vs State Of Punjab And Anr on 27 Septem
+    C4_S40.0 |    26 nodes | top: Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors
+    C4_S28.0 |    25 nodes | top: Sidhartha Vashisht @ Manu Sharma vs State (Nct Of Delhi)
+     C4_S9.0 |    22 nodes | top: State Of U.P vs Anil Singh on 26 August, 1988
+    C4_S27.0 |    20 nodes | top: Nishant Aggarwal vs. Kailash Kumar Sharma
+    C4_S16.0 |    19 nodes | top: Abdul Wahab Ansari vs State Of Bihar & Anr on 17 October, 20
+    C4_S34.0 |    16 nodes | top: State Of Punjab vs Vk Khanna & Ors on 30 November, 2000
+    C4_S19.0 |    14 nodes | top: Gura Singh vs The State Of Rajasthan on 6 December, 2000
+    C4_S20.0 |    12 nodes | top: Kirtikant D. Vadodaria vs State Of Gujarat & Anr on 26 April
+    C4_S25.0 |    10 nodes | top: Smt. Parayankandiyal ... vs K. Devi & Ors on 26 April, 1996
+     C4_S4.0 |    10 nodes | top: Raghunath And Ors. vs State Of U.P. And Ors. on 23 January, 
+    C4_S21.0 |     9 nodes | top: S_Gopal_Reddy_vs_State_Of_Andhra_Pradesh_on_11_July_1996
+     C4_S1.0 |     6 nodes | top: Avtar Singh vs Union Of India & Ors
+    C4_S37.0 |     4 nodes | top: Mangat Ram & Anr. v. Sardar Meharban Singh
+    C4_S30.0 |     4 nodes | top: Shambhoo Missir And Another vs State Of Bihar on 24 July, 19
+    C4_S24.0 |     4 nodes | top: Lachman_Utamchand_Kiriplani_vs_Meena_Alias_Mota_on_14_August
+     C4_S7.0 |     3 nodes | top: Jaydayal Poddar (Deceased) Through His ... vs Mst. Bibi Hazr
+     C4_S3.0 |     3 nodes | top: Devi Singh vs Municipal Corporation, Hyderabad on 20 July, 1
+    C4_S12.0 |     3 nodes | top: State Of Maharashtra vs Manglya Dhavu Kongil on 7 January, 1
+    C4_S43.0 |     2 nodes | top: Jagbir Singh vs State (Nct Of Delhi)
+    C4_S44.0 |     2 nodes | top: Y. Narasimha Rao And Ors vs Y. Venkata Lakshmi And Anr on 9 
+    C4_S42.0 |     2 nodes | top: Pala Singh & Anr vs State Of Punjab on 23 August, 1972
+    C4_S39.0 |     2 nodes | top: M.T. Enrica Lexie & Anr vs Doramma & Ors on 2 May, 2012
+    C4_S38.0 |     2 nodes | top: B.R. Mulani vs Dr. A.B. Aswathanarayana And Others on 17 Sep
+    C4_S45.0 |     2 nodes | top: Sadhu Saran Singh vs State Of U.P. & Ors
+    C4_S41.0 |     2 nodes | top: State Of Punjab vs Iqbal Singh And Ors on 10 May, 1991
+    C4_S26.0 |     2 nodes | top: Kirpal_Singh_vs_State_Of_U_P_on_10_May_1963
+    C4_S35.0 |     2 nodes | top: Triyambak S. Hegde vs. Sripad
+    C4_S32.0 |     2 nodes | top: Jhummamal_Alias_Devandas_vs_State_Of_Madhya_Pradesh_Ors_on_2
+    C4_S31.0 |     2 nodes | top: Bishwanath Prasad And Others vs Dwarka Prasad (Dead) And Oth
+     C4_S6.0 |     2 nodes | top: Rana Ayyub vs Directorate Of Enforcement on 7 February, 2023
+    C4_S22.0 |     2 nodes | top: Malkiat_Singh_Anr_vs_State_Of_Punjab_on_8_November_1968
+    C4_S17.0 |     2 nodes | top: Upendra Pradhan vs State Of Orissa
+    C4_S11.0 |     2 nodes | top: Dandu Lakshmi Reddy vs State Of A.P on 17 August, 1999
+    C4_S10.0 |     2 nodes | top: Samittri Devi & Anr vs Sampuran Singh & Anr
+     C4_S8.0 |     2 nodes | top: Ashoksinh Jayendrasinh vs The State Of Gujarat
+    C4_S46.0 |     2 nodes | top: Makhan Singh vs State Of Punjab on 27 July, 1988
+
+C5 -> 34 subcommunities:
+    C5_S11.0 |    47 nodes | top: Balwant Narayan Bhagde vs M. D. Bhagwat & Ors on 23 April, 1
+     C5_S6.0 |    36 nodes | top: Babua Ram And Ors vs State Of U.P. And Anr on 4 October, 199
+     C5_S3.0 |    30 nodes | top: Hindustan Petroleum Corpn. Ltd vs Darius Shapur Chenai & Ors
+    C5_S18.0 |    30 nodes | top: Sardar_Govindrao_Mahadik_Anr_vs_Devi_Sahai_Ors_on_15_Decembe
+    C5_S33.0 |    26 nodes | top: Shiv Kumar Chadha Etc. Etc vs Municipal Corporation Of Delhi
+     C5_S2.0 |    24 nodes | top: State_Of_Madhya_Pradesh_And_Ors_vs_Vishnu_Prasad_Sharma_And_
+    C5_S32.0 |    23 nodes | top: Devinder Singh & Others vs State Of Punjab & Others
+    C5_S19.0 |    23 nodes | top: Union Of India & Ors vs Dhanwanti Devi & Ors on 21 August, 1
+    C5_S20.0 |    22 nodes | top: Patna_Improvement_Trust_vs_Smt_Lakshmi_Devi_Others_on_7_Dece
+     C5_S1.0 |    17 nodes | top: Raza_Buland_Sugar_Co_Ltd_vs_Municlpal_Board_Rampur_on_30_Oct
+     C5_S7.0 |    16 nodes | top: Union Of India And Ors vs Filip Tiago De Gama Of Vedem Vasco
+    C5_S14.0 |    16 nodes | top: S.P. Chengalvaraya Naidu (Dead) By ... vs Jagannath (Dead) B
+    C5_S27.0 |    15 nodes | top: Kunhayammed & Ors vs State Of Kerala & Anr on 19 July, 2000
+    C5_S21.0 |    15 nodes | top: Delhi Administration vs Gurdip Singh Uban And Ors. Etc on 18
+    C5_S30.0 |    14 nodes | top: Union Of India vs Sher Singh And Ors on 28 January, 1993
+    C5_S12.0 |    13 nodes | top: Shri Chandragauda Ramgonda Patil & Anr vs The State Of Mahar
+     C5_S4.0 |    11 nodes | top: Gulabchand_Chhotalal_Parikh_vs_State_Of_Bombay_Now_Gujarat_o
+     C5_S9.0 |     3 nodes | top: M.C. Mehta vs Union Of India And Ors on 27 July, 1999
+    C5_S28.0 |     2 nodes | top: Mohan Pandey And Another vs Smt. Usha Rani Rajgaria And Ors 
+    C5_S29.0 |     2 nodes | top: Lachhman_Dass_Others_vs_Municipal_Committee_Jalalabad_on_12_
+    C5_S24.0 |     2 nodes | top: Union_Of_India_Uoi_And_Ors_vs_Valluri_Basavaiah_Chowdhary_An
+    C5_S31.0 |     2 nodes | top: Narayana_Prabhu_Venkateswara_Prabhu_vs_Narayan_Prabhu_Krishn
+    C5_S26.0 |     2 nodes | top: State_Of_Bombay_Maharashtra_vs_Shivbalak_Gourishanker_Dube_O
+    C5_S25.0 |     2 nodes | top: Ramesh Chandra Sankla Etc vs Vikram Cement Etc
+     C5_S0.0 |     2 nodes | top: Sant Narain Mathur & Ors vs Rama Krishna Mission & Ors on 27
+    C5_S23.0 |     2 nodes | top: State Of Gujarat Etc.Etc vs Daya Shamji Bhai Etc.Etc on 25 A
+    C5_S22.0 |     2 nodes | top: Ratan Kumar Tandon & Ors vs State Of Uttar Pradesh on 1 Augu
+    C5_S16.0 |     2 nodes | top: Union Of India & Ors vs Vasavi Co-Op. Housing Society Ltd. &
+    C5_S15.0 |     2 nodes | top: Mohanlal_Chunilal_Kothari_vs_Tribhovan_Haribhai_Tamboli_on_2
+    C5_S13.0 |     2 nodes | top: Om Prakash And Ors. vs Union Of India (Uoi) And Ors. on 2 De
+    C5_S10.0 |     2 nodes | top: State_Of_Andhra_Pradesh_vs_Duvvuru_Balarami_Reddy_on_2_April
+     C5_S8.0 |     2 nodes | top: K_J_Nathan_vs_S_V_Maruty_Reddy_And_Others_on_11_February_196
+     C5_S5.0 |     2 nodes | top: Rajabhai_Abdul_Rehman_Munshi_vs_Vasudev_Dhanjlbhai_Mody_on_1
+    C5_S17.0 |     2 nodes | top: Office Of The Chief Post Master & Ors vs Living Media India 
+
+C8 -> 31 subcommunities:
+    C8_S30.0 |    20 nodes | top: Ashoka Marketing Ltd. And Anr. Etc. Etc vs Punjab National B
+     C8_S6.0 |    17 nodes | top: Nagindas Ramdas vs Dalpatram Ichharam @ Brijram And Ors on 3
+     C8_S3.0 |    14 nodes | top: Associated_Hotels_Of_India_Ltd_Delhi_vs_S_B_Sardar_Ranjit_Si
+     C8_S5.0 |    13 nodes | top: Ganpat_Ladha_vs_Sashikant_Vishnu_Shinde_on_21_February_1978
+    C8_S17.0 |    12 nodes | top: Anand_Nivas_Private_Ltd_vs_Anandji_Kalyanji_Pedhi_Ors_on_5_S
+    C8_S10.0 |    10 nodes | top: Pandurang_Ramchandra_Mandlik_Since_vs_Smt_Shantabai_Ramchand
+     C8_S2.0 |    10 nodes | top: Harbilas_Rai_Bansal_vs_The_State_Of_Punjab_Anr_on_5_December
+    C8_S23.0 |    10 nodes | top: Delta International Ltd vs Shyam Sunder Ganeriwalla And Anr 
+    C8_S13.0 |    10 nodes | top: Municipal_Corporation_Of_Greater_vs_Kamla_Mills_Ltd_on_11_Ju
+     C8_S0.0 |     9 nodes | top: Prabhu_vs_Ramdev_Ors_on_28_February_1966
+     C8_S1.0 |     8 nodes | top: Mranalini_B_Shah_And_Anr_vs_Bapalal_Mohanlal_Shah_on_1_May_1
+    C8_S12.0 |     7 nodes | top: Hindustan_Petroleum_Corporation_Ltd_vs_Shyam_Co_Operative_Ho
+     C8_S8.0 |     5 nodes | top: Rattan Lal vs Vardesh Chander & Ors on 9 December, 1975
+    C8_S18.0 |     4 nodes | top: Pal_Singh_vs_Sunder_Singh_Dead_By_Lrs_Ors_on_10_January_1989
+    C8_S26.0 |     4 nodes | top: S. Thangappan vs P. Padmavathy on 24 August, 1999
+    C8_S25.0 |     4 nodes | top: Shyam Kishore And Others vs Municipal Corporation Of Delhi A
+    C8_S20.0 |     3 nodes | top: Union_Of_India_vs_City_Municipal_Council_Bellary_on_8_Septem
+    C8_S24.0 |     3 nodes | top: Laxmikant Revchand Bhojwani And Anr vs Pratapsing. Mohansing
+    C8_S14.0 |     3 nodes | top: Mohan Lal vs Jai Bhagwan on 23 March, 1988
+    C8_S11.0 |     3 nodes | top: General_Radio_Appliances_Co_Ltd_Ors_vs_M_A_Khader_Dead_By_Lr
+    C8_S29.0 |     2 nodes | top: Mumbai International Airport P.Ltd vs M/S Golden Chariot Air
+    C8_S28.0 |     2 nodes | top: Mangilal_vs_Suganchand_Rathi_on_24_October_1963
+    C8_S27.0 |     2 nodes | top: Shyamaraju_Hegde_vs_U_Venkatesha_Bhat_Ors_on_25_September_19
+     C8_S9.0 |     2 nodes | top: National_Textile_Corp_Ltd_vs_Nareshkumar_Badrikumar_Jagad_Or
+     C8_S4.0 |     2 nodes | top: Shri Janki Devi Bhagat Trust, Agra vs Ram Swarup Jain (Dead)
+    C8_S22.0 |     2 nodes | top: Sankaranarayanan Potti (Dead) By L.Rs vs K. Sreedevi & Ors o
+    C8_S21.0 |     2 nodes | top: Pankaj Bhargava And Anr vs Mohinder Nath And Anr on 11 Decem
+    C8_S19.0 |     2 nodes | top: Vasant_Pratap_Pandit_vs_Dr_Anant_Trimbak_Sabnis_on_12_April_
+     C8_S7.0 |     2 nodes | top: Rama Rao And Anr. vs Narayan And Anr. on 20 December, 1968
+    C8_S16.0 |     2 nodes | top: Faqir Chand vs Shri Ram Rattan Bhanot on 30 January, 1973
+    C8_S15.0 |     2 nodes | top: Raja_Mohammad_Amir_Ahmad_Khan_vs_Municipal_Board_Of_Sitapur_

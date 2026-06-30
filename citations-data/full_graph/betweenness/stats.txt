@@ -1,0 +1,71 @@
+Total nodes       : 124,083
+Total edges       : 224,171
+Communities       : 173
+K global samples  : 500
+K local threshold : >800 nodes → k=200
+
+Top 20 by global betweenness (highest cross-graph flow):
+    1. [BW=0.00160964] [PR=0.000122] [C0] Kesavananda Bharati Sripadagalvaru ... vs State Of Kerala And Anr
+    2. [BW=0.00111888] [PR=0.000664] [C103] Indian Kanoon - Search engine for Indian Law
+    3. [BW=0.00074252] [PR=0.000785] [C107] Ashok Leland Ltd vs State Of Tamil Nadu And Anr
+    4. [BW=0.00066419] [PR=0.000072] [C5] Union of India v. Raghubir Singh
+    5. [BW=0.00064697] [PR=0.000208] [C0] Delhi_Transport_Corporation_vs_D_T_C_Mazdoor_Congress_on_4_Septem
+    6. [BW=0.00059286] [PR=0.000425] [C89] Bombay_Dyeing_Mfg_Co_Ltd_vs_Bombay_Environmental_Action_Group_Ors
+    7. [BW=0.00055507] [PR=0.000170] [C0] Unni_Krishnan_J_P_And_Ors_Etc_Etc_vs_State_Of_Andhra_Pradesh_And_
+    8. [BW=0.00051766] [PR=0.000788] [C107] Guruvayur_Devaswom_Managing_Commit_vs_C_K_Rajan_Others_on_14_Augu
+    9. [BW=0.00049590] [PR=0.000266] [C34] Union Of India (Uoi) vs Pramod Gupta (D) By L.Rs. And Ors.
+   10. [BW=0.00048995] [PR=0.000129] [C0] State Of Kerala & Anr vs N. M. Thomas & Ors on 19 September, 1975
+   11. [BW=0.00041562] [PR=0.001198] [C63] M.S. Narayana Menon @ Mani vs State Of Kerala & Anr
+   12. [BW=0.00040979] [PR=0.000272] [C0] Balco Employees Union (Regd.) vs Union Of India & Ors on 10 Decem
+   13. [BW=0.00039743] [PR=0.000579] [C94] State_Of_West_Bengal_vs_Kesoram_Industries_Ltd_And_Ors_on_15_Janu
+   14. [BW=0.00039419] [PR=0.000103] [C4] A_R_Antulay_vs_R_S_Nayak_Anr_on_29_April_1988
+   15. [BW=0.00038052] [PR=0.000105] [C4] Kartar_Singh_vs_State_Of_Punjab_on_11_March_1994
+   16. [BW=0.00034171] [PR=0.000026] [C0] Additional District Magistrate, ... vs Shivakant Shukla on 28 Apr
+   17. [BW=0.00033292] [PR=0.000107] [C0] L_Chandra_Kumar_vs_Union_Of_India_And_Others_on_18_March_1997
+   18. [BW=0.00032440] [PR=0.000039] [C0] Union Carbide Corporation Etc. Etc vs Union Of India Etc. Etc on 
+   19. [BW=0.00032148] [PR=0.000066] [C0] Rustom Cavasjee Cooper vs Union Of India on 10 February, 1970
+   20. [BW=0.00031468] [PR=0.000523] [C0] Charan_Lal_Sahu_Etc_Etc_vs_Union_Of_India_And_Ors_on_22_December_
+
+Top 20 cross-community bridges (high global, low local betweenness):
+    1. [bridge=0.00159059] [BW=0.00160964] [C0] Kesavananda Bharati Sripadagalvaru ... vs State Of Kerala An
+    2. [bridge=0.00111885] [BW=0.00111888] [C103] Indian Kanoon - Search engine for Indian Law
+    3. [bridge=0.00074242] [BW=0.00074252] [C107] Ashok Leland Ltd vs State Of Tamil Nadu And Anr
+    4. [bridge=0.00066412] [BW=0.00066419] [C5] Union of India v. Raghubir Singh
+    5. [bridge=0.00064377] [BW=0.00064697] [C0] Delhi_Transport_Corporation_vs_D_T_C_Mazdoor_Congress_on_4_S
+    6. [bridge=0.00059259] [BW=0.00059286] [C89] Bombay_Dyeing_Mfg_Co_Ltd_vs_Bombay_Environmental_Action_Grou
+    7. [bridge=0.00055211] [BW=0.00055507] [C0] Unni_Krishnan_J_P_And_Ors_Etc_Etc_vs_State_Of_Andhra_Pradesh
+    8. [bridge=0.00051758] [BW=0.00051766] [C107] Guruvayur_Devaswom_Managing_Commit_vs_C_K_Rajan_Others_on_14
+    9. [bridge=0.00049577] [BW=0.00049590] [C34] Union Of India (Uoi) vs Pramod Gupta (D) By L.Rs. And Ors.
+   10. [bridge=0.00048059] [BW=0.00048995] [C0] State Of Kerala & Anr vs N. M. Thomas & Ors on 19 September,
+   11. [bridge=0.00041543] [BW=0.00041562] [C63] M.S. Narayana Menon @ Mani vs State Of Kerala & Anr
+   12. [bridge=0.00040979] [BW=0.00040979] [C0] Balco Employees Union (Regd.) vs Union Of India & Ors on 10 
+   13. [bridge=0.00039589] [BW=0.00039743] [C94] State_Of_West_Bengal_vs_Kesoram_Industries_Ltd_And_Ors_on_15
+   14. [bridge=0.00039280] [BW=0.00039419] [C4] A_R_Antulay_vs_R_S_Nayak_Anr_on_29_April_1988
+   15. [bridge=0.00037310] [BW=0.00038052] [C4] Kartar_Singh_vs_State_Of_Punjab_on_11_March_1994
+   16. [bridge=0.00034136] [BW=0.00034171] [C0] Additional District Magistrate, ... vs Shivakant Shukla on 2
+   17. [bridge=0.00033129] [BW=0.00033292] [C0] L_Chandra_Kumar_vs_Union_Of_India_And_Others_on_18_March_199
+   18. [bridge=0.00032290] [BW=0.00032440] [C0] Union Carbide Corporation Etc. Etc vs Union Of India Etc. Et
+   19. [bridge=0.00031743] [BW=0.00032148] [C0] Rustom Cavasjee Cooper vs Union Of India on 10 February, 197
+   20. [bridge=0.00030359] [BW=0.00031468] [C0] Charan_Lal_Sahu_Etc_Etc_vs_Union_Of_India_And_Ors_on_22_Dece
+
+Top 20 by local betweenness (structural linchpins within community):
+    1. [local_bw=0.25000000] [rank=1] [C47] Mara_And_Others_vs_Nikko_And_Others_on_24_March_1964
+    2. [local_bw=0.16666667] [rank=1] [C111] R_H_Bhutani_vs_Miss_Mani_J_Desai_Ors_on_23_April_1968
+    3. [local_bw=0.09090909] [rank=1] [C165] Indian Kanoon - Search engine for Indian Law
+    4. [local_bw=0.05000000] [rank=1] [C73] S_N_Sundalaimuthu_Chettiar_vs_Palaniyandavan_on_12_August_19
+    5. [local_bw=0.03998275] [rank=1] [C24] Indian Kanoon - Search engine for Indian Law
+    6. [local_bw=0.03265212] [rank=2] [C24] Rosy Jacob vs Jacob A. Chakramakkal on 5 April, 1973
+    7. [local_bw=0.03198105] [rank=1] [C14] Indian Kanoon - Search engine for Indian Law
+    8. [local_bw=0.03172924] [rank=1] [C161] Indian Kanoon - Search engine for Indian Law
+    9. [local_bw=0.02983417] [rank=2] [C14] Richpal Singh And Others Etc vs Dalip on 9 September, 1987
+   10. [local_bw=0.02439024] [rank=1] [C164] Indian Kanoon - Search engine for Indian Law
+   11. [local_bw=0.02260532] [rank=1] [C70] Indian Kanoon - Search engine for Indian Law
+   12. [local_bw=0.01446627] [rank=1] [C151] Indian Kanoon - Search engine for Indian Law
+   13. [local_bw=0.01421605] [rank=1] [C166] Indian Kanoon - Search engine for Indian Law
+   14. [local_bw=0.01350685] [rank=1] [C71] Indian Kanoon - Search engine for Indian Law
+   15. [local_bw=0.01303769] [rank=2] [C70] M/S S.M. Dyechem Ltd vs M/S Cadbury (India) Ltd on 9 May, 20
+   16. [local_bw=0.01271007] [rank=1] [C144] Indian Kanoon - Search engine for Indian Law
+   17. [local_bw=0.01248455] [rank=1] [C132] Ghurey_Lal_vs_State_Of_U_P_on_30_July_2008
+   18. [local_bw=0.01221847] [rank=2] [C144] Indian Kanoon - Search engine for Indian Law
+   19. [local_bw=0.01162615] [rank=2] [C71] P. Ananthakrishnan Nair & Anr vs Dr. G. Ramakrishnan & Anr o
+   20. [local_bw=0.01052928] [rank=3] [C144] Tanna And Modi vs C.I.T. Mumbai Xxv And Ors

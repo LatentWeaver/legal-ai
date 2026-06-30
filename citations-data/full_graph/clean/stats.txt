@@ -1,0 +1,30 @@
+Clean subset stats
+------------------
+Original nodes   : 124,083
+Clean case nodes : 5,289
+Clean edges      : 10,722
+Communities kept : 101
+Communities drop : 71 (case_ratio < 5%)
+
+Top 20 clean cases by global PageRank:
+    1. [PR=0.000801] [in=2] [C8] B.R. Mehta vs Smt. Atma Devi & Ors on 2 September, 1987
+    2. [PR=0.000668] [in=104] [C11] Sridevi & Ors vs. 
+Jayaraja Shetty & Ors
+    3. [PR=0.000629] [in=214] [C5] Hindustan Petroleum Corpn. Ltd vs Darius Shapur Chenai & Ors
+    4. [PR=0.000597] [in=6] [C2] Miheer H. Mafatlal vs Mafatlal Industries Ltd on 11 September, 1996
+    5. [PR=0.000571] [in=283] [C11] Bharpur Singh & Ors vs Shamsher Singh
+    6. [PR=0.000523] [in=22] [C0] Charan_Lal_Sahu_Etc_Etc_vs_Union_Of_India_And_Ors_on_22_December_1989
+    7. [PR=0.000507] [in=1] [C2] Tirumala Tirupati Devasthanams vs K.M. Krishnaiah on 2 March, 1998
+    8. [PR=0.000483] [in=196] [C11] Anil Kak vs Kumari Sharada Raje & Ors
+    9. [PR=0.000471] [in=10] [C11] Addagada_Raghavamma_And_Anr_vs_Addagada_Chenchamma_And_Anr_on_9_April_
+   10. [PR=0.000401] [in=9] [C5] Union Of India & Ors vs Dhanwanti Devi & Ors on 21 August, 1996
+   11. [PR=0.000375] [in=8] [C98] General_Assurance_Society_Ltd_vs_Chandumull_Jain_And_Anr_on_7_February
+   12. [PR=0.000375] [in=7] [C5] Sulochana Amma vs Narayanan Nair on 24 September, 1993
+   13. [PR=0.000370] [in=134] [C3] Ghaziabad_Zila_Sahkari_Bank_Ltd_vs_Addl_Labour_Commissioner_Ors_on_17_
+   14. [PR=0.000353] [in=3] [C2] Rajasthan State Mines & Minerals ... vs Eastern Engineering Enterprise
+   15. [PR=0.000352] [in=5] [C0] Swami_Motor_Transport_P_Ltd_And_vs_Sri_Sankaraswamigal_Muttand_on_26_S
+   16. [PR=0.000342] [in=15] [C4] Central Bureau Of Investigation, ... vs Duncans Agro Industries Ltd.,C
+   17. [PR=0.000330] [in=6] [C6] State Of U.P. & Ors vs Maharaja Dharmander Prasad Singh Etc on 17 Janu
+   18. [PR=0.000320] [in=4] [C20] Union Of India & Ors vs Major General Madan Lal Yadav [Retd.] on 22 Ma
+   19. [PR=0.000317] [in=7] [C6] M.C. Mehta vs Union Of India & Ors on 30 December, 1996
+   20. [PR=0.000315] [in=3] [C15] Shrimant Padmaraje R. Kadambande vs Commissioner Of Income Tax, Pune o

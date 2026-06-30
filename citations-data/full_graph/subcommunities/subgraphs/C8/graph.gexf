@@ -1,0 +1,4088 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-06-29">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="year" type="string" />
+      <attribute id="1" title="url" type="string" />
+      <attribute id="2" title="node_type" type="string" />
+      <attribute id="3" title="community_id" type="long" />
+      <attribute id="4" title="global_pagerank" type="double" />
+      <attribute id="5" title="local_pagerank" type="double" />
+      <attribute id="6" title="local_rank" type="long" />
+      <attribute id="7" title="subcommunity_id" type="string" />
+    </attributes>
+    <nodes>
+      <node id="1106652" label="Meharban_Singh_vs_Bhagwant_Singh_on_17_January_1980">
+        <attvalues>
+          <attvalue for="0" value="1980" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1106652/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2109" />
+          <attvalue for="7" value="C8_S0" />
+        </attvalues>
+      </node>
+      <node id="1359052" label="Ramarao &amp; Anr vs Narayan &amp; Anr on 20 December, 1968">
+        <attvalues>
+          <attvalue for="0" value="1968" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1359052/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2151" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1244187" label="India_Pipe_Fitting_Co_vs_Fakruddin_M_A_Baker_And_Anr_on_4_November_1977">
+        <attvalues>
+          <attvalue for="0" value="1977" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1244187/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.08e-06" />
+          <attvalue for="5" value="0.00040419" />
+          <attvalue for="6" value="551" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+      <node id="279176" label="Mahabir_Prasad_Verma_vs_Dr_Surinder_Kaur_on_7_April_1982">
+        <attvalues>
+          <attvalue for="0" value="1982" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/279176/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.91e-06" />
+          <attvalue for="5" value="0.00038613" />
+          <attvalue for="6" value="798" />
+          <attvalue for="7" value="C8_S17" />
+        </attvalues>
+      </node>
+      <node id="1952950" label="Nibaran_Chandra_Bag_Etc_vs_Mahendra_Nath_Ghughu_on_28_November_1962">
+        <attvalues>
+          <attvalue for="0" value="1962" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1952950/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.97e-06" />
+          <attvalue for="5" value="0.00039516" />
+          <attvalue for="6" value="663" />
+          <attvalue for="7" value="C8_S24" />
+        </attvalues>
+      </node>
+      <node id="936128" label="Mohan_Laxman_Hede_vs_Noormohamed_Adam_Shaikh_on_7_April_1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/936128/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.95e-06" />
+          <attvalue for="5" value="0.0003888" />
+          <attvalue for="6" value="758" />
+          <attvalue for="7" value="C8_S1" />
+        </attvalues>
+      </node>
+      <node id="104106942" label="M.L. Prabhakar vs Rajiv Singal on 4 January, 2001">
+        <attvalues>
+          <attvalue for="0" value="2001" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/104106942/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2141" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="137893087" label="Om Prakash And Anr vs Mishri Lal (Dead) Rep. By His Lr. Savitri ...">
+        <attvalues>
+          <attvalue for="0" value="2017" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/137893087/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1969" />
+          <attvalue for="7" value="C8_S26" />
+        </attvalues>
+      </node>
+      <node id="1928486" label="G. Ponniah Thevar vs Nellayam Perumal Pillai And Others on 15 December, 1976">
+        <attvalues>
+          <attvalue for="0" value="1976" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1928486/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.84e-06" />
+          <attvalue for="5" value="0.00038058" />
+          <attvalue for="6" value="975" />
+          <attvalue for="7" value="C8_S0" />
+        </attvalues>
+      </node>
+      <node id="1126588" label="Rangnath vs Daulatrao And Ors on 20 December, 1974">
+        <attvalues>
+          <attvalue for="0" value="1974" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1126588/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2059" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1575265" label="Sarwan_Singh_Anr_vs_Kasturi_Lal_on_14_December_1976">
+        <attvalues>
+          <attvalue for="0" value="1976" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1575265/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.231e-05" />
+          <attvalue for="5" value="0.00138154" />
+          <attvalue for="6" value="33" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="1124455" label="Mumbai International Airport P.Ltd vs M/S Golden Chariot Airport &amp; Anr on 22 September, 2010">
+        <attvalues>
+          <attvalue for="0" value="2010" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1124455/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.13e-06" />
+          <attvalue for="5" value="0.00040058" />
+          <attvalue for="6" value="605" />
+          <attvalue for="7" value="C8_S29" />
+        </attvalues>
+      </node>
+      <node id="1847465" label="Sushil Kumar Metha vs Gobind Ram Bohra on 10 November, 1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1847465/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="7.878e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2070" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="1952354" label="Inacio Martins Deceased Through Lrs vs Narayan Hari Naik And Ors on 7 April, 1993">
+        <attvalues>
+          <attvalue for="0" value="1993" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1952354/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1965" />
+          <attvalue for="7" value="C8_S10" />
+        </attvalues>
+      </node>
+      <node id="821177" label="Dinesh Kumar vs Yusuf Ali">
+        <attvalues>
+          <attvalue for="0" value="2010" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/821177/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.04e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2247" />
+          <attvalue for="7" value="C8_S2" />
+        </attvalues>
+      </node>
+      <node id="67460548" label="Harjit Singh Uppal vs Anup Bansal">
+        <attvalues>
+          <attvalue for="0" value="2011" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/67460548/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2169" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="55102" label="Swadesh Ranjan Sinha vs Haradeb Banerjee on 3 October, 1991">
+        <attvalues>
+          <attvalue for="0" value="1991" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/55102/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.84e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1999" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="38604742" label="M/S Puri Investments vs M/S Young Friends And Co. on 23 February, 2022">
+        <attvalues>
+          <attvalue for="0" value="2022" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/38604742/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2091" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="944997" label="Municipal Board, Saharanpur vs Imperial Tobacco Of India Ltd. &amp; Anr. Etc on 24 November, 1998">
+        <attvalues>
+          <attvalue for="0" value="1998" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/944997/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.72e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1976" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="674779" label="Ram Lal &amp; Ors vs Piare Lal Gobindram &amp; Ors on 3 May, 1973">
+        <attvalues>
+          <attvalue for="0" value="1973" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/674779/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1975" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="676555" label="Rakesh_Kumar_Shri_Shakti_Kumar_vs_Hindustan_Everest_Tool_Ltd_on_7_March_1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/676555/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1945" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="175560689" label="Pawan Kumar Gupta vs B.R. Gupta">
+        <attvalues>
+          <attvalue for="0" value="2017" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/175560689/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1941" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1187427" label="B_N_Mutto_Anr_vs_T_K_Nandi_on_29_November_1978">
+        <attvalues>
+          <attvalue for="0" value="1978" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1187427/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.728e-05" />
+          <attvalue for="5" value="0.00043503" />
+          <attvalue for="6" value="324" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="970885" label="Molar Mal (Dead) Through L.Rs vs M/S. Kay Iron Works (P) Ltd on 14 March, 2000">
+        <attvalues>
+          <attvalue for="0" value="2000" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/970885/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1982" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1143655" label="Madan Mohan And Another vs Krishan Kumar Sood on 12 January, 1993">
+        <attvalues>
+          <attvalue for="0" value="1993" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1143655/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2161" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="758831" label="M/S Bharat Sales Ltd vs Life Insurance Corporation Of India on 5 February, 1998">
+        <attvalues>
+          <attvalue for="0" value="1998" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/758831/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.056e-05" />
+          <attvalue for="5" value="0.00045516" />
+          <attvalue for="6" value="255" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="1268348" label="Samir Mukherjee vs Davinder K. Bajaj &amp; Ors on 18 April, 2001">
+        <attvalues>
+          <attvalue for="0" value="2001" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1268348/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.99e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2038" />
+          <attvalue for="7" value="C8_S4" />
+        </attvalues>
+      </node>
+      <node id="543671" label="Bapubhai Mohanbhal vs Mahila Sahakari Udyog Mandir on 26 August, 1975">
+        <attvalues>
+          <attvalue for="0" value="1975" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/543671/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2235" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="503780" label="Mranalini_B_Shah_And_Anr_vs_Bapalal_Mohanlal_Shah_on_1_May_1978">
+        <attvalues>
+          <attvalue for="0" value="1978" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/503780/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.07e-06" />
+          <attvalue for="5" value="0.0004044" />
+          <attvalue for="6" value="548" />
+          <attvalue for="7" value="C8_S1" />
+        </attvalues>
+      </node>
+      <node id="7914803" label="Vinodchandra_Sakarlal_Kapadia_vs_State_Of_Gujarat_on_15_June_2020">
+        <attvalues>
+          <attvalue for="0" value="2020" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/7914803/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1950" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="59283623" label="Shankarlal Nadani vs Sohanlal Jain on 12 April, 2022">
+        <attvalues>
+          <attvalue for="0" value="2022" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/59283623/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2178" />
+          <attvalue for="7" value="C8_S10" />
+        </attvalues>
+      </node>
+      <node id="1929772" label="A_V_G_P_Chettiar_Sons_Ors_vs_T_Palanisamy_Gounder_on_8_May_2002">
+        <attvalues>
+          <attvalue for="0" value="2002" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1929772/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2223" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="580380" label="Amarjit Singh vs Smt. Khatoon Quamarain on 18 November, 1986">
+        <attvalues>
+          <attvalue for="0" value="1986" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/580380/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.79e-06" />
+          <attvalue for="5" value="0.00037268" />
+          <attvalue for="6" value="1362" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="19689" label="Fonseca Private Ltd. And Ors. vs L.C. Gupta And Ors. on 12 September, 1972">
+        <attvalues>
+          <attvalue for="0" value="1972" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/19689/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2051" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1497837" label="Jai Singh &amp; Ors vs M.C.D. &amp; Anr on 23 September, 2010">
+        <attvalues>
+          <attvalue for="0" value="2010" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1497837/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.41e-06" />
+          <attvalue for="5" value="0.00050893" />
+          <attvalue for="6" value="157" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="294129" label="L. Hanuman Pershad vs Roop Narain And Anr. on 21 September, 1970">
+        <attvalues>
+          <attvalue for="0" value="1970" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/294129/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1943" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="625206" label="Muniyallappa vs B.M. Krishnamurthy And Others on 25 July, 1991">
+        <attvalues>
+          <attvalue for="0" value="1991" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/625206/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2042" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1182204" label="Mrs. Mohini Suraj Bhan vs Vinod Kumar Mital on 24 January, 1986">
+        <attvalues>
+          <attvalue for="0" value="1986" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1182204/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2039" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="592899" label="T_Prem_Sagar_vs_The_Standard_Vacuum_Oil_Companymadras_on_16_December_1963">
+        <attvalues>
+          <attvalue for="0" value="1963" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/592899/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1964" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1503227" label="Dr. Saroj Kumar Das vs Arjun Prasad Jogani on 1 September, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1503227/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1995" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="65627779" label="Kundla Press And Oil Mill Pvt. Ltd vs State Of Gujarat And Ors">
+        <attvalues>
+          <attvalue for="0" value="2017" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/65627779/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2106" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1571096" label="Carona Shoe Co. Ltd. And Anr vs K.C. Bhaskaran Nair on 9 March, 1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1571096/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2153" />
+          <attvalue for="7" value="C8_S0" />
+        </attvalues>
+      </node>
+      <node id="412082" label="Martin_Harris_Limited_vs_With_Additional_Distt_Judge_Ors_on_11_December_1997">
+        <attvalues>
+          <attvalue for="0" value="1997" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/412082/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.9e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1942" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="73697222" label="M/S Alagu Pharmacy vs N Magudeswari">
+        <attvalues>
+          <attvalue for="0" value="2018" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/73697222/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1956" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="710899" label="Sudhan Singh And Ors vs University Of Delhi And Ors on 14 January, 1986">
+        <attvalues>
+          <attvalue for="0" value="1986" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/710899/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2088" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="967669" label="Mohammad Kasam Haji Gulambhai vs Bakerali Fatehal1 (D) By Lrs on 8 September, 1998">
+        <attvalues>
+          <attvalue for="0" value="1998" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/967669/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2011" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="20383670" label="S.D. Bandi vs Divisional Traffic Officer, Ksrtc &amp; Ors on 5 July, 2013">
+        <attvalues>
+          <attvalue for="0" value="2013" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/20383670/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2194" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1247733" label="Smt. Kamlabai &amp; Ors. A V vs Mangilal Dulichand Mantri on 14 October, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1247733/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2130" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="282514" label="A.S. Sulochana vs C. Dharmalingam on 28 November, 1986">
+        <attvalues>
+          <attvalue for="0" value="1986" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/282514/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2055" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1042021" label="Prabhu_vs_Ramdev_Ors_on_28_February_1966">
+        <attvalues>
+          <attvalue for="0" value="1966" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1042021/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="6.69e-06" />
+          <attvalue for="5" value="0.00067186" />
+          <attvalue for="6" value="78" />
+          <attvalue for="7" value="C8_S0" />
+        </attvalues>
+      </node>
+      <node id="199908142" label="Suhas H Pophale vs Oriental Ins.Co.Ltd.&amp; Anr on 11 February, 2014">
+        <attvalues>
+          <attvalue for="0" value="2014" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/199908142/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2075" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="863948" label="Nand Kishore Marwah &amp; Others vs Smt. Samundri Devi on 17 September, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/863948/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.42e-06" />
+          <attvalue for="5" value="0.00037683" />
+          <attvalue for="6" value="1137" />
+          <attvalue for="7" value="C8_S10" />
+        </attvalues>
+      </node>
+      <node id="193665424" label="Jodha Ram (Dead) By Lrs. Ors. vs Financial Commissioner, Haryana, ... on 11 October, 1993">
+        <attvalues>
+          <attvalue for="0" value="1993" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/193665424/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2164" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1327310" label="SCC 169 and Tara Chand and Another v. Ram Prasad">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1327310/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.86e-06" />
+          <attvalue for="5" value="0.00037793" />
+          <attvalue for="6" value="1074" />
+          <attvalue for="7" value="C8_S17" />
+        </attvalues>
+      </node>
+      <node id="1230877" label="Smt_Rukhamanbai_vs_Shivram_Ors_on_3_September_1981">
+        <attvalues>
+          <attvalue for="0" value="1981" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1230877/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2128" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1028604" label="Mangilal_vs_Suganchand_Rathi_on_24_October_1963">
+        <attvalues>
+          <attvalue for="0" value="1963" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1028604/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.02e-06" />
+          <attvalue for="5" value="0.0004078" />
+          <attvalue for="6" value="500" />
+          <attvalue for="7" value="C8_S28" />
+        </attvalues>
+      </node>
+      <node id="75694509" label="Rafat All V vs Sugni Bai And Others on 18 November, 1998">
+        <attvalues>
+          <attvalue for="0" value="1998" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/75694509/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2143" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="108063005" label="Rama Rao And Anr. vs Narayan And Anr. on 20 December, 1968">
+        <attvalues>
+          <attvalue for="0" value="1968" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/108063005/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.703e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2060" />
+          <attvalue for="7" value="C8_S7" />
+        </attvalues>
+      </node>
+      <node id="786194" label="Majati Subbarao vs P.K.K. Krishna Rao (Deceased) By Lrs on 19 September, 1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/786194/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="6.492e-05" />
+          <attvalue for="5" value="0.00108877" />
+          <attvalue for="6" value="42" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1203079" label="Firm Of Harbanslal Jagmohandas &amp; Anr vs Prabhudas Shivlal on 16 April, 1971">
+        <attvalues>
+          <attvalue for="0" value="1971" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1203079/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.05e-06" />
+          <attvalue for="5" value="0.00040317" />
+          <attvalue for="6" value="559" />
+          <attvalue for="7" value="C8_S1" />
+        </attvalues>
+      </node>
+      <node id="224201" label="Smt_Shakuntala_S_Tiwari_vs_Hem_Chand_M_Singhania_on_6_May_1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/224201/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2065" />
+          <attvalue for="7" value="C8_S17" />
+        </attvalues>
+      </node>
+      <node id="134319399" label="Baban Balaji More (D) By Lrs. vs Babaji Hari Shelar (D) By Lrs. on 14 March, 2024">
+        <attvalues>
+          <attvalue for="0" value="2024" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/134319399/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2029" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="617692" label="Venkatlal_G_Pittie_Anr_vs_Bright_Bros_Pvt_Ltd_on_21_July_1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/617692/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2001" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+      <node id="1572780" label="Nemi Chand vs Onkar Lal on 19 July, 1991">
+        <attvalues>
+          <attvalue for="0" value="1991" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1572780/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2084" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1446894" label="National_Textile_Corp_Ltd_vs_Nareshkumar_Badrikumar_Jagad_Ors_on_5_September_2011">
+        <attvalues>
+          <attvalue for="0" value="2011" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1446894/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.94e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2156" />
+          <attvalue for="7" value="C8_S9" />
+        </attvalues>
+      </node>
+      <node id="1912299" label="Phool_Chand_Sharma_And_Others_vs_Chandra_Shanker_Pathakand_Others_on_7_December_1962">
+        <attvalues>
+          <attvalue for="0" value="1962" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1912299/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.43e-06" />
+          <attvalue for="5" value="0.00037103" />
+          <attvalue for="6" value="1438" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="1667279" label="Pandurang_Ramchandra_Mandlik_Since_vs_Smt_Shantabai_Ramchandra_Ghatge_And_on_12_September_1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1667279/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="2.649e-05" />
+          <attvalue for="5" value="0.00036735" />
+          <attvalue for="6" value="1642" />
+          <attvalue for="7" value="C8_S10" />
+        </attvalues>
+      </node>
+      <node id="1703207" label="Satyawati_Sharma_Dead_By_Lrs_vs_Union_Of_India_Another_on_16_April_2008">
+        <attvalues>
+          <attvalue for="0" value="2008" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1703207/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.83e-06" />
+          <attvalue for="5" value="0.00038252" />
+          <attvalue for="6" value="920" />
+          <attvalue for="7" value="C8_S2" />
+        </attvalues>
+      </node>
+      <node id="1424394" label="Maiku vs Vilayat Hussain Through L.Rs on 10 April, 1986">
+        <attvalues>
+          <attvalue for="0" value="1986" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1424394/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2010" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="518139" label="Faqir Chand vs Shri Ram Rattan Bhanot on 30 January, 1973">
+        <attvalues>
+          <attvalue for="0" value="1973" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/518139/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="2.04e-05" />
+          <attvalue for="5" value="0.00040058" />
+          <attvalue for="6" value="604" />
+          <attvalue for="7" value="C8_S16" />
+        </attvalues>
+      </node>
+      <node id="573053" label="M/S. Green View Radio Service vs Laxmibai Ramji And Another on 11 September, 1990">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/573053/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2118" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="166337" label="Shyam Kishore And Others vs Municipal Corporation Of Delhi And ... on 3 September, 1992">
+        <attvalues>
+          <attvalue for="0" value="1992" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/166337/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="9.122e-05" />
+          <attvalue for="5" value="0.00038758" />
+          <attvalue for="6" value="790" />
+          <attvalue for="7" value="C8_S25" />
+        </attvalues>
+      </node>
+      <node id="1844548" label="Chandra Bhushan (Deceased) By Lrs. vs Beni Prasad And Ors. on 24 September, 1998">
+        <attvalues>
+          <attvalue for="0" value="1998" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1844548/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2066" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1153435" label="Smt_Kamla_Devi_vs_Shri_Vasdev_on_14_December_1994">
+        <attvalues>
+          <attvalue for="0" value="1994" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1153435/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.93e-06" />
+          <attvalue for="5" value="0.00039155" />
+          <attvalue for="6" value="700" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="1662395" label="Deva Ram And Another vs Ishwar Chand And Another on 16 October, 1995">
+        <attvalues>
+          <attvalue for="0" value="1995" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1662395/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.319e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2113" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1620812" label="State Of Gujarat vs Jetawat Lal Singh Amar Singh &amp; Ors on 7 August, 1968">
+        <attvalues>
+          <attvalue for="0" value="1968" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1620812/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2034" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="106222" label="Parasram_Harnand_Rao_vs_Shanti_Prasad_Narinder_Kumar_Jain_Anr_on_10_April_1980">
+        <attvalues>
+          <attvalue for="0" value="1980" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/106222/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.95e-06" />
+          <attvalue for="5" value="0.00038252" />
+          <attvalue for="6" value="899" />
+          <attvalue for="7" value="C8_S11" />
+        </attvalues>
+      </node>
+      <node id="1219878" label="Vithal_Dattatraya_Kulkarni_Ors_vs_Shamrao_Tukaram_Power_Ors_on_21_March_1979">
+        <attvalues>
+          <attvalue for="0" value="1979" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1219878/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1951" />
+          <attvalue for="7" value="C8_S17" />
+        </attvalues>
+      </node>
+      <node id="573026" label="Gopal Saran vs Satyanarayana on 20 February, 1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/573026/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="9.32e-06" />
+          <attvalue for="5" value="0.00042166" />
+          <attvalue for="6" value="424" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="119799454" label="Atma Ram Properties Pvt. Ltd. vs The Oriental Insurance Co. Ltd.">
+        <attvalues>
+          <attvalue for="0" value="2017" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/119799454/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2195" />
+          <attvalue for="7" value="C8_S1" />
+        </attvalues>
+      </node>
+      <node id="1249629" label="Vinod Kumar Arora vs Smt. Surjit Kaur on 17 July, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1249629/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.15e-06" />
+          <attvalue for="5" value="0.00039506" />
+          <attvalue for="6" value="680" />
+          <attvalue for="7" value="C8_S18" />
+        </attvalues>
+      </node>
+      <node id="10645" label="Smt_Krishna_Rajpal_Bhatia_Ors_vs_Miss_Leela_H_Advani_Ors_on_19_September_1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/10645/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.22e-06" />
+          <attvalue for="5" value="0.00038264" />
+          <attvalue for="6" value="890" />
+          <attvalue for="7" value="C8_S12" />
+        </attvalues>
+      </node>
+      <node id="6571" label="Jain_Ink_Manufacturing_Company_vs_Life_Insurance_Corporation_Of_India_on_22_August_1980">
+        <attvalues>
+          <attvalue for="0" value="1980" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/6571/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.042e-05" />
+          <attvalue for="5" value="0.00036973" />
+          <attvalue for="6" value="1476" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="37341" label="Smt_Bimla_Devi_Etc_vs_Mst_Additional_District_Judge_And_on_27_March_1984">
+        <attvalues>
+          <attvalue for="0" value="1984" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/37341/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2232" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="568400" label="Smt. Shanti Sharma &amp; Ors vs Smt. Ved Prabha &amp; Ors on 26 August, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/568400/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2246" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="234128" label="Kamla_Devi_vs_Vasdev_on_14_December_1994">
+        <attvalues>
+          <attvalue for="0" value="1994" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/234128/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2200" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1144636" label="Tayabali Jaferbhai Tankiwala vs M/S. Asha &amp; Co. And Anr on 24 September, 1969">
+        <attvalues>
+          <attvalue for="0" value="1969" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1144636/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2129" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="639907" label="Harbanslal Jagmohandas &amp; Anr vs Prabhudas Shivlal on 12 March, 1976">
+        <attvalues>
+          <attvalue for="0" value="1976" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/639907/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2063" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+      <node id="636080" label="Kumaon_Motor_Union_Owners_Ltd_And_vs_The_State_Of_Uttar_Pradesh_on_8_October_1965">
+        <attvalues>
+          <attvalue for="0" value="1965" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/636080/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.3e-06" />
+          <attvalue for="5" value="0.00036328" />
+          <attvalue for="6" value="1911" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="410681" label="Narayan Bhondoo Pimputkar &amp; Another vs Laxman Purshottam Pimputkar &amp; Ors on 30 October, 1973">
+        <attvalues>
+          <attvalue for="0" value="1973" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/410681/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2016" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="147826539" label="Baby vs Travancore Devaswom Board &amp; Ors on 6 November, 1998">
+        <attvalues>
+          <attvalue for="0" value="1998" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/147826539/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2184" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="628271" label="S. Thangappan vs P. Padmavathy on 24 August, 1999">
+        <attvalues>
+          <attvalue for="0" value="1999" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/628271/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="8.182e-05" />
+          <attvalue for="5" value="0.00038252" />
+          <attvalue for="6" value="930" />
+          <attvalue for="7" value="C8_S26" />
+        </attvalues>
+      </node>
+      <node id="77210495" label="M/S Martin And Harris Private Limited vs Rajendra Mehta">
+        <attvalues>
+          <attvalue for="0" value="2022" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/77210495/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.83e-06" />
+          <attvalue for="5" value="0.00038252" />
+          <attvalue for="6" value="957" />
+          <attvalue for="7" value="C8_S2" />
+        </attvalues>
+      </node>
+      <node id="769335" label="Gauri Shanker vs Hindustan Trust (Pvt.) Ltd. And Ors. on 27 April, 1972">
+        <attvalues>
+          <attvalue for="0" value="1972" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/769335/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2097" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1166417" label="Pomal Kanji Govindji &amp; Ors vs Vrajlal Karsandas Purohit &amp; Ors on 4 November, 1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1166417/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.8e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2009" />
+          <attvalue for="7" value="C8_S0" />
+        </attvalues>
+      </node>
+      <node id="1870868" label="Rattan Lal vs Vardesh Chander &amp; Ors on 9 December, 1975">
+        <attvalues>
+          <attvalue for="0" value="1975" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1870868/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="6.96e-06" />
+          <attvalue for="5" value="0.00070363" />
+          <attvalue for="6" value="70" />
+          <attvalue for="7" value="C8_S8" />
+        </attvalues>
+      </node>
+      <node id="897617" label="Prem Ex-Servicemen Co-Op. Tenant ... vs State Of Haryana And Ors. on 11 April, 1974">
+        <attvalues>
+          <attvalue for="0" value="1974" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/897617/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2240" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1152454" label="Dhan Singh Ramkrishna Chaudhri &amp; Ors vs Laxminarayan Ramkishan &amp; Anr on 16 April, 1974">
+        <attvalues>
+          <attvalue for="0" value="1974" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1152454/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1931" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1753919" label="Morvi Municipality vs State Of Gujarat And Ors.Withjunagadh ... on 31 March, 1993">
+        <attvalues>
+          <attvalue for="0" value="1993" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1753919/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="6.15e-06" />
+          <attvalue for="5" value="0.00042167" />
+          <attvalue for="6" value="399" />
+          <attvalue for="7" value="C8_S13" />
+        </attvalues>
+      </node>
+      <node id="743042" label="Rentala_Latchaiah_Ors_vs_Chimmapudi_Subrahmanyam_on_19_April_1967">
+        <attvalues>
+          <attvalue for="0" value="1967" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/743042/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2158" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="581836" label="M/S Chordia Automobiles vs S. Moosa &amp; Ors on 29 February, 2000">
+        <attvalues>
+          <attvalue for="0" value="2000" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/581836/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.93e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1994" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="177759" label="Chandrasekhar_Singh_Ors_vs_Siya_Ram_Singh_Ors_on_26_September_1978">
+        <attvalues>
+          <attvalue for="0" value="1978" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/177759/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.36e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1935" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="394979" label="M. Arul Jothi &amp; Anr. vs Lajja Bal (Deceased) &amp; Anr. on 29 February, 2000">
+        <attvalues>
+          <attvalue for="0" value="2000" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/394979/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2245" />
+          <attvalue for="7" value="C8_S14" />
+        </attvalues>
+      </node>
+      <node id="49195391" label="Bhupinder Singh Bawa vs Asha Devi">
+        <attvalues>
+          <attvalue for="0" value="2016" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/49195391/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1978" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="308216" label="Jagan Nath (Deceased) Through L.Rs vs Chander Bhan And Others on 11 May, 1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/308216/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="9.54e-06" />
+          <attvalue for="5" value="0.00044924" />
+          <attvalue for="6" value="273" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="1648125" label="Anant Mills Co. Ltd vs State Of Gujarat &amp; Ors on 21 January, 1975">
+        <attvalues>
+          <attvalue for="0" value="1975" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1648125/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="7.983e-05" />
+          <attvalue for="5" value="0.00039855" />
+          <attvalue for="6" value="617" />
+          <attvalue for="7" value="C8_S25" />
+        </attvalues>
+      </node>
+      <node id="65120687" label="Jabal C.Lashkari &amp; Ors vs Official Liquidator (Prasad Mills ...">
+        <attvalues>
+          <attvalue for="0" value="2016" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/65120687/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2110" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1539874" label="S_Sanyal_vs_Gian_Chand_on_14_September_1967">
+        <attvalues>
+          <attvalue for="0" value="1967" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1539874/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1963" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="329158" label="O_N_Bhatnagar_vs_Smt_Rukibai_Narsindas_Ors_on_21_April_1982">
+        <attvalues>
+          <attvalue for="0" value="1982" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/329158/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="8.18e-06" />
+          <attvalue for="5" value="0.00041521" />
+          <attvalue for="6" value="453" />
+          <attvalue for="7" value="C8_S12" />
+        </attvalues>
+      </node>
+      <node id="755721" label="Vannattankandy_Ibrayi_vs_Kunhabdulla_Hajee_on_13_December_2000">
+        <attvalues>
+          <attvalue for="0" value="2000" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/755721/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.82e-06" />
+          <attvalue for="5" value="0.00037746" />
+          <attvalue for="6" value="1106" />
+          <attvalue for="7" value="C8_S8" />
+        </attvalues>
+      </node>
+      <node id="222479" label="Mitter Sen Jain vs Shakuntala Devi on 19 April, 2000">
+        <attvalues>
+          <attvalue for="0" value="2000" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/222479/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2145" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1916580" label="National &amp; Grindlays Bank Ltd vs The Municipal Corporation Of ... on 5 February, 1969">
+        <attvalues>
+          <attvalue for="0" value="1969" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1916580/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1985" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="577481" label="Surjit Singh vs State Of Punjab And Others on 31 January, 1996">
+        <attvalues>
+          <attvalue for="0" value="1996" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/577481/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2095" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="151993301" label="State Trading Corpn. India Ltd vs New Delhi Municipal Council">
+        <attvalues>
+          <attvalue for="0" value="2016" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/151993301/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.72e-06" />
+          <attvalue for="5" value="0.00036429" />
+          <attvalue for="6" value="1842" />
+          <attvalue for="7" value="C8_S13" />
+        </attvalues>
+      </node>
+      <node id="1065009" label="K. K. Chari vs R. M. Seshadri on 16 March, 1973">
+        <attvalues>
+          <attvalue for="0" value="1973" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1065009/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.117e-05" />
+          <attvalue for="5" value="0.00062874" />
+          <attvalue for="6" value="91" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="141468481" label="Abid-Ul-Islam vs Inder Sain Dua">
+        <attvalues>
+          <attvalue for="0" value="2022" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/141468481/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2173" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="163023636" label="Thankamony Amma vs Omana Amma N.">
+        <attvalues>
+          <attvalue for="0" value="2019" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/163023636/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2249" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="886958" label="Jaywant S. Kulkarni &amp; Ors vs Minochar Dosabhai Shroff &amp; Ors on 9 August, 1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/886958/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.77e-06" />
+          <attvalue for="5" value="0.00037161" />
+          <attvalue for="6" value="1424" />
+          <attvalue for="7" value="C8_S1" />
+        </attvalues>
+      </node>
+      <node id="618220" label="Ramesh Himmatlal Shah vs Harsukh Jadhavji Joshi on 25 April, 1975">
+        <attvalues>
+          <attvalue for="0" value="1975" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/618220/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.29e-06" />
+          <attvalue for="5" value="0.00038529" />
+          <attvalue for="6" value="803" />
+          <attvalue for="7" value="C8_S12" />
+        </attvalues>
+      </node>
+      <node id="738221" label="Vallabhai Nathabhai vs Bai Jivi &amp; Ors on 10 January, 1969">
+        <attvalues>
+          <attvalue for="0" value="1969" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/738221/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2072" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="151635574" label="Keshar Bai vs Chhunulal on 7 January, 2014">
+        <attvalues>
+          <attvalue for="0" value="2014" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/151635574/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1926" />
+          <attvalue for="7" value="C8_S15" />
+        </attvalues>
+      </node>
+      <node id="1642416" label="B.R. Mehta vs Smt. Atma Devi &amp; Ors on 2 September, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1642416/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="0.00080108" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2012" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="752180" label="Shri Munshi Ram &amp; Anr vs Union Of India &amp; Ors on 10 August, 2000">
+        <attvalues>
+          <attvalue for="0" value="2000" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/752180/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.74e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2048" />
+          <attvalue for="7" value="C8_S16" />
+        </attvalues>
+      </node>
+      <node id="27271392" label="Smt. Bhagwanti Devi And Anr vs State Of Haryana And Anr on 19 January, 1994">
+        <attvalues>
+          <attvalue for="0" value="1994" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/27271392/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2073" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1373296" label="Gundaji_Satwaji_Shinde_vs_Ramchandra_Bhikaji_Joshi_on_5_December_1978">
+        <attvalues>
+          <attvalue for="0" value="1978" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1373296/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2026" />
+          <attvalue for="7" value="C8_S10" />
+        </attvalues>
+      </node>
+      <node id="1745889" label="Leela Soni And Ors vs Rajesh Goyal And Ors on 3 September, 2001">
+        <attvalues>
+          <attvalue for="0" value="2001" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1745889/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2045" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="169833481" label="Mashyak Grih.Sahakari San.Maryadit vs Uman Habib Dhuka &amp; Ors on 18 April, 2013">
+        <attvalues>
+          <attvalue for="0" value="2013" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/169833481/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2203" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="154471238" label="Nareshkumar Badrikumar Jagad And Ors. vs O P Singh And Ors.">
+        <attvalues>
+          <attvalue for="0" value="2018" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/154471238/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.8e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2230" />
+          <attvalue for="7" value="C8_S17" />
+        </attvalues>
+      </node>
+      <node id="96229" label="Nagindas Ramdas vs Dalpatram Ichharam @ Brijram And Ors on 30 November, 1973">
+        <attvalues>
+          <attvalue for="0" value="1973" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/96229/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="0.00010152" />
+          <attvalue for="5" value="0.00062264" />
+          <attvalue for="6" value="92" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="1578795" label="Indian Oil Corporation vs Municipal Corporation, Jullundhar And ... on 20 October, 1992">
+        <attvalues>
+          <attvalue for="0" value="1992" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1578795/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.745e-05" />
+          <attvalue for="5" value="0.00156608" />
+          <attvalue for="6" value="28" />
+          <attvalue for="7" value="C8_S13" />
+        </attvalues>
+      </node>
+      <node id="167518" label="Mahesh_Bhagat_vs_Ram_Baran_Mahto_Ors_on_11_April_1968">
+        <attvalues>
+          <attvalue for="0" value="1968" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/167518/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2035" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="768853" label="Kashi Ram vs Rakesh Arora on 18 August, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/768853/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2120" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1587367" label="Mistry_Premjibhai_Vithaldas_vs_Ganeshbhai_Keshavji_on_14_April_1977">
+        <attvalues>
+          <attvalue for="0" value="1977" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1587367/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2202" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+      <node id="1563296" label="Miss Kanta Udharam Jagasia vs Shri C.K.S.Rao on 2 December, 1997">
+        <attvalues>
+          <attvalue for="0" value="1997" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1563296/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2214" />
+          <attvalue for="7" value="C8_S18" />
+        </attvalues>
+      </node>
+      <node id="529151" label="D.K. Soni vs P.K. Mukerjee And Ors on 27 October, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/529151/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2225" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1526475" label="Laxmishankar Harishankar Bhatt vs Yashram Vasta (Dead) By L.Rs. on 26 February, 1993">
+        <attvalues>
+          <attvalue for="0" value="1993" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1526475/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2191" />
+          <attvalue for="7" value="C8_S18" />
+        </attvalues>
+      </node>
+      <node id="1555819" label="Raju Kakara Shetty vs Ramesh Prataprao Shirole And Anr on 15 January, 1991">
+        <attvalues>
+          <attvalue for="0" value="1991" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1555819/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.77e-06" />
+          <attvalue for="5" value="0.00037409" />
+          <attvalue for="6" value="1262" />
+          <attvalue for="7" value="C8_S1" />
+        </attvalues>
+      </node>
+      <node id="1069011" label="N_M_Engineer_vs_Narendra_Singh_Virdi_on_18_July_1994">
+        <attvalues>
+          <attvalue for="0" value="1994" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1069011/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2123" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+      <node id="148738" label="Pulin Behari Lal vs Mahadeb Dutte And Ors on 3 February, 1993">
+        <attvalues>
+          <attvalue for="0" value="1993" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/148738/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.992e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2031" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="1812473" label="Union_Of_India_vs_City_Municipal_Council_Bellary_on_8_September_1978">
+        <attvalues>
+          <attvalue for="0" value="1978" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1812473/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.8e-06" />
+          <attvalue for="5" value="0.00038039" />
+          <attvalue for="6" value="997" />
+          <attvalue for="7" value="C8_S20" />
+        </attvalues>
+      </node>
+      <node id="1887042" label="Smt_Gian_Devi_Anand_vs_Jeeevan_Kumar_And_Others_on_1_May_1985">
+        <attvalues>
+          <attvalue for="0" value="1985" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1887042/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.556e-05" />
+          <attvalue for="5" value="0.00038278" />
+          <attvalue for="6" value="889" />
+          <attvalue for="7" value="C8_S2" />
+        </attvalues>
+      </node>
+      <node id="82634559" label="Municipal Corp Of Delhi vs North Delhi Power Ltd. [Now - Tata Power ...">
+        <attvalues>
+          <attvalue for="0" value="2016" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/82634559/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2241" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="93427012" label="Nidhi vs Ram Kripal Sharma (D) Thr. Lrs">
+        <attvalues>
+          <attvalue for="0" value="2017" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/93427012/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2050" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1689520" label="Cantonment Borad &amp; Anr vs Church Of North India on 13 May, 2011">
+        <attvalues>
+          <attvalue for="0" value="2011" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1689520/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1953" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="869439" label="Shalimar Tar Products Ltd vs H.C. Sharma &amp; Ors on 12 November, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/869439/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.487e-05" />
+          <attvalue for="5" value="0.00047786" />
+          <attvalue for="6" value="206" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="1885988" label="Shyamaraju_Hegde_vs_U_Venkatesha_Bhat_Ors_on_25_September_1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1885988/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.74e-06" />
+          <attvalue for="5" value="0.00036891" />
+          <attvalue for="6" value="1525" />
+          <attvalue for="7" value="C8_S27" />
+        </attvalues>
+      </node>
+      <node id="111973" label="Chapsibhai Dhanjibhai Danad vs Purushottam on 5 April, 1971">
+        <attvalues>
+          <attvalue for="0" value="1971" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/111973/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.652e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2176" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1212607" label="Munni Devi &amp; Anr vs Gokal Chand &amp; Ors on 12 September, 1969">
+        <attvalues>
+          <attvalue for="0" value="1969" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1212607/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1979" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="153124" label="Laxmikant Revchand Bhojwani And Anr vs Pratapsing. Mohansingh Pardeshi ... on 18 September, 1995">
+        <attvalues>
+          <attvalue for="0" value="1995" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/153124/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.45e-05" />
+          <attvalue for="5" value="0.00039516" />
+          <attvalue for="6" value="636" />
+          <attvalue for="7" value="C8_S24" />
+        </attvalues>
+      </node>
+      <node id="1954254" label="O_P_Kathpalia_vs_Lakhmir_Singh_Dead_And_Ors_on_23_July_1984">
+        <attvalues>
+          <attvalue for="0" value="1984" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1954254/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.154e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2233" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+      <node id="1661992" label="Mussamiya_Imam_Halder_Bax_Razvi_vs_Rabari_Govindhai_Ratnabhai_Ors_on_21_August_1968">
+        <attvalues>
+          <attvalue for="0" value="1968" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1661992/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="6.29e-06" />
+          <attvalue for="5" value="0.0006304" />
+          <attvalue for="6" value="90" />
+          <attvalue for="7" value="C8_S10" />
+        </attvalues>
+      </node>
+      <node id="42266022" label="Gaiv Dinshaw Irani &amp; Ors vs Tehmtan Irani &amp; Ors">
+        <attvalues>
+          <attvalue for="0" value="2014" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/42266022/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2025" />
+          <attvalue for="7" value="C8_S19" />
+        </attvalues>
+      </node>
+      <node id="1097694" label="Pankaj Bhargava And Anr vs Mohinder Nath And Anr on 11 December, 1990">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1097694/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.04e-06" />
+          <attvalue for="5" value="0.0004078" />
+          <attvalue for="6" value="509" />
+          <attvalue for="7" value="C8_S21" />
+        </attvalues>
+      </node>
+      <node id="1642365" label="Suraj_Ratan_Thirani_Ors_vs_The_Azamabad_Tea_Co_Ors_on_13_January_1964">
+        <attvalues>
+          <attvalue for="0" value="1964" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1642365/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="8.05e-06" />
+          <attvalue for="5" value="0.00068207" />
+          <attvalue for="6" value="74" />
+          <attvalue for="7" value="C8_S11" />
+        </attvalues>
+      </node>
+      <node id="1674300" label="K.S.Sunderaraju Chettiar vs M.R. Ramachandra Naidu on 18 February, 1994">
+        <attvalues>
+          <attvalue for="0" value="1994" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1674300/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2167" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1048514" label="Noor_Mohd_Khan_Ghouse_Khan_Soudagar_And_vs_Fakirappa_Bharmappa_Machenahalli_And_on_28_April_1978">
+        <attvalues>
+          <attvalue for="0" value="1978" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1048514/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.08e-06" />
+          <attvalue for="5" value="0.00044254" />
+          <attvalue for="6" value="303" />
+          <attvalue for="7" value="C8_S10" />
+        </attvalues>
+      </node>
+      <node id="169691193" label="Jacky vs Tiny @ Antony &amp; Ors on 9 April, 2014">
+        <attvalues>
+          <attvalue for="0" value="2014" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/169691193/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2076" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="1161437" label="Curewell (India) Ltd. vs Sahib Singh (Dead) By L.Rs. And Others ... on 18 December, 1991">
+        <attvalues>
+          <attvalue for="0" value="1991" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1161437/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2024" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1404466" label="H. Shiva Rao And Anr. vs Cecilia Pereira And Ors. on 12 November, 1986">
+        <attvalues>
+          <attvalue for="0" value="1986" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1404466/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.88e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1991" />
+          <attvalue for="7" value="C8_S23" />
+        </attvalues>
+      </node>
+      <node id="44900068" label="Trilok Singh Chauhan vs Ram Lal (Dead) Thr. Lrs.">
+        <attvalues>
+          <attvalue for="0" value="2017" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/44900068/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2239" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="136345" label="Municipal_Corporation_Of_Greater_vs_Kamla_Mills_Ltd_on_11_July_2003">
+        <attvalues>
+          <attvalue for="0" value="2003" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/136345/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="0.00022201" />
+          <attvalue for="5" value="0.02280806" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="C8_S13" />
+        </attvalues>
+      </node>
+      <node id="42694335" label="Lucknow_Nagar_Nigam_vs_Kohli_Brothers_Colour_Lab_Pvt_Ltd_on_22_February_2024">
+        <attvalues>
+          <attvalue for="0" value="2024" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/42694335/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2144" />
+          <attvalue for="7" value="C8_S20" />
+        </attvalues>
+      </node>
+      <node id="118072899" label="M/S Shaha Ratansi Khimji &amp; Sons vs Proposed Kumbhar Sons Hotel P.Ltd.&amp; Ors">
+        <attvalues>
+          <attvalue for="0" value="2014" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/118072899/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2196" />
+          <attvalue for="7" value="C8_S8" />
+        </attvalues>
+      </node>
+      <node id="978541" label="Life Insurance Corporation Of India vs India Automobiles And Co. And Ors on 1 August, 1990">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/978541/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="9.42e-06" />
+          <attvalue for="5" value="0.000415" />
+          <attvalue for="6" value="454" />
+          <attvalue for="7" value="C8_S26" />
+        </attvalues>
+      </node>
+      <node id="1553975" label="Mohan Singh vs Late Amer Singh Thr. The Lrs on 1 September, 1998">
+        <attvalues>
+          <attvalue for="0" value="1998" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1553975/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2111" />
+          <attvalue for="7" value="C8_S21" />
+        </attvalues>
+      </node>
+      <node id="1110593" label="Ramesh Birch &amp; Ors. Etc vs Union Of India &amp; Ors. Etc on 21 April, 1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1110593/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.82e-06" />
+          <attvalue for="5" value="0.00036696" />
+          <attvalue for="6" value="1672" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="1802788" label="Vora_Abbasbhai_Alimahomed_vs_Haji_Gulamnabi_Haji_Safibhai_on_22_October_1963">
+        <attvalues>
+          <attvalue for="0" value="1963" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1802788/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.545e-05" />
+          <attvalue for="5" value="0.00118837" />
+          <attvalue for="6" value="37" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+      <node id="1230472" label="Thomas Antony vs Varkey Varkey on 15 November, 1999">
+        <attvalues>
+          <attvalue for="0" value="1999" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1230472/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2162" />
+          <attvalue for="7" value="C8_S22" />
+        </attvalues>
+      </node>
+      <node id="23411" label="Lalji_Haridas_vs_State_Of_Maharashtra_And_Another_on_7_February_1964">
+        <attvalues>
+          <attvalue for="0" value="1964" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/23411/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.24e-06" />
+          <attvalue for="5" value="0.00036643" />
+          <attvalue for="6" value="1741" />
+          <attvalue for="7" value="C8_S7" />
+        </attvalues>
+      </node>
+      <node id="107607168" label="Shyam Lal vs Deepa Dass Chela Ram Chela Garib Dass">
+        <attvalues>
+          <attvalue for="0" value="2015" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/107607168/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2188" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="20542400" label="Dlf Homes Panchkula (P) Ltd. Through Its ... vs Sushila Devi">
+        <attvalues>
+          <attvalue for="0" value="2019" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/20542400/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1121915" label="Krishna_Kumar_Khemka_vs_Grindlays_Bank_P_L_C_And_Ors_on_2_May_1990">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1121915/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2157" />
+          <attvalue for="7" value="C8_S17" />
+        </attvalues>
+      </node>
+      <node id="1606861" label="Ajmer_Singh_And_Ors_Etc_vs_State_Of_Haryana_And_Ors_on_17_November_1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1606861/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2187" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="145937302" label="Asha Rani Gupta vs Vineet Kumar on 11 July, 2022">
+        <attvalues>
+          <attvalue for="0" value="2022" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/145937302/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2019" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="178752785" label="Mehmooda Gulshan vs Javaid Hussain Mungloo">
+        <attvalues>
+          <attvalue for="0" value="2017" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/178752785/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2136" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1114159" label="Smt. A.N.Kapoor vs Smt. Pushpa Talwar on 31 January, 1992">
+        <attvalues>
+          <attvalue for="0" value="1992" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1114159/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2003" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="138309" label="Shri Janki Devi Bhagat Trust, Agra vs Ram Swarup Jain (Dead) By Lrs on 14 August, 1995">
+        <attvalues>
+          <attvalue for="0" value="1995" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/138309/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4e-06" />
+          <attvalue for="5" value="0.00039516" />
+          <attvalue for="6" value="659" />
+          <attvalue for="7" value="C8_S4" />
+        </attvalues>
+      </node>
+      <node id="136727407" label="Gandhe Vijay Kumar vs Mulji @ Mulchand">
+        <attvalues>
+          <attvalue for="0" value="2017" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/136727407/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2209" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1578200" label="Delta International Ltd vs Shyam Sunder Ganeriwalla And Anr on 9 April, 1999">
+        <attvalues>
+          <attvalue for="0" value="1999" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1578200/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="6.18e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2054" />
+          <attvalue for="7" value="C8_S23" />
+        </attvalues>
+      </node>
+      <node id="1498990" label="East India Commercial Co. Pvt.Ltd., ... vs Corporation Of Calcutta on 30 March, 1998">
+        <attvalues>
+          <attvalue for="0" value="1998" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1498990/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.174e-05" />
+          <attvalue for="5" value="0.00317884" />
+          <attvalue for="6" value="11" />
+          <attvalue for="7" value="C8_S13" />
+        </attvalues>
+      </node>
+      <node id="1376714" label="Gurdial Batra vs Raj Kumar Jain on 18 July, 1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1376714/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.329e-05" />
+          <attvalue for="5" value="0.00037746" />
+          <attvalue for="6" value="1119" />
+          <attvalue for="7" value="C8_S14" />
+        </attvalues>
+      </node>
+      <node id="8137" label="Technicians_Studio_Private_Ltd_vs_Lila_Ghosh_Anr_on_19_September_1977">
+        <attvalues>
+          <attvalue for="0" value="1977" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/8137/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.65e-06" />
+          <attvalue for="5" value="0.00043952" />
+          <attvalue for="6" value="308" />
+          <attvalue for="7" value="C8_S23" />
+        </attvalues>
+      </node>
+      <node id="116970" label="Gangaram vs N. Shankar Reddy on 6 October, 1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/116970/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2122" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="277928" label="Suleman_Noormohamed_Etc_Etc_vs_Umarbhai_Janubhai_on_23_February_1978">
+        <attvalues>
+          <attvalue for="0" value="1978" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/277928/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.83e-06" />
+          <attvalue for="5" value="0.00038252" />
+          <attvalue for="6" value="910" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="1183935" label="Bai Chanchal &amp; Ors vs Syed Jalaluddin &amp; Ors on 11 September, 1970">
+        <attvalues>
+          <attvalue for="0" value="1970" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1183935/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.73e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2207" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1697633" label="Mahendra Raghunathdas Gupta vs Vishvanath Bhikaji Mogul &amp; Ors on 10 April, 1997">
+        <attvalues>
+          <attvalue for="0" value="1997" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1697633/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2227" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="616965" label="Babulal_Nagar_And_Ors_vs_Shree_Synthetics_Ltd_Ors_on_4_May_1984">
+        <attvalues>
+          <attvalue for="0" value="1984" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/616965/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.522e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2085" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="612459" label="Shah Dhansukhlal Chhaganlal vs Dalichand Virchand Shroff And Others on 1 March, 1968">
+        <attvalues>
+          <attvalue for="0" value="1968" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/612459/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.917e-05" />
+          <attvalue for="5" value="0.0013593" />
+          <attvalue for="6" value="35" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+      <node id="1797396" label="Biswabani_P_Ltd_vs_Santosh_Kumar_Dutta_And_Ors_on_14_September_1979">
+        <attvalues>
+          <attvalue for="0" value="1979" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1797396/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.84e-06" />
+          <attvalue for="5" value="0.00038758" />
+          <attvalue for="6" value="782" />
+          <attvalue for="7" value="C8_S17" />
+        </attvalues>
+      </node>
+      <node id="1362718" label="Harbilas_Rai_Bansal_vs_The_State_Of_Punjab_Anr_on_5_December_1995">
+        <attvalues>
+          <attvalue for="0" value="1995" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1362718/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.418e-05" />
+          <attvalue for="5" value="0.00036349" />
+          <attvalue for="6" value="1902" />
+          <attvalue for="7" value="C8_S2" />
+        </attvalues>
+      </node>
+      <node id="108728217" label="Shivshankar_Gurgar_vs_Dilip_on_3_January_2014">
+        <attvalues>
+          <attvalue for="0" value="2014" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/108728217/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1932" />
+          <attvalue for="7" value="C8_S23" />
+        </attvalues>
+      </node>
+      <node id="849101" label="State Of Haryana Etc vs Sampuran Singh Etc on 3 September, 1975">
+        <attvalues>
+          <attvalue for="0" value="1975" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/849101/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.79e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2229" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="2913972" label="New_Mangalore_Port_Trust_vs_Clifford_D_Souza_Etc_Etc_on_3_April_2025">
+        <attvalues>
+          <attvalue for="0" value="2025" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/2913972/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1988" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1592674" label="Asstt. Gen. Manager Central Bank Of ... vs Commissioner Municipal Corporation ... on 9 May, 1995">
+        <attvalues>
+          <attvalue for="0" value="1995" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1592674/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="0.00014692" />
+          <attvalue for="5" value="0.00331462" />
+          <attvalue for="6" value="7" />
+          <attvalue for="7" value="C8_S13" />
+        </attvalues>
+      </node>
+      <node id="694936" label="Suresh Chand vs Gulam Chisti on 31 January, 1990">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/694936/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.76e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2115" />
+          <attvalue for="7" value="C8_S10" />
+        </attvalues>
+      </node>
+      <node id="176150958" label="Ajay Singh vs Khacheru on 2 January, 2025">
+        <attvalues>
+          <attvalue for="0" value="2025" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/176150958/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1989" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+      <node id="125378456" label="Dina Nath (D) By Lrs. &amp; Anr vs Subhash Chand Saini &amp; Ors on 16 April, 2014">
+        <attvalues>
+          <attvalue for="0" value="2014" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/125378456/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2138" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="1116451" label="Dewan_Daulat_Rai_Kapoor_Etc_Etc_vs_New_Delhi_Municipal_Committee_Another_on_20_December_1979">
+        <attvalues>
+          <attvalue for="0" value="1979" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1116451/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.652e-05" />
+          <attvalue for="5" value="0.00332661" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="C8_S13" />
+        </attvalues>
+      </node>
+      <node id="164765023" label="Food_Corporation_Of_India_vs_Brihanmumbai_Mahanagar_Palika_on_19_March_2020">
+        <attvalues>
+          <attvalue for="0" value="2020" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/164765023/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2215" />
+          <attvalue for="7" value="C8_S20" />
+        </attvalues>
+      </node>
+      <node id="1700311" label="State_Of_Punjab_Ors_vs_Raja_Ram_Ors_on_29_January_1981">
+        <attvalues>
+          <attvalue for="0" value="1981" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1700311/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.74e-06" />
+          <attvalue for="5" value="0.00037409" />
+          <attvalue for="6" value="1245" />
+          <attvalue for="7" value="C8_S9" />
+        </attvalues>
+      </node>
+      <node id="1511188" label="Dr_Smt_Keshav_Devi_vs_Shri_Girdhari_Lal_Pahwa_Ors_on_5_November_1986">
+        <attvalues>
+          <attvalue for="0" value="1986" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1511188/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2101" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1510325" label="Smt. Pushpa Devi &amp; Ors vs Milkhi Ram on 8 February, 1990">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1510325/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.75e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2047" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1663425" label="Vora Rahimbhai Haji Hasanbhai Popat vs Vora Sunderlal Manilal &amp; Anr on 4 November, 1985">
+        <attvalues>
+          <attvalue for="0" value="1985" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1663425/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2100" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="927920" label="Rambai Manjanath Nayak &amp; Ors vs Union Of India &amp; Ors on 17 November, 1992">
+        <attvalues>
+          <attvalue for="0" value="1992" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/927920/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2177" />
+          <attvalue for="7" value="C8_S17" />
+        </attvalues>
+      </node>
+      <node id="265322" label="Bal Niketan Nursery School vs Kesari Prasad on 15 July, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/265322/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1927" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="288297" label="Prabhakaran_Nair_Etc_vs_State_Of_Tamil_Nadu_And_Ors_on_3_September_1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/288297/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.071e-05" />
+          <attvalue for="5" value="0.00038877" />
+          <attvalue for="6" value="761" />
+          <attvalue for="7" value="C8_S2" />
+        </attvalues>
+      </node>
+      <node id="1691826" label="Bombay Municipal Corporation vs Life Insurance Corporation Of India, ... on 21 April, 1970">
+        <attvalues>
+          <attvalue for="0" value="1970" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1691826/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.77e-06" />
+          <attvalue for="5" value="0.00037409" />
+          <attvalue for="6" value="1271" />
+          <attvalue for="7" value="C8_S1" />
+        </attvalues>
+      </node>
+      <node id="1584099" label="Damadilal And Others vs Parashram And Others on 7 May, 1976">
+        <attvalues>
+          <attvalue for="0" value="1976" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1584099/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="8.39e-06" />
+          <attvalue for="5" value="0.00092313" />
+          <attvalue for="6" value="50" />
+          <attvalue for="7" value="C8_S17" />
+        </attvalues>
+      </node>
+      <node id="213047" label="Satya Narain Pandey vs State Of U.P. &amp; Others on 13 January, 1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/213047/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2052" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1795976" label="Jadavji Purshottam vs Dhami Navnitbhai Amaratlal &amp; Ors on 9 September, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1795976/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.93e-06" />
+          <attvalue for="5" value="0.00039181" />
+          <attvalue for="6" value="699" />
+          <attvalue for="7" value="C8_S0" />
+        </attvalues>
+      </node>
+      <node id="88513" label="Mohan Lal vs Jai Bhagwan on 23 March, 1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/88513/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.457e-05" />
+          <attvalue for="5" value="0.00043089" />
+          <attvalue for="6" value="363" />
+          <attvalue for="7" value="C8_S14" />
+        </attvalues>
+      </node>
+      <node id="15887" label="Surja vs Hardeva And Ors on 17 October, 1968">
+        <attvalues>
+          <attvalue for="0" value="1968" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/15887/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2058" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="197547984" label="Bijay Kumar Manish Kumar Huf vs Ashwin Bhanulal Desai">
+        <attvalues>
+          <attvalue for="0" value="2024" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/197547984/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2226" />
+          <attvalue for="7" value="C8_S2" />
+        </attvalues>
+      </node>
+      <node id="1239771" label="Pradeep Oil Corporation vs Municipal Corporation Of Delhi &amp; Anr on 6 April, 2011">
+        <attvalues>
+          <attvalue for="0" value="2011" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1239771/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.83e-06" />
+          <attvalue for="5" value="0.00036429" />
+          <attvalue for="6" value="1823" />
+          <attvalue for="7" value="C8_S23" />
+        </attvalues>
+      </node>
+      <node id="189515" label="Mrs. Meenal Eknath Kshirsagar vs M/S Traders &amp; Agencies &amp; Anr on 11 July, 1996">
+        <attvalues>
+          <attvalue for="0" value="1996" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/189515/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.74e-06" />
+          <attvalue for="5" value="0.00043663" />
+          <attvalue for="6" value="312" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="46037249" label="Apollo Zipper India Limited vs W. Newman And Co. Ltd.">
+        <attvalues>
+          <attvalue for="0" value="2018" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/46037249/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.88e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2242" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="837560" label="State_Of_Punjab_Another_vs_British_India_Corporation_Ltd_on_15_February_1963">
+        <attvalues>
+          <attvalue for="0" value="1963" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/837560/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.164e-05" />
+          <attvalue for="5" value="0.00060074" />
+          <attvalue for="6" value="101" />
+          <attvalue for="7" value="C8_S23" />
+        </attvalues>
+      </node>
+      <node id="1274804" label="All India Film Corporation Ltd. &amp; Ors vs Shri Raja Gyan Nath And Ors on 26 September, 1969">
+        <attvalues>
+          <attvalue for="0" value="1969" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1274804/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.02e-06" />
+          <attvalue for="5" value="0.00047315" />
+          <attvalue for="6" value="222" />
+          <attvalue for="7" value="C8_S0" />
+        </attvalues>
+      </node>
+      <node id="867423" label="P.K. Vijayan vs Kamalakshi Amma And Others on 30 March, 1994">
+        <attvalues>
+          <attvalue for="0" value="1994" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/867423/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.302e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2119" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1457401" label="M.M. Chawla vs J.S. Sethi on 15 September, 1969">
+        <attvalues>
+          <attvalue for="0" value="1969" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1457401/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.901e-05" />
+          <attvalue for="5" value="0.00320039" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="C8_S13" />
+        </attvalues>
+      </node>
+      <node id="1481214" label="C.N. Rudramurthy vs K. Barkathulla Khan &amp; Others on 8 October, 1998">
+        <attvalues>
+          <attvalue for="0" value="1998" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1481214/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="9.87e-06" />
+          <attvalue for="5" value="0.00038877" />
+          <attvalue for="6" value="762" />
+          <attvalue for="7" value="C8_S2" />
+        </attvalues>
+      </node>
+      <node id="386766" label="Raghunandan Saran Ashok Saran &amp; Irs, ... vs Pearey Lal Workshop (P) Ltd. Etc on 15 April, 1986">
+        <attvalues>
+          <attvalue for="0" value="1986" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/386766/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2105" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="895706" label="Chandavarkar_Sita_Ratna_Rao_vs_Ashalata_S_Guram_on_25_September_1986">
+        <attvalues>
+          <attvalue for="0" value="1986" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/895706/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="8.34e-06" />
+          <attvalue for="5" value="0.00050803" />
+          <attvalue for="6" value="159" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+      <node id="818824" label="Kundan Mal vs Gurudutta on 25 January, 1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/818824/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="9.91e-06" />
+          <attvalue for="5" value="0.00108877" />
+          <attvalue for="6" value="43" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="139344517" label="Kaikhosrou(Chick) Kavasji Framji And ... vs Union Of India And Anr">
+        <attvalues>
+          <attvalue for="0" value="2019" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/139344517/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.7e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1958" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="78997925" label="Ram Murti Devi vs Pushpa Devi">
+        <attvalues>
+          <attvalue for="0" value="2017" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/78997925/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.9e-06" />
+          <attvalue for="5" value="0.00038482" />
+          <attvalue for="6" value="834" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="1490167" label="Malpe Vishwanath Acharya &amp; Ors vs State Of Maharashtra &amp; Anr on 19 December, 1997">
+        <attvalues>
+          <attvalue for="0" value="1997" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1490167/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="2.777e-05" />
+          <attvalue for="5" value="0.00162317" />
+          <attvalue for="6" value="20" />
+          <attvalue for="7" value="C8_S2" />
+        </attvalues>
+      </node>
+      <node id="453977" label="Ashoka Marketing Ltd. And Anr. Etc. Etc vs Punjab National Bank And Ors. Etc. Etc on 7 August, 1990">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/453977/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="6.285e-05" />
+          <attvalue for="5" value="0.00036988" />
+          <attvalue for="6" value="1474" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="1128683" label="Arjun Khiamal Makhijani Etc vs Jamnadas C. Tuliani &amp; Ors. Etc on 5 October, 1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1128683/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.8e-06" />
+          <attvalue for="5" value="0.00037237" />
+          <attvalue for="6" value="1385" />
+          <attvalue for="7" value="C8_S1" />
+        </attvalues>
+      </node>
+      <node id="1485551" label="S.J. Ebenezer vs Velayudhan &amp; Ors on 11 December, 1997">
+        <attvalues>
+          <attvalue for="0" value="1997" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1485551/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2125" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1359232" label="State Of Haryana &amp; Ors vs Manoj Kumar">
+        <attvalues>
+          <attvalue for="0" value="2010" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1359232/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2020" />
+          <attvalue for="7" value="C8_S24" />
+        </attvalues>
+      </node>
+      <node id="1770082" label="The Gujarat Agro Industries Co. Ltd vs Municipal Corporation Of City Of ... on 26 April, 1999">
+        <attvalues>
+          <attvalue for="0" value="1999" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1770082/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.935e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2197" />
+          <attvalue for="7" value="C8_S25" />
+        </attvalues>
+      </node>
+      <node id="1025530" label="Manoj Kumar vs Bihari Lal (Dead) By Lrs on 18 April, 2001">
+        <attvalues>
+          <attvalue for="0" value="2001" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1025530/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2244" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1777946" label="Bhagwan_Das_vs_The_State_Of_Punjab_on_4_November_1965">
+        <attvalues>
+          <attvalue for="0" value="1965" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1777946/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.88e-06" />
+          <attvalue for="5" value="0.00038538" />
+          <attvalue for="6" value="800" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="167519" label="General_Radio_Appliances_Co_Ltd_Ors_vs_M_A_Khader_Dead_By_Lrs_on_17_April_1986">
+        <attvalues>
+          <attvalue for="0" value="1986" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/167519/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.949e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2218" />
+          <attvalue for="7" value="C8_S11" />
+        </attvalues>
+      </node>
+      <node id="549574" label="The Municipal Council, Madurai vs R. Narayanan Etc on 18 August, 1975">
+        <attvalues>
+          <attvalue for="0" value="1975" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/549574/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2185" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1679568" label="Mrs_M_N_Clubwala_And_Anr_vs_Fida_Hussain_Saheb_And_Ors_on_3_February_1964">
+        <attvalues>
+          <attvalue for="0" value="1964" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1679568/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.6e-05" />
+          <attvalue for="5" value="0.00050162" />
+          <attvalue for="6" value="164" />
+          <attvalue for="7" value="C8_S23" />
+        </attvalues>
+      </node>
+      <node id="1402003" label="Puran_Singh_Sahni_vs_Smt_Sundari_Bhagwandas_Kripalani_And_on_20_February_1991">
+        <attvalues>
+          <attvalue for="0" value="1991" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1402003/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.77e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2134" />
+          <attvalue for="7" value="C8_S12" />
+        </attvalues>
+      </node>
+      <node id="1457105" label="J. Pandu vs R. Narsubai on 28 January, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1457105/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2079" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="367434" label="Babu Ram Gopal And Others vs Mathra Dass on 28 February, 1990">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/367434/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2090" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1379062" label="Beopar Sahayak (P) Ltd. &amp; Ors vs Vishwa Nath &amp; Ors on 15 July, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1379062/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.025e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2219" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1331869" label="Precision_Steel_And_Engineering_Works_vs_Prem_Deva_Niranjan_Deva_Tayal_on_7_October_1982">
+        <attvalues>
+          <attvalue for="0" value="1982" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1331869/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.75e-06" />
+          <attvalue for="5" value="0.00036643" />
+          <attvalue for="6" value="1723" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="191666286" label="New Delhi Municipal Council vs Association Of Concerned Citizens Of ...">
+        <attvalues>
+          <attvalue for="0" value="2019" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/191666286/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2179" />
+          <attvalue for="7" value="C8_S13" />
+        </attvalues>
+      </node>
+      <node id="1908098" label="State Of Maharashtra vs Laxman Chiman Naik &amp; Anr on 2 August, 1973">
+        <attvalues>
+          <attvalue for="0" value="1973" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1908098/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1977" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1879419" label="Vallabbhai Nathabhai vs Bai Jivi And Ors. on 12 January, 1969">
+        <attvalues>
+          <attvalue for="0" value="1969" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1879419/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1962" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="607991" label="Achutananda Baidya vs Prafullya Kumar Gayen And Ors on 8 April, 1997">
+        <attvalues>
+          <attvalue for="0" value="1997" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/607991/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2251" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="495691" label="Vasant_Pratap_Pandit_vs_Dr_Anant_Trimbak_Sabnis_on_12_April_1994">
+        <attvalues>
+          <attvalue for="0" value="1994" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/495691/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.77e-06" />
+          <attvalue for="5" value="0.00037169" />
+          <attvalue for="6" value="1398" />
+          <attvalue for="7" value="C8_S19" />
+        </attvalues>
+      </node>
+      <node id="1773971" label="Inder Mohan Lal vs Ramesh Khanna on 4 August, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1773971/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.52e-06" />
+          <attvalue for="5" value="0.00045086" />
+          <attvalue for="6" value="266" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="923000" label="Associated_Hotels_Of_India_Ltd_Delhi_vs_S_B_Sardar_Ranjit_Singh_on_7_December_1967">
+        <attvalues>
+          <attvalue for="0" value="1967" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/923000/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="8.046e-05" />
+          <attvalue for="5" value="0.00045846" />
+          <attvalue for="6" value="243" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="265262" label="State Of Punjab (Now Haryana) And, Ors vs Amar Singh And Another on 21 January, 1974">
+        <attvalues>
+          <attvalue for="0" value="1974" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/265262/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.78e-06" />
+          <attvalue for="5" value="0.00036567" />
+          <attvalue for="6" value="1774" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="688127" label="Pradesh_Kumar_Bajpai_vs_Binod_Behari_Sarkar_on_21_March_1980">
+        <attvalues>
+          <attvalue for="0" value="1980" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/688127/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.05e-06" />
+          <attvalue for="5" value="0.00040793" />
+          <attvalue for="6" value="495" />
+          <attvalue for="7" value="C8_S8" />
+        </attvalues>
+      </node>
+      <node id="831707" label="Sri_Krishna_Das_vs_Town_Area_Committee_Chirgaon_on_20_March_1990">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/831707/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.76e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2126" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1130746" label="Narendra_Singh_vs_Chhotey_Singh_And_Anr_on_9_August_1983">
+        <attvalues>
+          <attvalue for="0" value="1983" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1130746/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.531e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2089" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1615258" label="Kameshwar Singh Srivastava vs Iv Addl. Dist. Judge Lucknow &amp; Ors on 14 November, 1986">
+        <attvalues>
+          <attvalue for="0" value="1986" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1615258/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1970" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="845417" label="M/S. Ambalal Sarabhai Enterprises Ltd vs M/S. Amrit Lal &amp; Co. &amp; Anr on 27 August, 2001">
+        <attvalues>
+          <attvalue for="0" value="2001" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/845417/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.82e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2057" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="736105" label="Income_Tax_Officer_vs_M_K_Mohammed_Kunhi_on_11_September_1968">
+        <attvalues>
+          <attvalue for="0" value="1968" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/736105/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="7.565e-05" />
+          <attvalue for="5" value="0.00036821" />
+          <attvalue for="6" value="1571" />
+          <attvalue for="7" value="C8_S25" />
+        </attvalues>
+      </node>
+      <node id="1687593" label="State Of U.P. &amp; Anr vs Jagdish Saran Agrawal &amp; Ors on 25 November, 2008">
+        <attvalues>
+          <attvalue for="0" value="2008" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1687593/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2098" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="778610" label="Capt. B.V.D Souza vs Antonio Fausto Fernandes on 1 August, 1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/778610/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="7.13e-06" />
+          <attvalue for="5" value="0.00040315" />
+          <attvalue for="6" value="561" />
+          <attvalue for="7" value="C8_S23" />
+        </attvalues>
+      </node>
+      <node id="383514" label="Sultan And Ors. vs Ganesh And Ors. on 9 February, 1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/383514/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.616e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1949" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1073578" label="Resham Singh vs Raghbir Singh &amp; Anr on 23 August, 1999">
+        <attvalues>
+          <attvalue for="0" value="1999" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1073578/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.98e-06" />
+          <attvalue for="5" value="0.00041124" />
+          <attvalue for="6" value="475" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="122614019" label="Rajender Bansal &amp; Ors vs Bhuru (D) Thr. Lrs. &amp; Ors">
+        <attvalues>
+          <attvalue for="0" value="2016" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/122614019/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2121" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="2405052" label="National And Grindlays Bank Ltd. vs The Municipal Corporation Of Greater, ... on 5 February, 1969">
+        <attvalues>
+          <attvalue for="0" value="1969" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/2405052/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.733e-05" />
+          <attvalue for="5" value="0.00156608" />
+          <attvalue for="6" value="24" />
+          <attvalue for="7" value="C8_S13" />
+        </attvalues>
+      </node>
+      <node id="15862952" label="Thota Sridhar Reddy vs Mandala Ramulamma on 1 October, 2021">
+        <attvalues>
+          <attvalue for="0" value="2021" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/15862952/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2182" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="933165" label="Yamuna Maloo v. Anand Swarup">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/933165/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.92e-06" />
+          <attvalue for="5" value="0.00038758" />
+          <attvalue for="6" value="780" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="20446998" label="State Of Gujarat vs Jetawat Lalsingh Amarsingh And Ors. on 7 August, 1968">
+        <attvalues>
+          <attvalue for="0" value="1968" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/20446998/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.75e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1948" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1429548" label="Bal Kishan vs Om Prakash &amp; Anr on 26 August, 1986">
+        <attvalues>
+          <attvalue for="0" value="1986" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1429548/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2083" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1377335" label="Anand_Nivas_Private_Ltd_vs_Anandji_Kalyanji_Pedhi_Ors_on_5_September_1963">
+        <attvalues>
+          <attvalue for="0" value="1963" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1377335/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="2.364e-05" />
+          <attvalue for="5" value="0.00104547" />
+          <attvalue for="6" value="45" />
+          <attvalue for="7" value="C8_S17" />
+        </attvalues>
+      </node>
+      <node id="32246" label="State Of Maharashtra vs Laxman Abaji A Anr on 20 April, 1971">
+        <attvalues>
+          <attvalue for="0" value="1971" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/32246/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2137" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="112778127" label="Tribhuvanshankar vs Amrutlal">
+        <attvalues>
+          <attvalue for="0" value="2013" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/112778127/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1993" />
+          <attvalue for="7" value="C8_S26" />
+        </attvalues>
+      </node>
+      <node id="1371446" label="D.C. Oswal vs V.K.Subbiah And Ors on 12 November, 1991">
+        <attvalues>
+          <attvalue for="0" value="1991" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1371446/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.869e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2049" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1644282" label="Prithvichand_Ramchand_Sablok_vs_S_Y_Shinde_on_13_May_1993">
+        <attvalues>
+          <attvalue for="0" value="1993" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1644282/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.81e-06" />
+          <attvalue for="5" value="0.00037411" />
+          <attvalue for="6" value="1224" />
+          <attvalue for="7" value="C8_S8" />
+        </attvalues>
+      </node>
+      <node id="57929191" label="Panjak Bhargava And Another vs Mohinder Nath And Another on 11 December, 1990">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/57929191/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.02e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1966" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="870347" label="Pal_Singh_vs_Sunder_Singh_Dead_By_Lrs_Ors_on_10_January_1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/870347/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.86e-06" />
+          <attvalue for="5" value="0.0004455" />
+          <attvalue for="6" value="285" />
+          <attvalue for="7" value="C8_S18" />
+        </attvalues>
+      </node>
+      <node id="120831371" label="Ram Krishan Grover vs Union Of India">
+        <attvalues>
+          <attvalue for="0" value="2019" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/120831371/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.75e-06" />
+          <attvalue for="5" value="0.00036643" />
+          <attvalue for="6" value="1736" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="710575" label="Hindustan_Petroleum_Corporation_Ltd_vs_Shyam_Co_Operative_Housing_Society_Ors_on_19_September_1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/710575/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="2.884e-05" />
+          <attvalue for="5" value="0.00038264" />
+          <attvalue for="6" value="892" />
+          <attvalue for="7" value="C8_S12" />
+        </attvalues>
+      </node>
+      <node id="1074" label="Dhondiram Tatoba Kadam vs Ramchandra Balwantrao Dubal on 27 July, 1993">
+        <attvalues>
+          <attvalue for="0" value="1993" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1074/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.71e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2092" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="443306" label="Narottam_Kishore_Dev_Varma_And_Ors_vs_Union_Of_India_And_Another_on_6_March_1964">
+        <attvalues>
+          <attvalue for="0" value="1964" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/443306/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.27e-06" />
+          <attvalue for="5" value="0.00041292" />
+          <attvalue for="6" value="468" />
+          <attvalue for="7" value="C8_S2" />
+        </attvalues>
+      </node>
+      <node id="570358" label="Jetha Bai &amp; Sons, Jew Town, Cochin, Etc. ... vs Sunderdas Rathenai, Etc. Etc on 4 February, 1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/570358/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.68e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2114" />
+          <attvalue for="7" value="C8_S27" />
+        </attvalues>
+      </node>
+      <node id="1645156" label="Ishverlal_Thakorelal_Almaula_vs_Motibhai_Nagjibhai_on_10_August_1965">
+        <attvalues>
+          <attvalue for="0" value="1965" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1645156/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.07e-06" />
+          <attvalue for="5" value="0.00044254" />
+          <attvalue for="6" value="304" />
+          <attvalue for="7" value="C8_S10" />
+        </attvalues>
+      </node>
+      <node id="1659242" label="Mst. Surayya Begum, Etc vs Mohd. Usman And Ors., Etc on 26 April, 1991">
+        <attvalues>
+          <attvalue for="0" value="1991" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1659242/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.77e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2078" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1094547" label="Hiralal_Moolchand_Doshi_vs_Barot_Raman_Lal_Ranchhoddas_Dead_By_on_18_February_1993">
+        <attvalues>
+          <attvalue for="0" value="1993" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1094547/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2132" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="592470" label="Ashok_Chintaman_Juker_Ors_vs_Kishore_Pandurang_Mantri_Anr_on_9_May_2001">
+        <attvalues>
+          <attvalue for="0" value="2001" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/592470/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1947" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+      <node id="115022" label="Dr. D.N. Malhotra vs Kartar Singh on 29 January, 1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/115022/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2180" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="401288" label="Ram Narain Arora vs Asha Rani &amp; Ors on 31 August, 1998">
+        <attvalues>
+          <attvalue for="0" value="1998" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/401288/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5e-06" />
+          <attvalue for="5" value="0.00046756" />
+          <attvalue for="6" value="233" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="861691" label="Sanwarmal_Kejriwal_vs_Vishwa_Cooperative_Housing_Society_on_8_March_1990">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/861691/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.952e-05" />
+          <attvalue for="5" value="0.00037409" />
+          <attvalue for="6" value="1255" />
+          <attvalue for="7" value="C8_S12" />
+        </attvalues>
+      </node>
+      <node id="805215" label="Gurbax_Singh_vs_State_Of_Punjab_Ors_on_25_October_1966">
+        <attvalues>
+          <attvalue for="0" value="1966" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/805215/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.76e-06" />
+          <attvalue for="5" value="0.00036371" />
+          <attvalue for="6" value="1852" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="1783260" label="Hiralal_Vallabhram_vs_Kastorbhai_Lalbhai_Ors_on_31_March_1967">
+        <attvalues>
+          <attvalue for="0" value="1967" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1783260/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.53e-06" />
+          <attvalue for="5" value="0.00045216" />
+          <attvalue for="6" value="261" />
+          <attvalue for="7" value="C8_S17" />
+        </attvalues>
+      </node>
+      <node id="1053321" label="Bhoolchand_And_Anr_vs_Kay_Pee_Cee_Investments_And_Anr_on_10_October_1990">
+        <attvalues>
+          <attvalue for="0" value="1990" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1053321/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.99e-06" />
+          <attvalue for="5" value="0.00036544" />
+          <attvalue for="6" value="1797" />
+          <attvalue for="7" value="C8_S17" />
+        </attvalues>
+      </node>
+      <node id="1000162" label="Sachalmal Parasram vs Ratnabai And Ors. on 13 January, 1972">
+        <attvalues>
+          <attvalue for="0" value="1972" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1000162/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.76e-06" />
+          <attvalue for="5" value="0.00036848" />
+          <attvalue for="6" value="1548" />
+          <attvalue for="7" value="C8_S0" />
+        </attvalues>
+      </node>
+      <node id="278584" label="Burmah Shell Oil Distributing Now Known ... vs Khaja Midhat Noor And Others on 3 May, 1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/278584/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2146" />
+          <attvalue for="7" value="C8_S28" />
+        </attvalues>
+      </node>
+      <node id="1147370" label="R. Kanthimathi And Anr. vs Beatrice Xavier (Mrs) on 8 February, 2000">
+        <attvalues>
+          <attvalue for="0" value="2000" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1147370/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.643e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2234" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="89824" label="Sabharwal Brothers &amp; Another vs Smt. Guna Amrit Thandani Of Bombay on 29 March, 1972">
+        <attvalues>
+          <attvalue for="0" value="1972" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/89824/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.057e-05" />
+          <attvalue for="5" value="0.00072691" />
+          <attvalue for="6" value="64" />
+          <attvalue for="7" value="C8_S12" />
+        </attvalues>
+      </node>
+      <node id="296937" label="Union_Of_India_Anr_vs_Wing_Commander_R_R_Hingorani_Retd_on_30_January_1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/296937/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2127" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="741335" label="Maruti Bala Raut vs Dashrath Babu Wathare &amp; Ors on 27 August, 1974">
+        <attvalues>
+          <attvalue for="0" value="1974" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/741335/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2053" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="498278" label="Super Forgings &amp; Steels (Sales) Pvt. Ltd vs Thyabally Rasuljee (Dead) Through ... on 1 December, 1994">
+        <attvalues>
+          <attvalue for="0" value="1994" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/498278/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.73e-05" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2183" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="55853298" label="Ambica Prasad vs Md. Alam And Anr on 8 April, 2015">
+        <attvalues>
+          <attvalue for="0" value="2015" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/55853298/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2217" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1116650" label="Raja Bahadur Motilal Bombay Mills ... vs M/S. Govind Ram Brothers (P) Ltd., ... on 12 March, 1974">
+        <attvalues>
+          <attvalue for="0" value="1974" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1116650/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1930" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="95332064" label="Orissa Industrial Infra.Dev. ... vs M/S Mesco Kalinga Steel Ltd. &amp; Ors">
+        <attvalues>
+          <attvalue for="0" value="2017" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/95332064/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.87e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2004" />
+          <attvalue for="7" value="C8_S29" />
+        </attvalues>
+      </node>
+      <node id="415355" label="Indu Bhusan Bose vs Rama Sundari Devi &amp; Anr on 29 April, 1969">
+        <attvalues>
+          <attvalue for="0" value="1969" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/415355/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.34e-06" />
+          <attvalue for="5" value="0.000373" />
+          <attvalue for="6" value="1344" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="1348467" label="Hanumant Kumar Telesara vs Mohan Lal on 1 December, 1987">
+        <attvalues>
+          <attvalue for="0" value="1987" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1348467/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2018" />
+          <attvalue for="7" value="C8_S0" />
+        </attvalues>
+      </node>
+      <node id="608221" label="Rakapalli Raja Rama Gopala Rao vs Naragani Govinda Sehararao &amp; Anr on 12 September, 1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/608221/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.82e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2099" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1120571" label="K.A. Anthappai vs C. Ahammed on 5 May, 1992">
+        <attvalues>
+          <attvalue for="0" value="1992" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1120571/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1331963" label="Shamahad Ahmad &amp; Ors vs Tilak Raj Bajaj (D) By Lrs. &amp; Ors on 11 September, 2008">
+        <attvalues>
+          <attvalue for="0" value="2008" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1331963/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.09e-06" />
+          <attvalue for="5" value="0.00041792" />
+          <attvalue for="6" value="442" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+      <node id="192605638" label="Banatwala_Company_vs_L_I_C_Of_India_Anr_on_19_August_2010">
+        <attvalues>
+          <attvalue for="0" value="2010" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/192605638/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="1987" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="437827" label="Mohd. Illahamuddin And Ors. vs Bhivasan And Anr. on 16 March, 1970">
+        <attvalues>
+          <attvalue for="0" value="1970" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/437827/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2248" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1963083" label="Raja_Mohammad_Amir_Ahmad_Khan_vs_Municipal_Board_Of_Sitapur_And_Anr_on_3_December_1964">
+        <attvalues>
+          <attvalue for="0" value="1964" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1963083/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="2.259e-05" />
+          <attvalue for="5" value="0.00111405" />
+          <attvalue for="6" value="40" />
+          <attvalue for="7" value="C8_S15" />
+        </attvalues>
+      </node>
+      <node id="1020200" label="Busching_Schmitz_Private_Ltd_vs_P_T_Menghani_And_Anr_on_17_March_1977">
+        <attvalues>
+          <attvalue for="0" value="1977" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1020200/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="2.405e-05" />
+          <attvalue for="5" value="0.00092311" />
+          <attvalue for="6" value="51" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="1976265" label="Jain_Malleables_vs_Bharat_Sahay_on_8_December_1981">
+        <attvalues>
+          <attvalue for="0" value="1981" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1976265/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.67e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2208" />
+          <attvalue for="7" value="C8_S30" />
+        </attvalues>
+      </node>
+      <node id="1492054" label="Modula_India_vs_Kamakshya_Singh_Deo_on_27_September_1988">
+        <attvalues>
+          <attvalue for="0" value="1988" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1492054/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.74e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2160" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="639698" label="Nai_Bahu_vs_Ramnarayan_Others_on_14_October_1977">
+        <attvalues>
+          <attvalue for="0" value="1977" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/639698/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.28e-06" />
+          <attvalue for="5" value="0.00039095" />
+          <attvalue for="6" value="733" />
+          <attvalue for="7" value="C8_S23" />
+        </attvalues>
+      </node>
+      <node id="1889659" label="Konchada_Ramamurthy_Subudhi_Anr_vs_Gopinath_Naik_on_7_December_1967">
+        <attvalues>
+          <attvalue for="0" value="1967" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1889659/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.108e-05" />
+          <attvalue for="5" value="0.00056115" />
+          <attvalue for="6" value="120" />
+          <attvalue for="7" value="C8_S23" />
+        </attvalues>
+      </node>
+      <node id="960531" label="Bhimaji_Shanker_Kulkarni_vs_Dundappa_Vithappa_Udapudi_And_Anr_on_5_May_1965">
+        <attvalues>
+          <attvalue for="0" value="1965" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/960531/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="6.37e-06" />
+          <attvalue for="5" value="0.00064207" />
+          <attvalue for="6" value="87" />
+          <attvalue for="7" value="C8_S10" />
+        </attvalues>
+      </node>
+      <node id="1729819" label="Bahadur_Singh_Anr_vs_Muni_Subrat_Dass_Anr_on_16_October_1968">
+        <attvalues>
+          <attvalue for="0" value="1968" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1729819/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="1.187e-05" />
+          <attvalue for="5" value="0.00051318" />
+          <attvalue for="6" value="146" />
+          <attvalue for="7" value="C8_S6" />
+        </attvalues>
+      </node>
+      <node id="1909386" label="Sankaranarayanan Potti (Dead) By L.Rs vs K. Sreedevi &amp; Ors on 26 March, 1998">
+        <attvalues>
+          <attvalue for="0" value="1998" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1909386/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.97e-06" />
+          <attvalue for="5" value="0.0004078" />
+          <attvalue for="6" value="518" />
+          <attvalue for="7" value="C8_S22" />
+        </attvalues>
+      </node>
+      <node id="82038" label="B_M_Lall_Dead_By_L_Rs_vs_Dunlop_Rubber_Co_Ltd_Ors_on_18_July_1967">
+        <attvalues>
+          <attvalue for="0" value="1967" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/82038/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="4.65e-06" />
+          <attvalue for="5" value="0.00041469" />
+          <attvalue for="6" value="458" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="1395333" label="Rubber_House_vs_Excellsior_Needle_Industries_Pvt_Ltd_on_10_March_1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1395333/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.68e-06" />
+          <attvalue for="5" value="0.00035724" />
+          <attvalue for="6" value="2067" />
+          <attvalue for="7" value="C8" />
+        </attvalues>
+      </node>
+      <node id="1031208" label="Kala And Another vs Madho Parshad Vaidya on 27 August, 1998">
+        <attvalues>
+          <attvalue for="0" value="1998" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1031208/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="5.164e-05" />
+          <attvalue for="5" value="0.00054822" />
+          <attvalue for="6" value="126" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="1908519" label="Duli Chand (Dead) By L.Rs vs Jagmender Dass on 8 December, 1989">
+        <attvalues>
+          <attvalue for="0" value="1989" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1908519/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.86e-06" />
+          <attvalue for="5" value="0.00037793" />
+          <attvalue for="6" value="1076" />
+          <attvalue for="7" value="C8_S3" />
+        </attvalues>
+      </node>
+      <node id="1872225" label="Ganpat_Ladha_vs_Sashikant_Vishnu_Shinde_on_21_February_1978">
+        <attvalues>
+          <attvalue for="0" value="1978" />
+          <attvalue for="1" value="https://indiankanoon.org/doc/1872225/" />
+          <attvalue for="2" value="case" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="3.665e-05" />
+          <attvalue for="5" value="0.0009762" />
+          <attvalue for="6" value="48" />
+          <attvalue for="7" value="C8_S5" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1106652" target="1042021" id="19216" />
+      <edge source="279176" target="1377335" id="15632" />
+      <edge source="279176" target="1584099" id="15633" />
+      <edge source="936128" target="503780" id="18755" />
+      <edge source="104106942" target="401288" id="58026" />
+      <edge source="137893087" target="628271" id="199368" />
+      <edge source="1847465" target="1729819" id="41736" />
+      <edge source="1847465" target="1912299" id="41746" />
+      <edge source="1952354" target="960531" id="45843" />
+      <edge source="821177" target="1490167" id="170312" />
+      <edge source="38604742" target="758831" id="212014" />
+      <edge source="38604742" target="308216" id="212018" />
+      <edge source="38604742" target="869439" id="212019" />
+      <edge source="38604742" target="78997925" id="212020" />
+      <edge source="1187427" target="1020200" id="14712" />
+      <edge source="758831" target="308216" id="53418" />
+      <edge source="758831" target="573026" id="53420" />
+      <edge source="1268348" target="138309" id="58525" />
+      <edge source="503780" target="1872225" id="16677" />
+      <edge source="7914803" target="265262" id="24214" />
+      <edge source="59283623" target="863948" id="213294" />
+      <edge source="59283623" target="1667279" id="213309" />
+      <edge source="1497837" target="1073578" id="185438" />
+      <edge source="1497837" target="758831" id="185439" />
+      <edge source="1571096" target="1795976" id="40780" />
+      <edge source="1571096" target="1928486" id="40787" />
+      <edge source="73697222" target="96229" id="201074" />
+      <edge source="73697222" target="1065009" id="201078" />
+      <edge source="73697222" target="1729819" id="201080" />
+      <edge source="1327310" target="1584099" id="42028" />
+      <edge source="1327310" target="1377335" id="42032" />
+      <edge source="108063005" target="23411" id="1867" />
+      <edge source="224201" target="688127" id="15149" />
+      <edge source="224201" target="1783260" id="15172" />
+      <edge source="224201" target="1729819" id="15176" />
+      <edge source="617692" target="1872225" id="16953" />
+      <edge source="617692" target="1244187" id="16964" />
+      <edge source="617692" target="895706" id="16967" />
+      <edge source="1446894" target="1700311" id="21023" />
+      <edge source="1667279" target="1048514" id="22056" />
+      <edge source="1667279" target="960531" id="22078" />
+      <edge source="1667279" target="1661992" id="22082" />
+      <edge source="1667279" target="1645156" id="22090" />
+      <edge source="1703207" target="1887042" id="22156" />
+      <edge source="1703207" target="580380" id="22161" />
+      <edge source="1703207" target="1362718" id="22166" />
+      <edge source="1703207" target="1490167" id="22169" />
+      <edge source="1703207" target="288297" id="22171" />
+      <edge source="1703207" target="1481214" id="22199" />
+      <edge source="1703207" target="443306" id="22220" />
+      <edge source="166337" target="1648125" id="45264" />
+      <edge source="166337" target="736105" id="45282" />
+      <edge source="106222" target="1642365" id="14770" />
+      <edge source="1219878" target="1584099" id="19786" />
+      <edge source="573026" target="869439" id="40929" />
+      <edge source="573026" target="82038" id="40933" />
+      <edge source="573026" target="923000" id="40935" />
+      <edge source="119799454" target="861691" id="198360" />
+      <edge source="119799454" target="1555819" id="198367" />
+      <edge source="119799454" target="1691826" id="198370" />
+      <edge source="10645" target="329158" id="14447" />
+      <edge source="10645" target="89824" id="14456" />
+      <edge source="10645" target="618220" id="14457" />
+      <edge source="6571" target="1575265" id="14440" />
+      <edge source="639907" target="1802788" id="13901" />
+      <edge source="639907" target="612459" id="13903" />
+      <edge source="628271" target="978541" id="55121" />
+      <edge source="1166417" target="1042021" id="40122" />
+      <edge source="1166417" target="1274804" id="40124" />
+      <edge source="1166417" target="1000162" id="40126" />
+      <edge source="1166417" target="1795976" id="40129" />
+      <edge source="1753919" target="1116451" id="45972" />
+      <edge source="394979" target="1376714" id="56397" />
+      <edge source="394979" target="88513" id="56399" />
+      <edge source="329158" target="89824" id="14467" />
+      <edge source="755721" target="688127" id="17903" />
+      <edge source="755721" target="1644282" id="17920" />
+      <edge source="151993301" target="1116451" id="65072" />
+      <edge source="1065009" target="1729819" id="8182" />
+      <edge source="141468481" target="580380" id="110153" />
+      <edge source="141468481" target="1331869" id="110155" />
+      <edge source="141468481" target="120831371" id="110168" />
+      <edge source="141468481" target="401288" id="110178" />
+      <edge source="886958" target="1203079" id="39716" />
+      <edge source="886958" target="936128" id="39720" />
+      <edge source="151635574" target="1963083" id="193220" />
+      <edge source="752180" target="518139" id="56903" />
+      <edge source="1373296" target="960531" id="20725" />
+      <edge source="1373296" target="1048514" id="20726" />
+      <edge source="1373296" target="1645156" id="20727" />
+      <edge source="1373296" target="1661992" id="20728" />
+      <edge source="154471238" target="279176" id="201357" />
+      <edge source="154471238" target="1053321" id="201376" />
+      <edge source="96229" target="1729819" id="8911" />
+      <edge source="96229" target="1065009" id="8913" />
+      <edge source="1587367" target="612459" id="21783" />
+      <edge source="1587367" target="1802788" id="21784" />
+      <edge source="1563296" target="870347" id="52511" />
+      <edge source="1526475" target="870347" id="45870" />
+      <edge source="1555819" target="1128683" id="43792" />
+      <edge source="1069011" target="1244187" id="19180" />
+      <edge source="148738" target="869439" id="46093" />
+      <edge source="1887042" target="1377335" id="15131" />
+      <edge source="1887042" target="1872225" id="15132" />
+      <edge source="1954254" target="1802788" id="23695" />
+      <edge source="42266022" target="495691" id="134739" />
+      <edge source="1048514" target="960531" id="15054" />
+      <edge source="1048514" target="1661992" id="15055" />
+      <edge source="169691193" target="1497837" id="193175" />
+      <edge source="1404466" target="1889659" id="37329" />
+      <edge source="136345" target="1116451" id="14989" />
+      <edge source="136345" target="1592674" id="14992" />
+      <edge source="136345" target="1578795" id="14993" />
+      <edge source="136345" target="1498990" id="14998" />
+      <edge source="136345" target="1490167" id="15000" />
+      <edge source="136345" target="2405052" id="15001" />
+      <edge source="42694335" target="1812473" id="25670" />
+      <edge source="118072899" target="755721" id="99352" />
+      <edge source="1553975" target="1097694" id="53615" />
+      <edge source="1230472" target="1909386" id="55499" />
+      <edge source="1121915" target="1797396" id="19224" />
+      <edge source="1121915" target="1584099" id="19238" />
+      <edge source="1606861" target="1777946" id="21878" />
+      <edge source="145937302" target="1153435" id="210976" />
+      <edge source="1578200" target="778610" id="54436" />
+      <edge source="1578200" target="1679568" id="54448" />
+      <edge source="1498990" target="1592674" id="53244" />
+      <edge source="1376714" target="88513" id="40943" />
+      <edge source="8137" target="837560" id="14443" />
+      <edge source="277928" target="96229" id="15629" />
+      <edge source="277928" target="1802788" id="15630" />
+      <edge source="1797396" target="8137" id="19242" />
+      <edge source="1797396" target="1377335" id="19244" />
+      <edge source="1797396" target="1783260" id="19245" />
+      <edge source="1362718" target="1887042" id="20556" />
+      <edge source="108728217" target="639698" id="31198" />
+      <edge source="1592674" target="1116451" id="48803" />
+      <edge source="1592674" target="1753919" id="48804" />
+      <edge source="694936" target="863948" id="42802" />
+      <edge source="176150958" target="895706" id="222510" />
+      <edge source="176150958" target="1331963" id="222513" />
+      <edge source="125378456" target="96229" id="192845" />
+      <edge source="125378456" target="453977" id="192848" />
+      <edge source="125378456" target="1153435" id="192861" />
+      <edge source="1116451" target="1457401" id="15005" />
+      <edge source="164765023" target="1812473" id="34770" />
+      <edge source="927920" target="1584099" id="44974" />
+      <edge source="1584099" target="1377335" id="13754" />
+      <edge source="1795976" target="1274804" id="38714" />
+      <edge source="197547984" target="1703207" id="96493" />
+      <edge source="197547984" target="288297" id="96495" />
+      <edge source="197547984" target="1481214" id="96497" />
+      <edge source="197547984" target="77210495" id="96501" />
+      <edge source="1239771" target="778610" id="188130" />
+      <edge source="1481214" target="1490167" id="53165" />
+      <edge source="895706" target="82038" id="18581" />
+      <edge source="895706" target="1377335" id="18586" />
+      <edge source="895706" target="1584099" id="18593" />
+      <edge source="895706" target="1872225" id="18594" />
+      <edge source="78997925" target="758831" id="107590" />
+      <edge source="78997925" target="923000" id="107592" />
+      <edge source="78997925" target="1031208" id="107594" />
+      <edge source="1490167" target="443306" id="52489" />
+      <edge source="453977" target="6571" id="41989" />
+      <edge source="453977" target="415355" id="41990" />
+      <edge source="453977" target="636080" id="42000" />
+      <edge source="453977" target="1575265" id="42005" />
+      <edge source="1128683" target="1203079" id="40609" />
+      <edge source="1128683" target="886958" id="40611" />
+      <edge source="1128683" target="1872225" id="40613" />
+      <edge source="1128683" target="96229" id="40629" />
+      <edge source="1359232" target="1952950" id="92731" />
+      <edge source="1359232" target="153124" id="92733" />
+      <edge source="1770082" target="1648125" id="55479" />
+      <edge source="1770082" target="166337" id="55488" />
+      <edge source="167519" target="106222" id="15056" />
+      <edge source="1402003" target="329158" id="20850" />
+      <edge source="1402003" target="895706" id="20873" />
+      <edge source="1402003" target="710575" id="20881" />
+      <edge source="1402003" target="10645" id="20882" />
+      <edge source="1331869" target="1020200" id="20301" />
+      <edge source="1331869" target="1187427" id="20302" />
+      <edge source="1331869" target="1575265" id="20303" />
+      <edge source="191666286" target="1116451" id="65111" />
+      <edge source="191666286" target="1239771" id="65116" />
+      <edge source="191666286" target="151993301" id="65139" />
+      <edge source="1773971" target="96229" id="38674" />
+      <edge source="1773971" target="1729819" id="38689" />
+      <edge source="265262" target="1065009" id="10813" />
+      <edge source="265262" target="1729819" id="10818" />
+      <edge source="265262" target="805215" id="10828" />
+      <edge source="265262" target="96229" id="10846" />
+      <edge source="265262" target="1777946" id="10852" />
+      <edge source="688127" target="1870868" id="15183" />
+      <edge source="1073578" target="1031208" id="55110" />
+      <edge source="933165" target="1773971" id="42500" />
+      <edge source="112778127" target="978541" id="108194" />
+      <edge source="1644282" target="688127" id="21968" />
+      <edge source="57929191" target="1773971" id="42486" />
+      <edge source="57929191" target="933165" id="42489" />
+      <edge source="870347" target="1249629" id="18430" />
+      <edge source="120831371" target="415355" id="122497" />
+      <edge source="120831371" target="1110593" id="122512" />
+      <edge source="710575" target="329158" id="17337" />
+      <edge source="570358" target="1885988" id="39738" />
+      <edge source="1094547" target="277928" id="19189" />
+      <edge source="1094547" target="1065009" id="19197" />
+      <edge source="1094547" target="96229" id="19202" />
+      <edge source="592470" target="1872225" id="16839" />
+      <edge source="401288" target="189515" id="53788" />
+      <edge source="861691" target="329158" id="18224" />
+      <edge source="861691" target="710575" id="18235" />
+      <edge source="861691" target="895706" id="18243" />
+      <edge source="861691" target="618220" id="18244" />
+      <edge source="861691" target="10645" id="18252" />
+      <edge source="1783260" target="1377335" id="1412" />
+      <edge source="1783260" target="1802788" id="1413" />
+      <edge source="1053321" target="279176" id="18964" />
+      <edge source="1053321" target="1584099" id="18971" />
+      <edge source="1053321" target="869439" id="18973" />
+      <edge source="1053321" target="1908519" id="18975" />
+      <edge source="1053321" target="1327310" id="18976" />
+      <edge source="1000162" target="1274804" id="7606" />
+      <edge source="278584" target="1028604" id="39400" />
+      <edge source="95332064" target="1124455" id="199391" />
+      <edge source="1348467" target="1274804" id="38637" />
+      <edge source="1331963" target="895706" id="184307" />
+      <edge source="192605638" target="6571" id="36788" />
+      <edge source="1020200" target="1575265" id="18899" />
+      <edge source="1976265" target="1020200" id="23883" />
+      <edge source="1492054" target="1065009" id="21255" />
+      <edge source="1492054" target="1773971" id="21256" />
+      <edge source="639698" target="1065009" id="17041" />
+      <edge source="639698" target="1889659" id="17042" />
+      <edge source="1889659" target="1679568" id="1439" />
+      <edge source="1889659" target="837560" id="1440" />
+      <edge source="1908519" target="923000" id="40834" />
+      <edge source="1872225" target="612459" id="16679" />
+    </edges>
+  </graph>
+</gexf>
