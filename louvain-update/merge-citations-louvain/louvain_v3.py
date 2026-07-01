@@ -1,13 +1,7 @@
 """
 Two-level Louvain community + sub-community detection - common-schema version.
-
-Reads the COMMON schema (case/year/url/precedents:[{case,url}]) used by all
-brackets and the merged corpus. Node ID is the Indian Kanoon doc number from
-the url. Case names come from the 'case' field (no CSV needed).
-
-Runs Louvain on the direct citation graph, DIRECTED and UNDIRECTED (NetworkX
-uses the directed modularity gain, Dugue & Perez, on a DiGraph). Picks the
-communities significantly larger than the rest and sub-clusters those.
+Reads the COMMON schema (case/year/url/precedents:[{case,url}]) used by all brackets and the merged corpus. Node ID is the Indian Kanoon doc number from the url. Case names come from the 'case' field (no CSV needed).
+Runs Louvain on the direct citation graph, DIRECTED and UNDIRECTED (NetworkX uses the directed modularity gain, Dugue & Perez, on a DiGraph). Picks the communities significantly larger than the rest and sub-clusters those.
 Follows the lab's NARRA-SCALE two-level pattern.
 
 USAGE:
