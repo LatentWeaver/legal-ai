@@ -1,0 +1,52 @@
+=== DIRECTED CITATION GRAPH (directed modularity) ===
+Nodes: 6746  Edges: 16043
+Communities (size>1): 90   Modularity: 0.6322
+Connected: 5426   Isolated: 1320
+Auto: communities larger than mean+1std.
+  sizes(>1): [587, 562, 368, 338, 328, 275, 237, 208, 200, 197, 193, 188, 186, 175, 170, 168, 150, 135, 127, 105, 89, 73, 71, 67, 65, 18, 12, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2] ...
+  mean=60.3 std=117.1 cutoff>177.4
+  -> 13 significantly-larger communities sub-clustered.
+Selected (sub-clustered) communities:
+  C0: 587 cases -> 11 subs | e.g. M/S Kulja Industries Ltd vs ; The Rajahmundry Electric ...; Smt. Triveniben & Ors vs Sta
+  C1: 562 cases -> 16 subs | e.g. Oma @ Omprakash & Anr vs Sta; Sovaran Singh Prajapati vs T; Ambika Prasad And Another vs
+  C2: 368 cases -> 10 subs | e.g. Vijay Kumar Sharma & Ors. Et; Kannan Devan Hills Produce C; Krishna Bhimrao Deshpande vs
+  C3: 338 cases -> 16 subs | e.g. 1452659; 1074081; Usha Bharti vs State Of U.P.
+  C4: 328 cases -> 14 subs | e.g. 1124884; Manohar Lal (D) By Lrs vs Ug; Laxmidas Dahyabhai Kabarwala
+  C5: 275 cases -> 12 subs | e.g. State Of Rahjasthan vs Puti ; T N K Govindarajulu Chetty v; Jugal Kishore Prabhatilal Sh
+  C6: 237 cases -> 14 subs | e.g. Poona Ram vs Moti Ram (D) Th; 483590; Sri Venkataramana Devaruand 
+  C7: 208 cases -> 14 subs | e.g. 1614118; 63322; Luxmi Tea Company Limited vs
+  C8: 200 cases -> 11 subs | e.g. Shri Kishori Lal vs Mst. Cha; Kale & Others vs Deputy Dire; Commissioner Of Income Tax C
+  C9: 197 cases -> 11 subs | e.g. Rambai Manjanath Nayak & Ors; 1944204; Munni Devi & Anr vs Gokal Ch
+  C10: 193 cases -> 13 subs | e.g. Disst. Council Of United Bas; 4504378; Ratilal Balabhai Nazar vs Ra
+  C11: 188 cases -> 11 subs | e.g. Commissioner Of Income-Tax, ; Jose Da Costa And Anr. vs Ba; Sakharam Bapusaheb Narayan S
+  C12: 186 cases -> 8 subs | e.g. Bombay Panjrapole, Bhuleshwa; Sub Divisional Officer Mirza; Estate Officer vs Charanjit 
+
+=== UNDIRECTED CITATION GRAPH (standard modularity) ===
+Nodes: 6746  Edges: 16043
+Communities (size>1): 91   Modularity: 0.6200
+Connected: 5426   Isolated: 1320
+Auto: communities larger than mean+1std.
+  sizes(>1): [800, 414, 375, 285, 276, 233, 230, 224, 205, 191, 185, 182, 181, 178, 166, 166, 142, 141, 128, 112, 90, 90, 83, 79, 63, 57, 12, 4, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2] ...
+  mean=59.6 std=120.2 cutoff>179.8
+  -> 13 significantly-larger communities sub-clustered.
+Selected (sub-clustered) communities:
+  C0: 800 cases -> 13 subs | e.g. M/S Kulja Industries Ltd vs ; Oma @ Omprakash & Anr vs Sta; 1944204
+  C1: 414 cases -> 15 subs | e.g. Sanjay Dutt vs State Of Maha; 926636; P Mohammed Meera Lebbai vs T
+  C2: 375 cases -> 16 subs | e.g. 1452659; Rafiquennessa vs Lal Bahadur; Taherakhatoon (D) By Lrs vs 
+  C3: 285 cases -> 16 subs | e.g. 1124884; Municipal Corporation, Hyder; Luxmi Tea Company Limited vs
+  C4: 276 cases -> 11 subs | e.g. Commissioner Of Income-Tax, ; Phoenix Arc Private Limited ; Municipal Corporation Of Gre
+  C5: 233 cases -> 10 subs | e.g. Maharashtra State Financial ; P. Swaroopa Rani vs M. Hari ; State Of Rahjasthan vs Puti 
+  C6: 230 cases -> 13 subs | e.g. Tata Cellular vs Union Of In; Steel Authority Of India Ltd; Air India vs Cochin Internat
+  C7: 224 cases -> 13 subs | e.g. Khuman Singh vs The State Of; P.V. Narasimha Rao vs State(; Rashmi Chopra vs The State O
+  C8: 205 cases -> 12 subs | e.g. 12634303; Shari Malaprabha Coop. Sugar; 1749392
+  C9: 191 cases -> 14 subs | e.g. Rambai Manjanath Nayak & Ors; 871438; 136345
+  C10: 185 cases -> 11 subs | e.g. State Of Punjab vs M/S. Asso; 39169380; N. Harihara Krishnan vs J. T
+  C11: 182 cases -> 12 subs | e.g. Vasu P. Shetty vs M/S Hotel ; Bharat Barrel & Drum Mfg. Co; Gujarat Maritime Board vs L&
+  C12: 181 cases -> 12 subs | e.g. 527656; Deputy Commissioner, Hardoi ; Shri Kishori Lal vs Mst. Cha
+
+=== DIRECTED vs UNDIRECTED COMPARISON ===
+Directed   : 90 communities, modularity 0.6322
+Undirected : 91 communities, modularity 0.6200
+
+Method follows the lab's NARRA-SCALE two-level pattern. Per Anshul,
+undirected is the primary run; directed is included for comparison.

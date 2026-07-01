@@ -1,0 +1,17 @@
+Found 9 bracket files:
+  citations_1_750.json           750 recs  (750 new, 0 dup)
+  citations_751_1500.json        750 recs  (750 new, 0 dup)
+  citations_1501_2250.json       750 recs  (750 new, 0 dup)
+  citations_3001_3750.json       750 recs  (750 new, 0 dup)
+  citations_3751_4500.json       750 recs  (750 new, 0 dup)
+  citations_4501_5250.json       750 recs  (750 new, 0 dup)
+  citations_5251_6000.json       750 recs  (750 new, 0 dup)
+  citations_6001_6750.json       750 recs  (750 new, 0 dup)
+  citations_6751_7500.json       746 recs  (746 new, 0 dup)
+
+Total records read:     6746
+Duplicate cases:        0
+Unique cases in merged: 6746
+Written to:             citations_merged.json
+
+Schema check: all records have case/url/precedents. OK.
