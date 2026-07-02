@@ -1,0 +1,51 @@
+Land dispute community detection
+================================
+Seeds: 62 classified + 1453 keyword-matched
+Subgraph: 4955 nodes, 22584 edges (largest WCC after PPR expansion of top 4000)
+Communities: 20   Subcommunities: 171
+Landmark cases: 15
+
+Communities:
+  C 0 |   671 nodes | 10 seeds | top: Kesavananda Bharati Sripadagalvaru ... vs State Of Kerala And Anr on 2
+  C 1 |   652 nodes |  5 seeds | top: Transfer of Property Act
+  C 2 |   589 nodes |  5 seeds | top: Land Acquisition Act, 1894
+  C 3 |   465 nodes |  3 seeds | top: Delhi Development Authority vs Tejpal on 17 May, 2024
+  C 4 |   382 nodes |  0 seeds | top: Union_Of_India_vs_Pramod_Gupta_D_By_Lrs_Ors_on_7_September_2005
+  C 5 |   372 nodes |  7 seeds | top: Limitation Act
+  C 6 |   343 nodes |  5 seeds | top: Deputy_Director_Land_Acquisition_vs_Malla_Atchinaidu_And_Ors_on_12_Dec
+  C 7 |   316 nodes |  6 seeds | top: Companies Act, 1956
+  C 8 |   293 nodes | 10 seeds | top: Income-tax Act
+  C 9 |   217 nodes |  1 seeds | top: Industrial Disputes Act, 1947
+  C10 |   148 nodes |  2 seeds | top: Kunhayammed & Ors vs State Of Kerala & Anr on 19 July, 2000
+  C11 |   146 nodes |  2 seeds | top: Arbitration Act
+  C12 |   120 nodes |  3 seeds | top: Contempt of Courts Act, 1952
+  C13 |   110 nodes |  1 seeds | top: Prevention of Corruption Act
+  C14 |    55 nodes |  0 seeds | top: Babulal Badriprasad Varma vs Surat Municipal Corpn. & Ors
+  C15 |    36 nodes |  0 seeds | top: Dir_Of_Settlements_A_P_Ors_vs_M_R_Apparao_Anr_on_20_March_2002
+  C16 |    17 nodes |  0 seeds | top: Bharat Petroleum Corpn. Ltd vs Maddula Ratnavalli & Ors
+  C17 |    10 nodes |  0 seeds | top: Madhya Bharat Abolition of Jagir Act
+  C18 |     9 nodes |  1 seeds | top: Judges
+(Protection) Act,  1985
+  C19 |     4 nodes |  1 seeds | top: Rohtash Kumar vs State Of Haryana
+
+Top 20 ranked cases:
+    1. [1.000] C4/C4_S0 Union_Of_India_vs_Pramod_Gupta_D_By_Lrs_Ors_on_7_September_2005
+    4. [0.999] C6/C6_S0 Deputy_Director_Land_Acquisition_vs_Malla_Atchinaidu_And_Ors_on_12_Dec
+    5. [0.999] C14/C14_S0 Babulal Badriprasad Varma vs Surat Municipal Corpn. & Ors
+    6. [0.998] C6/C6_S1 Lucknow Development Authority vs Krishna Gopal Lahoti And Ors
+   18. [0.993] C6/C6_S2 Administrator General Of West Bengal vs Collector, Varanasi on 16 Febr
+   19. [0.992] C4/C4_S4 Ashok Leland Ltd vs State Of Tamil Nadu And Anr
+   20. [0.991] C6/C6_S7 Suresh Kumar vs Town Improvement Trust, Bhopal on 3 March, 1989
+   21. [0.991] C16/C16 Bharat Petroleum Corpn. Ltd vs Maddula Ratnavalli & Ors
+   22. [0.990] C6/C6_S5 Secretary v.   Bipin Kumar and Anr.
+   23. [0.989] C0/C0_S0 Kesavananda Bharati Sripadagalvaru ... vs State Of Kerala And Anr on 2
+   26. [0.987] C15/C15 Dir_Of_Settlements_A_P_Ors_vs_M_R_Apparao_Anr_on_20_March_2002
+   27. [0.985] C9/C9_S6 Ramana_Dayaram_Shetty_vs_The_International_Airport_Authority_Of_on_4_M
+   29. [0.984] C8/C8_S1 India Cement Ltd vs State Of Tamil Nadu Etc on 25 October, 1989
+   30. [0.983] C10/C10_S8 Kunhayammed & Ors vs State Of Kerala & Anr on 19 July, 2000
+   46. [0.974] C9/C9_S2 Sukhdev Singh, Oil & Natural Gas ... vs Bhagat Ram, Association Of Cla
+   47. [0.973] C16/C16 Kailash Chand & Anr vs Dharam Dass
+   48. [0.972] C0/C0_S0 Rustom Cavasjee Cooper vs Union Of India on 10 February, 1970
+   49. [0.971] C0/C0_S1 Kartar_Singh_vs_State_Of_Punjab_on_11_March_1994
+   51. [0.971] C0/C0_S12 A_R_Antulay_vs_R_S_Nayak_Anr_on_29_April_1988
+   52. [0.970] C9/C9_S2 Central_Inland_Water_vs_Brojo_Nath_Ganguly_Anr_on_6_April_1986
