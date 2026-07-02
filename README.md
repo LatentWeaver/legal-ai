@@ -68,3 +68,74 @@ Target source:
 - Domain focus size: 7.5k cases
 - Location: https://drive.google.com/drive/folders/1_omgPYIvnrn0WAd9yzkOA-m6iA4EnNX0?usp=drive_link
 ```
+
+## Co-occurrence Matrix Implementation
+
+The co-occurrence matrix step is implemented in:
+
+```text
+scripts/build_cooccurrence_matrix.py
+```
+
+It reads informative terms from:
+
+```text
+codebooks/np_codebook.csv
+codebooks/ne_codebook.csv
+```
+
+Then it scans case texts, splits each case into context windows, counts term pairs that appear in the same window, and writes both count and binary co-occurrence outputs.
+
+Example with a folder of `.txt` case files:
+
+```bash
+python3 scripts/build_cooccurrence_matrix.py \
+  --texts-dir data/case-texts \
+  --window paragraph \
+  --threshold 5 \
+  --output-dir outputs/cooccurrence
+```
+
+Example with a CSV containing a `text` column:
+
+```bash
+python3 scripts/build_cooccurrence_matrix.py \
+  --texts-csv data/cases.csv \
+  --text-column text \
+  --id-column case_id \
+  --window paragraph \
+  --threshold 5 \
+  --output-dir outputs/cooccurrence
+```
+
+Supported context windows:
+
+- `paragraph`
+- `sentence`
+- `document`
+- `tokens`
+
+For fixed token windows:
+
+```bash
+python3 scripts/build_cooccurrence_matrix.py \
+  --texts-dir data/case-texts \
+  --window tokens \
+  --token-window-size 200 \
+  --token-window-step 200 \
+  --threshold 5
+```
+
+Outputs:
+
+```text
+outputs/cooccurrence/
+├── cooccurrence_pairs.csv
+├── cooccurrence_pairs_binary.csv
+├── cooccurrence_counts.csv
+├── cooccurrence_binary.csv
+├── term_window_counts.csv
+└── run_stats.txt
+```
+
+For very large codebooks, use `--skip-dense-matrices` to avoid writing the full term-by-term matrix and only produce pair lists.
