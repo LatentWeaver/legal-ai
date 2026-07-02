@@ -1,0 +1,29 @@
+[
+  {
+    "id": "cap-1",
+    "name": "United States v. Williams",
+    "decision_date": "1836-01-01",
+    "citations": ["5 Pet. 123"],
+    "court": "Supreme Court of the United States",
+    "jurisdiction": "us",
+    "cites_to": []
+  },
+  {
+    "id": "cap-2",
+    "name": "Bowman v Woods",
+    "decision_date": "1848-01-01",
+    "citations": [],
+    "court": "Unknown",
+    "jurisdiction": "us",
+    "cites_to": []
+  },
+  {
+    "id": "cap-3",
+    "name": "Imaginary Malpractice Case",
+    "decision_date": "1999-02-10",
+    "citations": ["999 U.S. 999"],
+    "court": "Unknown",
+    "jurisdiction": "us",
+    "cites_to": []
+  }
+]

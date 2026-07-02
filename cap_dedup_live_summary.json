@@ -1,0 +1,170 @@
+{
+  "candidate_cases_tested": 19,
+  "matched_cases": 3,
+  "unmatched_cases": 16,
+  "sample_matches": [
+    {
+      "reporter": "ne2d",
+      "volume_folder": "999",
+      "cap_id": 7258311,
+      "cap_name": "Roger Jay PIATEK, M.D., and The Piatek Institute, Appellants-Defendants, v. Shairon BEALE, Appellee-Plaintiff",
+      "cap_year": "2013",
+      "match_method": "case_name_plus_year",
+      "match_count": 2,
+      "matched_cases": [
+        {
+          "case": "Roger Jay Piatek, M.D., and the Piatek Institute v. Shairon Beale",
+          "year": "2013",
+          "url": "https://www.courtlistener.com/opinion/2727464/roger-jay-piatek-md-and-the-piatek-institute-v-shairon-beale/"
+        },
+        {
+          "case": "Roger Jay Piatek, M.D., and The Piatek Institute v. Shairon Beale",
+          "year": "2013",
+          "url": "https://www.courtlistener.com/opinion/2726560/roger-jay-piatek-md-and-the-piatek-institute-v-shairon-beale/"
+        }
+      ]
+    },
+    {
+      "reporter": "ne2d",
+      "volume_folder": "999",
+      "cap_id": 7273047,
+      "cap_name": "Michael W. PETERS, M.D. and Deaconess Hospital, Inc., Appellants-Defendants, v. Cynthia S. KENDALL and Michael J. Kendall, Appellees-Plaintiffs",
+      "cap_year": "2013",
+      "match_method": "case_name_plus_year",
+      "match_count": 1,
+      "matched_cases": [
+        {
+          "case": "Michael W. Peters, M.D. and Deaconess Hospital, Inc. v. Cynthia S. Kendall and Michael J. Kendall",
+          "year": "2013",
+          "url": "https://www.courtlistener.com/opinion/2725890/michael-w-peters-md-and-deaconess-hospital-inc-v-cynthia-s-kendall/"
+        }
+      ]
+    },
+    {
+      "reporter": "ne2d",
+      "volume_folder": "998",
+      "cap_id": 7331687,
+      "cap_name": "The ESTATE OF Richard A. MAYER, and Spangler, Jennings & Dougherty, Appellants-Defendants. v. LAX, INC., and David Lasco, Appellees-Plaintiffs",
+      "cap_year": "2013",
+      "match_method": "case_name_plus_year",
+      "match_count": 1,
+      "matched_cases": [
+        {
+          "case": "The Estate of Richard A. Mayer, and Spangler, Jennings & Dougherty v. Lax, Inc., and David Lasco",
+          "year": "2013",
+          "url": "https://www.courtlistener.com/opinion/2726292/the-estate-of-richard-a-mayer-and-spangler-jennings-dougherty-v-lax/"
+        }
+      ]
+    }
+  ],
+  "sample_unmatched": [
+    {
+      "reporter": "ne2d",
+      "volume_folder": "998",
+      "cap_id": 7331841,
+      "cap_name": "Thomas HAGGERTY and, Cathy Haggerty, Appellants/Cross-Appellees, v. ANONYMOUS PARTY 1, Appellee, Anonymous Party 2, and Anonymous Party 3, Appellees/Cross-Appellants",
+      "cap_year": "2013",
+      "match_method": "unmatched",
+      "match_count": 0,
+      "matched_cases": []
+    },
+    {
+      "reporter": "ne2d",
+      "volume_folder": "998",
+      "cap_id": 7335086,
+      "cap_name": "ANONYMOUS PHYSICIAN, Appellant-Defendant, v. Diana WININGER, Appellee-Plaintiff, and Stephen Robertson, Commissioner, Indiana Department of Insurance, and Douglas J. Hill, Panel Chair, Third Party-Respondents",
+      "cap_year": "2013",
+      "match_method": "unmatched",
+      "match_count": 0,
+      "matched_cases": []
+    },
+    {
+      "reporter": "ne2d",
+      "volume_folder": "998",
+      "cap_id": 7337335,
+      "cap_name": "INDIANA PATIENT'S COMPENSATION FUND, Appellant-Respondent, v. Judy HOLCOMB, Personal Representative of the Estate of Mable Louis Cochran, Deceased, Appellee-Petitioner",
+      "cap_year": "2013",
+      "match_method": "unmatched",
+      "match_count": 0,
+      "matched_cases": []
+    },
+    {
+      "reporter": "so2d",
+      "volume_folder": "999",
+      "cap_id": 8159896,
+      "cap_name": "Regina Marie PRICE f/k/a Regina Price Turner v. MEDICAL CENTER OF LOUISIANA AT NEW ORLEANS, formerly Charity Hospital at New Orleans, and Louisiana State University Health Sciences Center, et al.",
+      "cap_year": "2008",
+      "match_method": "unmatched",
+      "match_count": 0,
+      "matched_cases": []
+    },
+    {
+      "reporter": "so2d",
+      "volume_folder": "999",
+      "cap_id": 8160629,
+      "cap_name": "Tyrone SAYLOR v. VILLCAR REALTY, L.L.C. and Carter-Downing Apartments, Inc.",
+      "cap_year": "2008",
+      "match_method": "unmatched",
+      "match_count": 0,
+      "matched_cases": []
+    },
+    {
+      "reporter": "so2d",
+      "volume_folder": "999",
+      "cap_id": 8160853,
+      "cap_name": "ST. PAUL FIRE AND MARINE INSURANCE COMPANY v. GAB ROBINS NORTH AMERICA, INC., Galloway, Johnson, Tompkins, Burr And Smith, APLC, and Thomas J. Smith",
+      "cap_year": "2008",
+      "match_method": "unmatched",
+      "match_count": 0,
+      "matched_cases": []
+    },
+    {
+      "reporter": "so2d",
+      "volume_folder": "999",
+      "cap_id": 8162534,
+      "cap_name": "Davlyn HEATH and Henry Heath, Sr., Plaintiffs-Appellants v. ITT HARTFORD INSURANCE COMPANY, Brookshire Grocery Company, and Mike McCoy, Defendants-Appellees",
+      "cap_year": "2008",
+      "match_method": "unmatched",
+      "match_count": 0,
+      "matched_cases": []
+    },
+    {
+      "reporter": "so2d",
+      "volume_folder": "999",
+      "cap_id": 8163960,
+      "cap_name": "Elvist J. TABOR, Sr., and Doris G. Tabor v. ANCO INSULATIONS, INC., et al.",
+      "cap_year": "2008",
+      "match_method": "unmatched",
+      "match_count": 0,
+      "matched_cases": []
+    },
+    {
+      "reporter": "so2d",
+      "volume_folder": "999",
+      "cap_id": 8164447,
+      "cap_name": "STATE of Louisiana v. Katie SAVOY",
+      "cap_year": "2008",
+      "match_method": "unmatched",
+      "match_count": 0,
+      "matched_cases": []
+    },
+    {
+      "reporter": "so2d",
+      "volume_folder": "999",
+      "cap_id": 8164963,
+      "cap_name": "Randy STANFORD, et al. v. TOWN OF BALL, et al.",
+      "cap_year": "2008",
+      "match_method": "unmatched",
+      "match_count": 0,
+      "matched_cases": []
+    }
+  ],
+  "scanned_cases_total": 201,
+  "medmal_candidates_total": 19,
+  "reporters": [
+    "ne2d",
+    "so2d"
+  ],
+  "volumes_per_reporter": 2,
+  "courtlistener_dir": "citations-data-us-medical-malpractice"
+}
